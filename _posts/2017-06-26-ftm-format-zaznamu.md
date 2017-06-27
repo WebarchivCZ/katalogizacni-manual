@@ -3,6 +3,7 @@ layout: default
 title: FMT (Formát záznamu)
 ---
 
+
 ## FMT (Formát záznamu)
 
 Kód v poli FMT by měl být v souladu s kódem určujícím typ záznamu/obsah dokumentu v návěští (LDR/06 + LDR/07).
