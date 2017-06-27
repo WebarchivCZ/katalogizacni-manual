@@ -1,1 +1,2 @@
 baseurl: /katalogizacni-manual
+exclude: ['README.md']

@@ -43,3 +43,7 @@ U polí, která mají v MARC21 končit tečkou (např. 520), je třeba do zázna
 Použité zkratky:
 	(O) – opakovatelné pole
 	(NO) – neopakovatelné pole
+
+{% for post in site.posts %}
+	{{ post.content }}
+{% endfor %}
