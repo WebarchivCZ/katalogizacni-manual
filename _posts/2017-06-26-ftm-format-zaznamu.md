@@ -16,16 +16,15 @@ Pokud je u pokračujícího zdroje dominantní jiný než textový obsah (např.
 
 Přehled zkratek FMT používaných v NK ČR:
 
-SE    Seriály
-MP    Kartograf. dokumenty
-ER    Elektronické zdroje
-MU    Hudebniny
-AM    Zvukové záznamy
-GP    Grafika
-RE    Rešerše
-RP    Staré tisky
-MX    Smíšené dokumenty
-TD    Trojrozměrné objekty
-VM    Obrazové dokumenty
-FI    Filmy
-BX    Pracovní záznamy
+* MP    Kartografické dokumenty
+* ER    Elektronické zdroje
+* MU    Hudebniny
+* AM    Zvukové záznamy
+* GP    Grafika
+* RE    Rešerše
+* RP    Staré tisky
+* MX    Smíšené dokumenty
+* TD    Trojrozměrné objekty
+* VM    Obrazové dokumenty
+* FI    Filmy
+* BX    Pracovní záznamy
