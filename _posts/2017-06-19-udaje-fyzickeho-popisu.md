@@ -1,4 +1,4 @@
 ---
 layout: default
-title: Kontrolní pole
+title: Údaje fyzického popisu
 ---
