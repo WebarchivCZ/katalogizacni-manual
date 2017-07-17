@@ -65,7 +65,7 @@ Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou 
 007/05 - zvuk
 * \#	Bez zvuku
 * u     Není znám
-* |      Kód se neuvádí
+* \|      Kód se neuvádí
 
 ## Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
 008/00-05 - datum uložení
@@ -151,5 +151,5 @@ Pole zůstává prázdné, záznam nebyl modifikován.
 * c - Program kooperativní katalogizace
 * d - Jiný
 * u - Není znám
-* | - Kód se neuvádí
+* \| - Kód se neuvádí
 Zpracovává li bibliografický záznam NK ČR zůstává pole prázdné.
