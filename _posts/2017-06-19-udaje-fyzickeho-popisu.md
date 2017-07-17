@@ -8,6 +8,7 @@ title: Údaje fyzického popisu
 * počet a typ jednotek a/nebo podjednotek tvořících zdroj
 * používá se obvyklá terminologie
 * pro elektronicky publikované textové monografie se v rozsahu používá výraz **1 online zdroj**. Pokud zdroj obsahuje jeden nebo více souborů, jejichž formát je paralelou    tištěného protějšku (např. PDF), specifikuje se v kulaté závorce rozsah (tj. počet podjednotek) podle pravidel pro textové zdroje.
+
 ```
 např.:
 300 ## $a1 online zdroj
@@ -16,7 +17,7 @@ např.:
 ```
 
 ### 310 (Současná periodicita) (NO)
-* **Integrační zdroje** *
+**Integrační zdroje**
 Zapisujeme:
   **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
   **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
@@ -42,7 +43,7 @@ např.:
 
 ### 338 (Typ nosiče) (O)
 *povinné pro minimální záznam*
-   pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
+ pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
 $a online zdroj (typ nosiče - termín)
 $b cr (typ nosiče - kód)
 $2 rdacarrier (zdroj - vždy stejná hodnota)
