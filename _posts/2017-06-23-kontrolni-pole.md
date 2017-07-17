@@ -2,9 +2,9 @@
 layout: default
 title: Kontrolní pole
 ---
-## Kontrolní pole
+# Kontrolní pole
 
-# 006 (Údaje pevné délky - další charakteristiky dokumentu) (O)
+## 006 (Údaje pevné délky - další charakteristiky dokumentu) (O)
 Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou zapsány v poli 008 (neopakovatelné). V praxi NK ČR se uvádí pole 006 v následujících případech:
 * a) v záznamech *všech elektronických zdrojů s výjimkou popisu SW*, her apod. (tj. **s výjimkou, kdy je v LDR/06 údaj "m"**); v poli 006 je na první pozici hodnota "m", ostatní pozice jsou vesměs prázdné
 
