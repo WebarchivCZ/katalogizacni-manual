@@ -4,7 +4,7 @@ title: Hlavní záhlaví
 ---
 ## Hlavní záhlaví
 
-1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT
+1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR [http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT] http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT
 V případě, že záznam není v AUT a katalogizátor usoudí, že se jedná o významnou autoritu - vyhotoví se její návrh.
 Pole lze doplnit také autoritou, která se v AUT nenachází ani jí není vyhotoven návrh.
 
@@ -20,7 +20,7 @@ V případě, že na zdroji není uveden žádný autor, nedohledává se. Výji
 Dílo má pět tvůrců se stejnou mírou autorské odpovědnosti.
 
 ```
-např. 	
+např.: 	
 1001 $a Žemlička, Jan
 24510 $a Celní zákon a předpisy související v praxi /$c Jan Žemlička, Pavel Hruška, Helena Nováková, Jana Zelená, Květoslav Horák
 7001 $a Hruška, Pavel
@@ -28,11 +28,11 @@ např.
 7001 $a Zelená, Jana
 7001 $a Horák, Květoslav
 ```
-Nově se vytváří záznam v bázi autorit - viz dokument návod: http://sps/aleph/SitePages/Home.aspx
-metodika: www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda a www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda
+Nově se vytváří záznam v bázi autorit - viz dokument návod: [http://sps/aleph/SitePages/Home.aspx] http://sps/aleph/SitePages/Home.aspx
+metodika: [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda a] www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda a [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda] www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda
 Pro volbu správné podoby jména (pravopis, iniciály/rozepsaná jména apod.) se používá
 přednostně Databáze národních autorit, dostupná na stránkách Národní knihovny ČR:
-http://aleph.nkp.cz
+[http://aleph.nkp.cz] http://aleph.nkp.cz
 
 Jedná-li se o anonymní dílo, tj. dílo, u kterého se neuvádí žádný tvůrce, nezapisuje se do pole 700, ale do pole 730.
 
@@ -48,7 +48,7 @@ Vyskytuje-li se jméno korporace v několika jazycích, zapíše se v jazyce kor
 V těchto případech má první indikátor hodnotu 1.
 
 ```
-např:
+např.:
 $aČesko.$bParlament
 $aPardubice (Česko). $bMagistrát
 $aBavorsko (Německo).$bStaatsministerium der Finanzen
@@ -59,13 +59,13 @@ $aBavorsko (Německo).$bStaatsministerium der Finanzen
 Pro vysvětlení vzájemných vztahů mezi autoritním záhlavím a odkazy viz též, zejména u „českých“ korporací, se doporučuje použít poznámku v poli **655**.
 
 ```
-např :
+např.:
 110 2   $a Muzeum české hudby (Praha, Česko)
-        	$7 kn20010709073
+        $7 kn20010709073
 510 2   $w b
-        	$a České muzeum hudby (Praha, Česko)
-        	$7 ko2004175709
-665  	$a Novější název korporace: České muzeum hudby (od r.2001).
+        $a České muzeum hudby (Praha, Česko)
+        $7 ko2004175709
+665  	  $a Novější název korporace: České muzeum hudby (od r.2001).
 ```
 
 
