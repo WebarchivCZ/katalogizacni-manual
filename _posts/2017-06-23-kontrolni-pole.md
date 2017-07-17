@@ -164,7 +164,7 @@ U integračních zdrojů se většinou uvádí hodnota “x” . nepravidelný.
 
 
 008/21 – typ pokračujícího zdroje
-# - Žádný z uvedených
+&num; - Žádný z uvedených
 d - Aktualizovaná databáze
 l - Aktualizované volné listy
 m - Monografická edice
