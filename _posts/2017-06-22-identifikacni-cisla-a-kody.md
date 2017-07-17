@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Kontrolní pole
+title: Identifikační čísla a kódy
 ---
-## Identifikační čísla a kódy 01X-09X (040; 043; 045; 072; 080)
+## Identifikační čísla a kódy
 
 ### 022 (ISSN) (O)
 Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole 022, bez ohledu na to, zda se jedná o integrační zdroj nebo elektronický časopis). Pro integrační zdroje je povinný též údaj v poli 222 Klíčový název (je vázán na ISSN).
