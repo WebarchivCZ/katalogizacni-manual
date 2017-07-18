@@ -4,7 +4,7 @@ title: Hlavní záhlaví
 ---
 ## Hlavní záhlaví
 
-1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR [http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT](http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT).
+1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR [http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut](http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut).
 
 V případě, že záznam není v AUT a katalogizátor usoudí, že se jedná o významnou autoritu - vyhotoví se její návrh. Pole lze doplnit také autoritou, která se v databázi nenachází ani jí není vyhotoven návrh.
 
