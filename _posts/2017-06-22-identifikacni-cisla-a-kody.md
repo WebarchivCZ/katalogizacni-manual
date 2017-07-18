@@ -11,7 +11,8 @@ Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole
 ### 041 (Kód jazyka) (O)
 Je-li pouze jeden jazyk dokumentu, je pole 041 nepovinné, ale musí se pečlivě vyplnit pole 008. Je-li zdroj (popřípadě jeho část) publikován ve dvou a více jazycích, do pole 008 se zapíše první, případně dominantní z nich a v poli 041 bude tolik výskytů podpole „a“, kolik je nezbytné.
 
-V případě vícejazyčného zdroje postupuje následovně:
+V případě vícejazyčného zdroje postupuje následovně:  
+
 a) jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají cizojazyčné verze) – jedná se o nejčastější případ
   ```
   např.:
@@ -65,14 +66,13 @@ Pole se vyplní pouze v případě, že se zdroj obsahově týká určitého dat
 ### 072 (Konspekt) (O)
 Na základě použitých znaků MDT je třeba vybrat příslušný znak Konspektu. Vybírá se **vždy jedna** podkategorie Konspektu, který nejlépe vystihuje obsah dokumentu. S tímto znakem musí též  korespondovat vybrané předmětové heslo uvedené v poli 080/650 (tj. uvedené předmětové heslo musí obsahově náležet do této konkrétní skupiny Konspektu).
 
-**Indikátory**
-*První indikátor*: nedefinován
+**Indikátory**  
+*První indikátor*: nedefinován  
 *Druhý indikátor*: hodnota 7, zdroj specifikován v podpoli $2
 
-Pole 072 má ve výjimečných případech povolené dva výskyty. Zvláště u webových stránek vycházejících z tištěných novin a dalších periodik - se připouští dva znaky:
-například znaky Konspektu pro http://www.reflex.cz/
-394 - Veřejný a společenský život. Každodenní život
-050 - Seriálové publikace. Periodika
+Pole 072 má ve výjimečných případech povolené dva výskyty. Zvláště u webových stránek vycházejících z tištěných novin a dalších periodik - se připouští dva znaky, například znaky Konspektu pro http://www.reflex.cz/  
+394 - Veřejný a společenský život. Každodenní život  
+050 - Seriálové publikace. Periodika  
 
 ```
 např.:
