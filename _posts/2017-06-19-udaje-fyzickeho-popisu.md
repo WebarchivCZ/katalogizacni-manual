@@ -51,9 +51,9 @@ např.:
 
 pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
 
- $a online zdroj (typ nosiče - termín)
- $b cr (typ nosiče - kód)
- $2 rdacarrier (zdroj - vždy stejná hodnota)
+$a online zdroj (typ nosiče - termín)    
+$b cr (typ nosiče - kód)  
+$2 rdacarrier (zdroj - vždy stejná hodnota)  
 
 ```
 např.:
