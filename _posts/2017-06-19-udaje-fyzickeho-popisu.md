@@ -18,24 +18,26 @@ např.:
 
 ### 310 (Současná periodicita) (NO)
 **Integrační zdroje**
-Zapisujeme:
-  **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
-  **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
-  **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje zda jsou nepravidelné či pravidelné).
+\Zapisujeme:
+  * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
+  * **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
+  * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje zda jsou nepravidelné či pravidelné).
 
 ### 336 (Typ obsahu) (O)
 *povinné pro minimální záznam*
+
 * pole obsahuje kategorizaci pro základní formu komunikace, v níž je obsah vyjádřen, a lidský smysl, jehož prostřednictvím má být vnímán
 * používá se ve spojení s návěštím, znakovou pozicí 06 (LDR/06, typ záznamu) označující typ obsahu zdroje
-$a text (typ obsahu - termín)
-$b txt (typ obsahu - kód)
-$2 rdacontent (zdroj - vždy stejná hodnota)
+\$a text (typ obsahu - termín)
+\$b txt (typ obsahu - kód)
+\$2 rdacontent (zdroj - vždy stejná hodnota)
 
 ### 337 (Typ média) (O)
 *nepovinné pro minimální záznam*
-$a počítač (typ média - termín)
-$b c (typ média - kód)
-$2 rdamedia (zdroj - vždy stejná hodnota)
+
+\$a počítač (typ média - termín)
+\$b c (typ média - kód)
+\$2 rdamedia (zdroj - vždy stejná hodnota)
 ```
 např.:
 337 ## $apočítač$bc$2rdamedia
@@ -43,10 +45,11 @@ např.:
 
 ### 338 (Typ nosiče) (O)
 *povinné pro minimální záznam*
- pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
-$a online zdroj (typ nosiče - termín)
-$b cr (typ nosiče - kód)
-$2 rdacarrier (zdroj - vždy stejná hodnota)
+
+\pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
+\$a online zdroj (typ nosiče - termín)
+\$b cr (typ nosiče - kód)
+\$2 rdacarrier (zdroj - vždy stejná hodnota)
 ```
 např.:
 338 ## $aonline zdroj$bcr$2rdacarrier
