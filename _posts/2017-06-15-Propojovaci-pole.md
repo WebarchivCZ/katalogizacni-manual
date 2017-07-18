@@ -28,11 +28,11 @@ např.: Měsíční deník a Měsíční deník II.
 
 245 10 	$a Měsíční deník
 785 00 	$a Gabzdyl, Pavel.
-				$t Měsíční deník II.
+        $t Měsíční deník II.
 
 245 10	$a Měsíční deník II.
 780 00 	$a Gabzdyl, Pavel.
-				$t Měsíční deník
+        $t Měsíční deník
 ```
 
 Pokud je předcházející/následující záznam zkatalogizován pod hlavním záhlavím, uvede se v podpoli $a. Pokud je záznam zkatalogizován pod názvem, použije se pouze podpole $t (bez interpunkce na konci podpole).
@@ -43,7 +43,7 @@ Pokud katalogizátor považuje za účelné v záznamu **uvést informaci o vzta
 např.:
 245 10 	$a Česká společnost pro systémovou integraci
 787 08	$i Součástí stránek je … (časopis/monografie):
-				$a Hlavní návěští
+        $a Hlavní návěští
 				$t Systémová integrace : časopis České společnosti pro systémovou integraci
 				$x/z ISSN/ISBN
 ```
