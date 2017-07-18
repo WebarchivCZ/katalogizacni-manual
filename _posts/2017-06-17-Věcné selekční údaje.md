@@ -22,7 +22,7 @@ Pole se vyplňuje pokud je použito pole 045. Do pole zapisujeme chronologické 
 
 
 ```
-např.
+např.:
 648 7	$a 20. stol.
 648 7	$a 1939-1945
 648 7	$a 1948
