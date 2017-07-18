@@ -2,11 +2,10 @@
 layout: default
 title: Kontrolní pole
 ---
-# Kontrolní pole
+## Kontrolní pole
 
-## 006 (Údaje pevné délky - další charakteristiky dokumentu) (O)
-Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou zapsány v poli 008 (neopakovatelné). V praxi NK ČR se uvádí pole 006 v následujících případech:
-* a) v záznamech *všech elektronických zdrojů s výjimkou popisu SW*, her apod. (tj. **s výjimkou, kdy je v LDR/06 údaj "m"**); v poli 006 je na první pozici hodnota "m", ostatní pozice jsou vesměs prázdné
+### 006 (Údaje pevné délky - další charakteristiky dokumentu) (O)
+Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou zapsány v poli 008. Při katalogizaci elektronických zdrojů se v poli 006 na první pozici uvádí hodnota „m“ a na pozici 09 pak hodnota **d**.
 
 ```
 	např. elektronický časopis (seriál)
@@ -16,31 +15,12 @@ Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou 
 	006/00 m (druh dokumentu - počít. soubor/el.zdroj)
 	006/09 d (typ počít. souboru - dokument)
 	008/23 s (specifikace pro pokračující zdroj; "s" = elektronický zdroj)
+
+**006  m--------d--------**
+
 ```
 
-* b) v záznamech *pokračujících elektronických zdrojů, jejichž obsah není text* (např. mapa, obrazové dokumenty, zvuk) pro zápis "seriálové" charakteristiky dokumentu - jedná se **o další výskyt pole 006**.
-
-```
-	např. mapa v elektronické podobě vycházející na pokračování (seriál)
-	FMT  MP
-	LDR/06 e (kartografický dokument)
-	LDR/07 i
- výskyt 006
- 006/00 m (údaje pro počít. soubor/el.zdroj)
-  006/06 o (online)
-  006/09 c (typ počít. souboru - reprezentativní) – používá se v souvislosti s kartografickým dokumentem
-
-
-  výskyt 006
-  006/00 s (údaje pro seriál)
-  006/06 o (online)
-	007/00 c (údaje pro el. zdroj)
-	008/29 s (specifikace pro kartografický dokument; "s" = elektronický zdroj)
-  V typologii elektronických zdrojů jsou k  dispozici tři pole pro typ obsahu, média a nosiče. Typ obsahu: souvislost s návěštím LDR/06, poskytuje jemnější členění.
-```
-
-## 007 (Pole pevné délky pro pro fyzický popis) (O)
-
+### 007 (Pole pevné délky pro pro fyzický popis) (O)
 007/00 - kategorie dokumentu
 * c - Elektronický zdroj
 
@@ -67,20 +47,28 @@ Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou 
 * u     Není znám
 * \|      Kód se neuvádí
 
-## Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
+```
+např.
+007  cr-cn-
+```
+
+### 008 (Údaje pevné délky - pokračující zdroje) (NO)
+Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
+
 008/00-05 - datum uložení
 Datum uložení se automaticky vygeneruje při ukládání záznamu.
+
 008/06 - typ data/publikační status
-Status pokračujícího zdroje:
-* c - Průběžně vydávaný
-* d - S ukončeným vydáváním
-* u - Status není znám
+Kódy pro status pokračujícího zdroje mohou být následující:
+* c - průběžně vydávaný
+* d - s ukončeným vydáváním
+* u - status není znám
 
 008/07-10 - datum 1
-Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné datum vydání (přestože je nejesné), anebo např. 199u, 200u, apod.
+Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné datum vydání, anebo např. 199u, 200u, apod.
 
 008/11-14 - datum 2
-V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané datum ukončení, informace o ukončeném vydávání se zanese také do   vydávání a změní se na pozici 008/06 status vydávání na „d“ – s ukončeným vydáváním
+V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané datum ukončení. Informace o ukončeném vydávání se zanese také do vydávání a změní se hodnota na pozici 008/06 status vydávání na **d** s ukončeným vydáváním
 
 008/15-17 - místo vydání, produkce
 * xr	Česká republika
@@ -102,30 +90,30 @@ for Countries, který spravuje Library of Congress - viz http://www.loc.gov/marc
 * z – jiná periodocita
 
 008/19 - pravidelnost
-*  r - Pravidelný
-* x - Nepravidelný
-* \| - Kód se neuvádí
+*  r - pravidelný
+* x - nepravidelný
+* \| - kód se neuvádí
 
-U integračních zdrojů se většinou uvádí hodnota “x” . nepravidelný.
+U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 
 008/21 – typ pokračujícího zdroje
-* w - Aktualizovaná website
-* \| - Kód se neuvádí
+* w - aktualizovaná website
+* \| - kód se neuvádí
 
 008/22 - forma popisné jednotky
-* Pole zůstává nevyplněno.
+* pole zůstává nevyplněno
 
 008/23 - forma popisné jednotky
-* o - Online
+* o - online
 
 008/24 - povaha celého díla
-Pole zůstává nevyplněno.
+* pole zůstává nevyplněno
 
 008/25-27 - povaha obsahu
-Pole zůstává nevyplněno.
+* pole zůstává nevyplněno
 
 008/28 – vládní publikace
-* \#    Nejedná se o vládní publikaci
+* \#    nejedná se o vládní publikaci
 
 008/29 – dokument z konference
 * 0 – nejedná se o materiál z konference
@@ -141,15 +129,16 @@ Pole zůstává nevyplněno.
 * 2 - integrační záznam
 
 008/35-37 – jazyk dokumentu
-Kód označuje jazyk popisné jednotky, odpovídá poli 041 – pokud je dokument v češtině, uvede se tento údaj pouze v poli 008, a nikoli již v poli 041. Zdrojem kódu je MARC Code List for Languages, který spravuje Library of Congress - viz http://www.loc.gov/marc/languages.
+* kód označuje jazyk popisné jednotky, odpovídá poli 041 – pokud je dokument v češtině, uvede se tento údaj pouze v poli 008, a nikoli již v poli 041. Zdrojem kódu je MARC Code List for Languages, který spravuje Library of Congress - viz http://www.loc.gov/marc/languages.
 
 008/38 - kód modifikace záznamu
-Pole zůstává prázdné, záznam nebyl modifikován.
+* pole zůstává prázdné, záznam nebyl modifikován
 
 008/38 - zdroj katalogizace
 * \# - Národní bibliografická agentura
-* c - Program kooperativní katalogizace
-* d - Jiný
-* u - Není znám
-* \| - Kód se neuvádí
-Zpracovává li bibliografický záznam NK ČR zůstává pole prázdné.
+* c - program kooperativní katalogizace
+* d - jiný
+* u - není znám
+* \| - kód se neuvádí
+
+Zpracovává-li bibliografický záznam NK ČR zůstává pole prázdné.
