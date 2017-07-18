@@ -16,7 +16,7 @@ Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou 
 	006/09 d (typ počít. souboru - dokument)
 	008/23 s (specifikace pro pokračující zdroj; "s" = elektronický zdroj)
 
-**006  m--------d--------**
+006  m--------d--------
 
 ```
 
