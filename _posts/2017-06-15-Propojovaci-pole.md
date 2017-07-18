@@ -44,16 +44,15 @@ např.:
 245 10 	$a Česká společnost pro systémovou integraci
 787 08	$i Součástí stránek je … (časopis/monografie):
         $a Hlavní návěští
-				$t Systémová integrace : časopis České společnosti pro systémovou integraci
-				$x/z ISSN/ISBN
+        $t Systémová integrace : časopis České společnosti pro systémovou integraci
+        $x/z ISSN/ISBN
 ```
 
 Pokud jsou obsahem dokumentu dílčí samostatné dokumenty a katalogizátor považuje za účelné na jednotlivé dokumenty upozornit, zapíše jejich názvy v poli 520 (anotace).
 Pokud považuje za důležité umožnit samostatné vyhledávání těchto částí, uvede je v poli 505 - Formalizovaná poznámka k obsahu (*neuvádí se ale duplicitně v poli* 520!). (V tomto případě je však riziko, že se obsah webové stránky časem změní a uživatel pak příslušný dokument pod názvem zapsaným v záznamu a uvedeným v rejstříku již nenajde.)
 
 ```
-např.
-Web Markéty Baňkové obsahuje 3 významné umělecké dokumenty různého typu.
+např.: Web Markéty Baňkové obsahuje 3 významné umělecké dokumenty různého typu.
 
 varianta a/
 520 $a Webová stránka obsahuje 3 významné umělecké dokumenty různého typu: New York City Map (emoční mapa), Senses of life (video) a Mesto.html (internetová kniha)
