@@ -53,7 +53,7 @@ pole obsahuje kategorizaci odrážející formát paměťového média a jeho no
 
  $a online zdroj (typ nosiče - termín)
  $b cr (typ nosiče - kód)
- $2 rdacarrier (zdroj - vždy stejná hodnota)
+ $2 rdacarrier (zdroj - vždy stejná hodnota) 
 ```
 např.:
 338 ## $aonline zdroj$bcr$2rdacarrier
