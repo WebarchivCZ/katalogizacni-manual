@@ -16,11 +16,16 @@ např.:
 ```
 
 ### 930 (Práva k popisovanému zdroji) (NO)
-Může se zapsat přesné znění údaje o copyrightu, jak je uvedeno ve zdroji - tj. včetně s.r.o. aj. (někdy může sloužit k odlišení od jiné spol.). Nejedná se o údaj pro vyhledávání, slouží pouze pro převod do DC).
+Je možné zapsat přesné znění údaje o copyrightu, jak je uvedeno ve zdroji - tj. včetně s.r.o. aj. (někdy může sloužit k odlišení od jiné spol.). Nejedná se o údaj pro vyhledávání, slouží pouze pro převod do DC.
 
 ### PSP (Pomocné údaje speciálních dokumentů) (O)
-Vyplňuje se pouze pro zdroje, které mají svým obsahem či formou zpracování textu povahu seriálu, tj. časopisu, novin, resp. zpravodajského serveru, bez ohledu na to, zda jde ve skutečnosti o seriál či integrační zdroj (tzn. LDR/07 může být jak s, tak i)
-např. integrační zdroj iDnes.cz - u těchto zdrojů se zapisuje v podpoli $a EJ, což definuje, že se záznam bude vyhledávat v rámci elektronických časopisů.
+Vyplňuje se pouze pro zdroje, které mají svým obsahem či formou zpracování textu povahu seriálu, tj. časopisu, novin, resp. zpravodajského serveru, bez ohledu na to, zda jde ve skutečnosti o seriál či integrační zdroj (tzn. LDR/07 může být jak s, tak i).  
+
+``` 
+např.:
+integrační zdroj iDnes.cz - u těchto zdrojů se zapisuje v podpoli $a EJ, což definuje, že se záznam bude vyhledávat v rámci elektronických časopisů.
+```
+
 V ostatních případech se toto pole neuvádí.
 
 ### IST (Údaje o zpracování) (O)
