@@ -20,7 +20,8 @@ Dílo má pět tvůrců se stejnou mírou autorské odpovědnosti.
 ```
 např.: 	
 100 1   $a Žemlička, Jan
-245 10  $a Celní zákon a předpisy související v praxi /$c Jan Žemlička, Pavel Hruška, Helena Nováková, Jana Zelená, Květoslav Horák
+245 10  $a Celní zákon a předpisy související v praxi
+        $c Jan Žemlička, Pavel Hruška, Helena Nováková, Jana Zelená, Květoslav Horák
 700 1   $a Hruška, Pavel
 700 1   $a Nováková, Helena
 700 1   $a Zelená, Jana
