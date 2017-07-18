@@ -16,13 +16,13 @@ a) jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají 
   ```
   např.:
   041 0	$a cze
-	      $a eng
+        $a eng
   ```
 b) zdroj je/obsahuje **překlad** – první indikátor 1, v podpoli h musí být zapsáno, z kterého jazyka přeloženo
   ```
   např.:
   041 1	$a eng
-	      $h cze
+        $h cze
   ```
 
 c) zdroj má cizojazyčný jen **abstrakt**
@@ -47,19 +47,19 @@ Pole se vyplní pouze v případě, že se zdroj obsahově týká určitého dat
   ```
   např.:
   045	$a x1x9
-	648 7	$a 20. stol.
+  648 7	$a 20. stol.
 
-	045	$a x3-x4
-	648 7	$a 1939-1945
+  045	$a x3-x4
+  648 7	$a 1939-1945
 
-	045	$a x4-x4
-	648 7	$a 1948
+  045	$a x4-x4
+  648 7	$a 1948
 
-	045	$a f-g-
-	648 7	$a 2.-3. stol.
+  045	$a f-g-
+  648 7	$a 2.-3. stol.
 
-	045	$a d9d9
-	648 7	$a 1. stol. př. Kr.
+  045	$a d9d9
+  648 7	$a 1. stol. př. Kr.
   ```
 
 ### 072 (Konspekt) (O)
@@ -77,12 +77,12 @@ například znaky Konspektu pro http://www.reflex.cz/
 ```
 např.:
 072 7 $a821.162.3-1
-$xČeská poezie
-$2Konspekt$925
+      $xČeská poezie
+      $2Konspekt$925
 
 072 7 $a821-93
-$xLiteratura pro děti a mládež (beletrie)
-$2Konspekt$926
+      $xLiteratura pro děti a mládež (beletrie)
+      $2Konspekt$926
 ```
 ### 080 (MDT) (O)
 Je třeba vytvořit odpovídající znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 **ve stejném pořadí**, v jakém jsou uvedena v těchto polích.
