@@ -9,7 +9,7 @@ Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole
 
 
 ### 041 (Kód jazyka) (O)
-Je-li pouze jeden jazyk dokumentu, je pole 041 nepovinné, ale musí se pečlivě vyplnit pole 008. Je-li zdroj (popřípadě jeho část) publikován ve dvou a více jazycích do pole 008 se zapíše první případně dominantní z nich a v poli 041 bude tolik výskytů podpole “a”, kolik je nezbytné.
+Je-li pouze jeden jazyk dokumentu, je pole 041 nepovinné, ale musí se pečlivě vyplnit pole 008. Je-li zdroj (popřípadě jeho část) publikován ve dvou a více jazycích, do pole 008 se zapíše první, případně dominantní z nich a v poli 041 bude tolik výskytů podpole „a“, kolik je nezbytné.
 
 V případě vícejazyčného zdroje postupuje následovně:
 a) jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají cizojazyčné verze) – jedná se o nejčastější případ
@@ -29,7 +29,7 @@ c) zdroj má cizojazyčný jen **abstrakt**
   ```
   např.:
   041 0	$a cze
-	      $b eng
+  $b eng
   ```
 
 ### 043 (Kód geografické oblasti) (NO)
