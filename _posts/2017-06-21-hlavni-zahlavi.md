@@ -4,11 +4,8 @@ title: Hlavní záhlaví
 ---
 ## Hlavní záhlaví
 
-1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR [http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT] http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT
-V případě, že záznam není v AUT a katalogizátor usoudí, že se jedná o významnou autoritu - vyhotoví se její návrh.
-Pole lze doplnit také autoritou, která se v AUT nenachází ani jí není vyhotoven návrh.
-
-
+1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR [http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT](http://aleph.nkp.cz/F/J6UPP6UAJD5BDT8Y9F4QG1AFHIM8N2BHLSD4ACGIR51T75PF5X-25612?func=file&file_name=find-b&local_base=AUT)
+V případě, že záznam není v AUT a katalogizátor usoudí, že se jedná o významnou autoritu - vyhotoví se její návrh. Pole lze doplnit také autoritou, která se v databázi nenachází ani jí není vyhotoven návrh.
 
 
 ### 100 (Hlavní záhlaví – osobní jméno) (NO)
@@ -28,11 +25,11 @@ např.:
 7001 $a Zelená, Jana
 7001 $a Horák, Květoslav
 ```
-Nově se vytváří záznam v bázi autorit - viz dokument návod: [http://sps/aleph/SitePages/Home.aspx] http://sps/aleph/SitePages/Home.aspx
-metodika: [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda a] www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda a [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda] www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda
-Pro volbu správné podoby jména (pravopis, iniciály/rozepsaná jména apod.) se používá
+Nově se vytváří záznam v bázi autorit - viz dokument návod: [http://sps/aleph/SitePages/Home.aspx](http://sps/aleph/SitePages/Home.aspx)
+metodika: [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda a](www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda a) [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda](www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda)
+Pro volbu správné podoby jména (pravopis, iniciály, rozepsané iniciály apod.) se používá
 přednostně Databáze národních autorit, dostupná na stránkách Národní knihovny ČR:
-[http://aleph.nkp.cz] http://aleph.nkp.cz
+[http://aleph.nkp.cz](http://aleph.nkp.cz)
 
 Jedná-li se o anonymní dílo, tj. dílo, u kterého se neuvádí žádný tvůrce, nezapisuje se do pole 700, ale do pole 730.
 
@@ -75,5 +72,5 @@ Kódy rolí v podpoli 4 jsou doporučené, hodnota “pbl” (publisher), příp
 
 
 ### 111 (Hlavní záhlaví – jméno akce) (NO)
-Jméno akce, konference nebo festivalu použité jako hlavní záhlaví, např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 (001824203)
+Jméno akce, konference nebo festivalu použité jako hlavní záhlaví, např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 [http://aleph.nkp.cz/F/?func=direct&doc_number=001824203&local_base=nkc](001824203)
 Z hlediska kat. pravidel je 111 druhem korporace (110). Kódy rolí v podpoli 4 jsou doporučené, hodnota “pbl” (publisher).
