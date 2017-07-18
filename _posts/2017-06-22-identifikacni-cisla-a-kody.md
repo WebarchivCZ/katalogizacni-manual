@@ -29,7 +29,7 @@ c) zdroj má cizojazyčný jen **abstrakt**
   ```
   např.:
   041 0	$a cze
-  $b eng
+        $b eng
   ```
 
 ### 043 (Kód geografické oblasti) (NO)
