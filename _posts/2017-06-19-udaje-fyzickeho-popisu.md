@@ -43,7 +43,9 @@ $2 rdamedia (zdroj - vždy stejná hodnota)
 
 ```
 např.:
-337 ## $apočítač$bc$2rdamedia
+337 ## $a počítač  
+       $b c  
+       $2 rdamedia  
 ```
 
 ### 338 (Typ nosiče) (O)
@@ -57,5 +59,7 @@ $2 rdacarrier (zdroj - vždy stejná hodnota)
 
 ```
 např.:
-338 ## $aonline zdroj$bcr$2rdacarrier
+338 ## $a online zdroj  
+       $b cr  
+       $2 rdacarrier
 ```
