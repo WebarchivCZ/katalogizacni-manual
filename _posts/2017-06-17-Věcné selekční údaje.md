@@ -24,28 +24,28 @@ Pole se vyplňuje pokud je použito pole 045. Do pole zapisujeme chronologické 
 ```
 např.
 648 7	$a 20. stol.
-	648 7	$a 1939-1945
-	648 7	$a 1948
-	648 7	$a2.-3. stol.
-	648 7	$a1. stol. př. Kr.
+648 7	$a 1939-1945
+648 7	$a 1948
+648 7	$a2.-3. stol.
+648 7	$a1. stol. př. Kr.
 ```
 
 
 ### 650 (Vedlejší věcné záhlaví – věcné téma) (O)
-Do pole se zapisují česká předmětová hesla. Termíny se přebírají ze souboru autorit. Hodnota indikátorů je pak následující:
-**1. indikátor - 0 nespecifikován**
+Do pole se zapisují česká předmětová hesla. Termíny se přebírají ze souboru autorit. Hodnota indikátorů je pak následující:  
+**1. indikátor - 0 nespecifikován**  
 **2. indikátor - 7 zdroj specifikovaný v podpoli $2**
 
-V případě anglických předmětových hesel je hodnota indikátorů:
-**1. indikátor - 0 nespecifikován**
+V případě anglických předmětových hesel je hodnota indikátorů:  
+**1. indikátor - 0 nespecifikován**  
 **2. indikátor - 9 zdroj specifikovaný v podpoli $2**
 
 
 ```
 např.: dokument pojednává o lidských právech
-650 07	$a lidská práva
-        $7 ph122331
-        $2 czenas
+650 07 $a lidská práva
+       $7 ph122331
+       $2 czenas
 650 09 $u lidská práva
        $a human rights
        $2 czenas
@@ -53,23 +53,23 @@ např.: dokument pojednává o lidských právech
 
 
 ### 651 (Vedlejší věcné záhlaví – geografické jméno) (O)
-Pole se vyplňuje pokud je použito pole 043, Termín se přebírá ze Termíny se přebírají ze souboru autorit.
+Pole se vyplňuje pokud je použito pole 043. Termíny se přebírají ze souboru autorit.
 
-V případě českých předmětových hesel je hodnota indikátorů:
-**1. indikátor - \ #  nedefinovaný**
+V případě českých předmětových hesel je hodnota indikátorů:  
+**1. indikátor - \ #  nedefinovaný**  
 **2. indikátor - 7 zdroj specifikovaný v podpoli $2**
 
-V případě anglických předmětových hesel je hodnota indikátorů:
-**1. indikátor - \ # nedefinovaný**
+V případě anglických předmětových hesel je hodnota indikátorů:  
+**1. indikátor - \ # nedefinovaný**  
 **2. indikátor - 9 zdroj specifikovaný v podpoli $2**
 
 
 ```
 651 #7 $a Česko
        $7 ge128065
-			 $2 czenas
+       $2 czenas
 651 #9 $u Česko
-		 	 $a Czechia
+       $a Czechia
        $2 czenas		
 ```
 
@@ -79,20 +79,20 @@ Při katalogizaci elektronických zdrojů se používají převážně následuj
 V případě zdrojů, které mají z hlediska knihovnického charakter integračního zdroje, ale v podstatě jsou nečíslovanými seriály, se zapisují obě formy dokumentu (elektronické seriály + www dokumenty).
 
 
-V případě českých předmětových hesel je hodnota indikátorů:
-**1. indikátor - \ # nespecifikován**
+V případě českých předmětových hesel je hodnota indikátorů:  
+**1. indikátor - \ # nespecifikován**  
 **2. indikátor - 7 zdroj specifikovaný v podpoli $2**
 
-V případě anglických předmětových hesel je hodnota indikátorů:
-**1. indikátor - \ # nespecifikován**
+V případě anglických předmětových hesel je hodnota indikátorů:  
+**1. indikátor - \ # nespecifikován**  
 **2. indikátor - 9 zdroj specifikovaný v podpoli $2**
 
 
 ```
 651 #7 $a www dokumenty
        $7 fd186892
-			 $2 czenas
+       $2 czenas
 651 #9 $u www dokumenty
-		 	 $a www documents
+       $a www documents
        $2 eczenas		
 ```
