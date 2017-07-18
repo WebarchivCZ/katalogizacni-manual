@@ -18,7 +18,8 @@ např.:
 
 ### 310 (Současná periodicita) (NO)
 **Integrační zdroje**
-\Zapisujeme:
+
+Zapisujeme:
   * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
   * **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
   * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje zda jsou nepravidelné či pravidelné).
@@ -46,7 +47,8 @@ např.:
 ### 338 (Typ nosiče) (O)
 *povinné pro minimální záznam*
 
-\pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
+pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
+
 \$a online zdroj (typ nosiče - termín)
 \$b cr (typ nosiče - kód)
 \$2 rdacarrier (zdroj - vždy stejná hodnota)
