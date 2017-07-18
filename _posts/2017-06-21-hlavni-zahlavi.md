@@ -19,12 +19,12 @@ Dílo má pět tvůrců se stejnou mírou autorské odpovědnosti.
 
 ```
 např.: 	
-1001 $a Žemlička, Jan
-24510 $a Celní zákon a předpisy související v praxi /$c Jan Žemlička, Pavel Hruška, Helena Nováková, Jana Zelená, Květoslav Horák
-7001 $a Hruška, Pavel
-7001 $a Nováková, Helena
-7001 $a Zelená, Jana
-7001 $a Horák, Květoslav
+100 1   $a Žemlička, Jan
+245 10  $a Celní zákon a předpisy související v praxi /$c Jan Žemlička, Pavel Hruška, Helena Nováková, Jana Zelená, Květoslav Horák
+700 1   $a Hruška, Pavel
+700 1   $a Nováková, Helena
+700 1   $a Zelená, Jana
+700 1   $a Horák, Květoslav
 ```
 Nově se vytváří záznam v bázi autorit - viz dokument návod: [http://sps/aleph/SitePages/Home.aspx](http://sps/aleph/SitePages/Home.aspx).
 
@@ -49,9 +49,9 @@ V těchto případech má první indikátor hodnotu 1.
 
 ```
 např.:
-$aČesko.$bParlament
+$aČesko. $bParlament
 $aPardubice (Česko). $bMagistrát
-$aBavorsko (Německo).$bStaatsministerium der Finanzen
+$aBavorsko (Německo). $bStaatsministerium der Finanzen
 ```
 
 **Změna jména korporace:** Změní-li se jméno korporace, z hlediska katalogizace se potom jedná o jinou korporaci. V poli **110/710** tedy bude zapsané jméno odpovídající době, kdy byl zdroj publikován. Současně se do pole **510 – Odkaz viz  též –  jméno korporace** uvede jméno související korporace (nejčastěji jde o dřívější nebo novější podobu jména při změně názvu korporace). Pole směruje na záhlaví souvisejícího autoritního záznamu. Forma jména korporace v poli 510 je vždy totožná s autoritní podobou jména korporace v záhlaví souvisejícího autoritního záznamu (pro nový název se vždy vytvoří nové autoritní záhlaví a to se uvede do pole 510.
@@ -65,7 +65,7 @@ např.:
 510 2   $w b
         $a České muzeum hudby (Praha, Česko)
         $7 ko2004175709
-665  	  $a Novější název korporace: České muzeum hudby (od r.2001).
+665     $a Novější název korporace: České muzeum hudby (od r.2001).
 ```
 
 
