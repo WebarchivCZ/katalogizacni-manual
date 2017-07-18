@@ -25,13 +25,14 @@ Pole 76X - 78X, z nichž je název směrován do názvového rejstříku NKC, js
 
 ```
 např.: Měsíční deník a Měsíční deník II.
-	245 10 	$a Měsíční deník
-	785 00 	$a Gabzdyl, Pavel.
-					$t Měsíční deník II.
 
-	245 10	$a Měsíční deník II.
-	780 00 	$a Gabzdyl, Pavel.
-					$t Měsíční deník
+245 10 	$a Měsíční deník
+785 00 	$a Gabzdyl, Pavel.
+				$t Měsíční deník II.
+
+245 10	$a Měsíční deník II.
+780 00 	$a Gabzdyl, Pavel.
+				$t Měsíční deník
 ```
 
 Pokud je předcházející/následující záznam zkatalogizován pod hlavním záhlavím, uvede se v podpoli $a. Pokud je záznam zkatalogizován pod názvem, použije se pouze podpole $t (bez interpunkce na konci podpole).
