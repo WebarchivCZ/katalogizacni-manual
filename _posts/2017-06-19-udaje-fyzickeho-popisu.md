@@ -37,12 +37,9 @@ Zapisujeme:
 ### 337 (Typ média) (O)
 *nepovinné pro minimální záznam*
 
-
-  $a počítač (typ média - termín)
-
-  $b c (typ média - kód)
-
-  $2 rdamedia (zdroj - vždy stejná hodnota)
+$a počítač (typ média - termín)  
+$b c (typ média - kód)  
+$2 rdamedia (zdroj - vždy stejná hodnota)
 
 ```
 např.:
