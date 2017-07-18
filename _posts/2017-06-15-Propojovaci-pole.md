@@ -42,9 +42,9 @@ Pokud katalogizátor považuje za účelné v záznamu **uvést informaci o vzta
 např.:
 245 10 	$a Česká společnost pro systémovou integraci
 787 08	$i Součástí stránek je … (časopis/monografie):
-	    	$a Hlavní návěští
-      	$t Systémová integrace : časopis České společnosti pro systémovou integraci
-      	$x/z ISSN/ISBN
+				$a Hlavní návěští
+				$t Systémová integrace : časopis České společnosti pro systémovou integraci
+				$x/z ISSN/ISBN
 ```
 
 Pokud jsou obsahem dokumentu dílčí samostatné dokumenty a katalogizátor považuje za účelné na jednotlivé dokumenty upozornit, zapíše jejich názvy v poli 520 (anotace).
