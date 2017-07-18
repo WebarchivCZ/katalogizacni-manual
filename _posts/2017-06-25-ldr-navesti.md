@@ -26,7 +26,7 @@ m elektronický zdroj - pouze určité typy el. zdrojů (počítačový software
   * systémy online nebo síťové služby
   * pokud počítačově orientované multimédium obsahuje např. text, zvuk, video, fotogalerie, animace atd. a nelze určit dominantní složku (v případě pochybností nebo je-li obtížné určit nejvýznamnější obsahový aspekt)
 
-```
+  ```
 LDR/06 „m“
 008 - údaje pro el. zdroj
 006 - není
