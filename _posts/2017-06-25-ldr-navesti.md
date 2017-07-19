@@ -52,7 +52,7 @@ Pro běžný online elektronický zdroj s převažující textovou podobou se uv
 ### LDR/17 - úroveň úplnosti záznamu
 
 ```
-\# - Úplná úroveň
+# - Úplná úroveň
 1 - úplná úroveň, bez dokumentu
 2 - méně než úplná úroveň, bez dokumentu
 3 - zkrácený záznam
