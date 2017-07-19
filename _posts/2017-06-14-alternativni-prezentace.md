@@ -6,7 +6,7 @@ title: Alternativní prezentace
 ## Alternativní prezentace, elektronické umístění
 
 ### 856 (Elektronické umístění a přístup) (O)
-Pokud je tentýž zdroj dostupný z více URL, další URL se zapisuje/-í vždy do nového pole 856
+Pokud je tentýž zdroj dostupný z více URL, další URL se zapisuje/-í vždy do nového pole 856.
 
 Pokud je/jsou starší URL již neplatné a zapisuje se nová (tj. platná) URL, zapíše se tato nová URL do 1. výskytu, před původní URL již neplatnou. Totéž platí, je-li původní URL přesměrována na nově zapisovanou URL (tj. nová URL = 1. výskyt, přesměrované URL = 2. a případně další výskyty).
 
@@ -35,7 +35,7 @@ např.:
 
 Pokud se současně zapisuje v novém výskytu pole 856 URL, na které jsou nově webové stránky umístěny, zapíše se do téhož výskytu poznámka v $z „adresa platná k [datum]“.
 
-Pokud se na původní URL objevily zcela nové nesouvisející webové stránky, zapíše se o této skutečnosti poznámka v 856$z „původní dokument na této adrese nedostupný k [datum, kdy byla nefunkčnost URL zjištěna]“. Je nutné změnit hodnotu 2. indikátoru „0“ na „#“ (tj. prázdný).
+Pokud se na původní URL objevily zcela nové nesouvisející webové stránky, zapíše se o této skutečnosti poznámka v 856 $z „původní dokument na této adrese nedostupný k [datum, kdy byla nefunkčnost URL zjištěna]“. Je nutné změnit hodnotu 2. indikátoru „0“ na „#“ (tj. prázdný).
 
 
 Pokud je původní URL funkční, ale obsahuje zcela odlišný dokument od původního a jedná se o významný dokument, může se tento dokument popsat novým katalogizačním záznamem.
@@ -68,7 +68,7 @@ např.:
         $q text/html
         $4 N
 
-856 40	$u http://www.linuxbiz.cz
+856 40	$u http://www.linuxbizcz.cz
         $q text/html
         $4 N
 ```
@@ -118,4 +118,4 @@ např.:
 
 + 520 $a V rámci webových stránek je provozován také blog pro náboženství, filosofii a umění
 
-**Vždy** (tj. i v každém opakovaném výskytu pole 856) uveďte podpole 4 hodnota N (znamená negenerovat obrazovku „copyright“ ).
+**Vždy** (tj. i v každém opakovaném výskytu pole 856) uveďte podpole 4 hodnota N (znamená negenerovat obrazovku „copyright“).
