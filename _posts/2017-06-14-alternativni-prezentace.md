@@ -14,10 +14,10 @@ Pokud je/jsou starší URL již neplatné a zapisuje se nová (tj. platná) URL,
 
 ```
 např.:
-856 40 $u (http://gvuhodonin.cz)[http://gvuhodonin.cz]
+856 40 $u http://gvuhodonin.cz
        $q text/html
        $4 N
-856 40 $u [http://wayback.webarchiv.cz/wayback/gvuhodonin.cz](http://wayback.webarchiv.cz/wayback/gvuhodonin.cz)
+856 40 $u http://wayback.webarchiv.cz/wayback/gvuhodonin.cz
        $q text/html
        $z archivní verze stránek
        $4 N
@@ -28,7 +28,7 @@ Pokud URL není funkční a stránky již neexistují (vůbec nebo jsou na jiné
 
 ```
 např.:
-856 4#	$u [http://www.linuxbiz.cz](http://www.linuxbiz.cz)
+856 4#	$u http://www.linuxbiz.cz
         $z adresa nedostupná k 21.8.2007
         $4 N
 ```
@@ -44,12 +44,12 @@ Pokud je původní URL funkční, ale obsahuje zcela odlišný dokument od půvo
 
 ```
 např.:
-856 40 $u [http://oldgeogr.muni.cz/ucebnice/kartografie/](http://oldgeogr.muni.cz/ucebnice/kartografie/)
+856 40 $u http://oldgeogr.muni.cz/ucebnice/kartografie/
        $q text/html
        $z adresa platná k [datum, kdy zapisujeme URL do záznamu]
        $4 N
 
-856 4# $u [http://www.geogr.muni.cz/ucebnice/kartografie](http://www.geogr.muni.cz/ucebnice/kartografie)
+856 4# $u http://www.geogr.muni.cz/ucebnice/kartografie
        $q text/html
        $z adresa nedostupná k [datum, kdy byla nefunkčnost URL zjištěna]
        $4 N
@@ -64,11 +64,11 @@ Pokud původní URL přesměrovává na nové URL, kde je nově umístěn původ
 
 ```
 např.:
-856 40	$u [http://www.linuxbiz.cz](http://www.linuxbiz.cz)
+856 40	$u http://www.linuxbiz.cz
         $q text/html
         $4 N
 
-856 40	$u [http://www.linuxbiz.cz](http://www.linuxbiz.cz)
+856 40	$u http://www.linuxbiz.cz
         $q text/html
         $4 N
 ```
@@ -85,7 +85,7 @@ Zapíší se všechny URL adresy
 
 ```
 např.:
-856 4# $u [http://www.linuxbiz.cz](http://www.linuxbiz.cz)
+856 4# $u http://www.linuxbiz.cz
        $z adresa nedostupná k [datum]
        $4 N
 ```
@@ -96,7 +96,7 @@ b) zápis URL do záznamu pro **tištěný dokument** (eventuálně elektronick�
 ```
 např.: Ložiska nerostů (CD-ROM)
 856 41 $3 Online verze
-       $u [http://geologie.vsb.cz/loziska/loziska/index.html](http://geologie.vsb.cz/loziska/loziska/index.html)
+       $u http://geologie.vsb.cz/loziska/loziska/index.html
        $4 N
 ```
 
@@ -108,11 +108,11 @@ c) považuje-li katalogizátor za důležité zapsat do záznamu vedle vlastní 
 
 ```
 např.:
-856 40 $u [http://home.tiscali.cz/bovepul](http://home.tiscali.cz/bovepul)
+856 40 $u http://home.tiscali.cz/bovepul
        $4 N
 
 856 42 $3 Blog
-       $u [http://bovepul.blog.cz](http://bovepul.blog.cz)
+       $u http://bovepul.blog.cz
        $4 N
 ```
 
