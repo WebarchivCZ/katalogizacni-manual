@@ -44,7 +44,7 @@ Přesně podle provedení se zapisuje i interpunkce, symboly a značky. Vynechat
 
 
 
-#### Podpole $a Název (NO)
+**Podpole $a Název (NO)**
 
 Podpole $a obsahuje hlavní název a alternativní název. Je hlavním pojmenováním provedení a obvykle je typograficky zvýrazněn. Je-li na prameni popisu uveden název ve více jazycích a/nebo písmech, volí se za hlavní název vždy název v jazyce dokumentu (jediného či převažujícího). Ostatní se zapíší jako názvy souběžné.
 
@@ -68,7 +68,7 @@ Je-li gramaticky nedílnou součástí názvu či další názvové informace i 
 
 
 
-#### Podpole $b Další údaje o názvu (NO)
+**Podpole $b Další údaje o názvu (NO)**
 
 Podpole $b může obsahovat podnázev, souběžné názvy a další názvové informace. Údaje se
 přebírají pouze ze stejného pramene popisu jako hlavní název, jsou-li uvedeny jinde, nezapisují se, nebo jen velmi výjimečně a jen do poznámky, nikdy nedoplňujeme do [ ].
@@ -112,7 +112,7 @@ např.: v prameni popisu Česká advokátní komora, Tschechische Rechtsanwaltsk
 
 
 
-#### Podpole $c Údaj o odpovědnosti (NO)
+**Podpole $c Údaj o odpovědnosti (NO)**
 
 Podpole $c obsahuje údaje o odpovědnosti. Údaje se přebírají ze stejného pramene jako hlavní název, případně z dalších preferovaných pramenů. Uvádějí se osoby a/nebo korporace odpovědné za intelektuální nebo umělecký obsah popisovaného zdroje (autor, spoluautor, editor, překladatel, ilustrátor, atd.).
 
