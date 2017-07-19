@@ -7,9 +7,9 @@ title: Název a další názvové údaje, nakladatelské údaje
 
 V oblasti údajů o názvu a odpovědnosti se obvykle vyskytují následující údaje:
 
-* název  
-* souběžný název  
-* další názvová informace  
+* název,  
+* souběžný název,  
+* další názvová informace,  
 * údaje o odpovědnosti.
 
 Hlavní název je vždy povinným údajem (byť doplněný) a je-li uveden či zjištěn, pak také první údaj o odpovědnosti.
@@ -28,7 +28,8 @@ Přesně podle provedení se zapisuje i interpunkce, symboly a značky. Vynechat
 
 **První indikátor:** vedlejší názvové záhlaví
 
-&nbsp;&nbsp;&nbsp;&nbsp; 0 vedlejší záhlaví se nevytváří (hodnota prvního indikátoru je 0 vždy, když není v záznamu uvedeno hlavní záhlaví v poli 1XX)  
+&nbsp;&nbsp;&nbsp;&nbsp; 0 vedlejší záhlaví se nevytváří (hodnota prvního indikátoru je 0 vždy, když není v  
+&nbsp;&nbsp;&nbsp;&nbsp; záznamu uvedeno hlavní záhlaví v poli 1XX)  
 
 &nbsp;&nbsp;&nbsp;&nbsp; 1 vedlejší záhlaví se vytváří
 
@@ -90,11 +91,13 @@ Pokud dokument obsahuje souběžný název tj. název ve dvou nebo více jazycí
 
 ```
 např.: v prameni popisu Česká softballová organizace a Czech softball association
+
 245 10 $a Česká softballová asociace =
        $b Czech Softball Association
 246 31 $a Czech Softball Association
 
 např. v prameni popisu Česká advokátní komora, Tschechische Rechtsanwaltskammer, La Barreau tcheque a Czech Bar Association
+
 245 10 $a Česká advokátní komora =
        $b Tsechische Rechtsanwaltskammer = La Barreau tcheque = Czech Bar Association
 246 31 $a Tsechische Rechtsanwaltskammer
@@ -119,14 +122,14 @@ Původci uvedení pouze v copyrightu (např. významný překladatel podle náro
 
 ```
 např.:
-245 10 $a...a život jde dál :
+245 10 $a ...a život jde dál :
        $b vzpomínky Petra Látala na léta válečná
 
 
 např.: autor nebyl uveden nikde v popisovaném provedení ; chyba v podnázvu)
-245 14 $aDie Schule der Frauen :
-       $bLuftspiel in fünf Aufzügen /
-       $c[Molière]
+245 14 $a Die Schule der Frauen :
+       $b Luftspiel in fünf Aufzügen /
+       $c [Molière]
 500    $a Správný podnázev je: Lustspie l in fünf Aufzügen
  ```
 
@@ -139,29 +142,30 @@ Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole s
 Častým jevem elektronických zdrojů je výskyt různých variant názvu ve zdroji. Po zvolení hlavního názvu by ostatní varianty názvu měly být uvedeny v poli 246, pokud jsou považovány za důležité pro identifikační nebo selekční účely.
 
 
-**Indikátory:
+**Indikátory:**
 
 
-První indikátor:** poznámka/vedlejší záhlaví
+**První indikátor:** poznámka/vedlejší záhlaví
 
 &nbsp;&nbsp;&nbsp;&nbsp; 0 Generuje se poznámka, negeneruje se vedlejší záhlaví  
-&nbsp;&nbsp;&nbsp;&nbsp; 1 Generuje se poznámka i vedlejší záhlaví (znamená to, že se ve standardním zobrazení záznamu v OPACu objeví také variantní název, jinak je pole 246 vidět pouze v režimu zobrazení MARC, pokud je název ve zdrojovém kódu jiný (a smysluplný), je vhodné ho zobrazit)  
+&nbsp;&nbsp;&nbsp;&nbsp; 1 Generuje se poznámka i vedlejší záhlaví (znamená to, že se ve standardním
+&nbsp;&nbsp;&nbsp;&nbsp; zobrazení záznamu v OPACu objeví také variantní název, jinak je pole 246 vidět &nbsp;&nbsp;&nbsp;&nbsp; pouze v režimu zobrazení MARC, pokud je název ve zdrojovém kódu jiný (a &nbsp;&nbsp;&nbsp;&nbsp; smysluplný), je vhodné ho zobrazit)  
 &nbsp;&nbsp;&nbsp;&nbsp; 2 Negeneruje se poznámka, negeneruje se vedlejší záhlaví  
-&nbsp;&nbsp;&nbsp;&nbsp; 3 Generuje se vedlejší záhlaví, negeneruje se poznámka (pokud v 246 píšeme varianty názvu bez www, pomlček apod., není potřeba poznámku zobrazovat; to platí také pro souběžný název, podnázev)
+&nbsp;&nbsp;&nbsp;&nbsp; 3 Generuje se vedlejší záhlaví, negeneruje se poznámka (pokud v 246 píšeme &nbsp;&nbsp;&nbsp;&nbsp; varianty názvu bez www, pomlček apod., není potřeba poznámku zobrazovat; to platí &nbsp;&nbsp;&nbsp;&nbsp; také pro souběžný název, podnázev)
 
 
 **Druhý indikátor:** typ názvu
 
 
-&nbsp;&nbsp;&nbsp;&nbsp; \## Typ názvu není specifikován (název převzat ze zdrojového kódu)  
+&nbsp;&nbsp;&nbsp;&nbsp; \# Typ názvu není specifikován (název převzat ze zdrojového kódu)  
 &nbsp;&nbsp;&nbsp;&nbsp; 0 Část názvu/název části (podnázev, zkratka)  
 &nbsp;&nbsp;&nbsp;&nbsp; 1 Souběžný název  
 &nbsp;&nbsp;&nbsp;&nbsp; 2 Rozlišovací název  
 &nbsp;&nbsp;&nbsp;&nbsp; 3 Další variantní název
 
 
-Při použití druhého indikátoru s hodnotou #, 0, 1 se návěští poznámky negeneruje.
-Při použití druhého indikátoru s hodnotou 2-8 se návěští poznámky generuje systémem.
+Při použití druhého indikátoru s hodnotou #, 0, 1 se návěští poznámky negeneruje.  
+Při použití druhého indikátoru s hodnotou 2-8 se návěští poznámky generuje systémem.  
 Při použití druhého indikátoru s hodnotou # lze vyplnit podpole $i s vysvětlujícím návěštím; podpole $i se pak uvádí na začátku pole 246, před podpolem $a.
 
 
@@ -242,7 +246,7 @@ např.:
 
 na zdroji byl uveden název Jeden svět 2010
 245 00 $a Jeden svět ... ()
-500 $a    Součástí hlavního názvu je označení roku
+500    $a Součástí hlavního názvu je označení roku
 
 
 na zdroji byl uveden název 45. Mezinárodní filmový festival Karlovy Vary
