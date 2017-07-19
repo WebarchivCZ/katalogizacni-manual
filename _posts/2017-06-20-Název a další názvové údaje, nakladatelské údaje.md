@@ -3,7 +3,9 @@ layout: default
 title: Název a další názvové údaje, nakladatelské údaje
 ---
 
-## 245 Údaje o názvu (včetně  údajů o odpovědnosti) (NO)
+## Název a další názvové údaje, nakladatelské údaje
+
+### 245 Údaje o názvu (včetně  údajů o odpovědnosti) (NO)
 
 V oblasti údajů o názvu a odpovědnosti se obvykle vyskytují následující údaje:
 
@@ -12,11 +14,11 @@ V oblasti údajů o názvu a odpovědnosti se obvykle vyskytují následující 
 * další názvová informace  
 * údaje o odpovědnosti
 
-Hlavní název je vždy povinným údajem (byť doplněný) a je-li uveden či zjištěn, pak také první údaj o odpovědnosti.
+Hlavní název je vždy povinným údajem (byť doplněným) a je-li uveden či zjištěn, pak je také prvním údajem o odpovědnosti.
 
 Údaje se zapisují přesně tak, jak se vyskytují na provedení – včetně chyb a překlepů. Správný údaj se pak zapisuje jako variantní název nebo do poznámky.
 
-Slova se nezkracují, pokud tak ovšem nejsou na prameni uvedena; číslovky se zapisují také přesně – nevynechávají se, ani se nepřepisují na arabské číslice.
+Slova se nezkracují, pokud tak ovšem nejsou na prameni uvedena, číslovky se zapisují také přesně – nevynechávají se, ani se nepřepisují na arabské číslice.
 
 Psaní velkých písmen se řídí gramatickými pravidly daného jazyka. Zapisují se i použitá diakritická znaménka a úvodní členy. Jednopísmenné iniciály a akronymy se zapisují bez mezer.
 
@@ -24,24 +26,25 @@ Přesně podle provedení se zapisuje i interpunkce, symboly a značky. Vynechat
 
 
 
-### Indikátory
+**Indikátory**
 
-**První indikátor:** vedlejší názvové záhlaví
+* **První indikátor:** vedlejší názvové záhlaví
 
-&nbsp;&nbsp;&nbsp;&nbsp; 0 vedlejší záhlaví se nevytváří (hodnota prvního indikátoru je 0 vždy, když není v  
-&nbsp;&nbsp;&nbsp;&nbsp; záznamu uvedeno hlavní záhlaví v poli 1XX)  
+&nbsp;&nbsp;&nbsp;&nbsp; 0 vedlejší záhlaví se nevytváří (hodnota prvního indikátoru je 0 vždy, když není   
+	&nbsp;&nbsp;&nbsp;&nbsp; v záznamu uvedeno hlavní záhlaví v poli 1XX)  
 
 &nbsp;&nbsp;&nbsp;&nbsp; 1 vedlejší záhlaví se vytváří
 
 
 
-**Druhý indikátor:** vyloučení znaků z řazení (obsahuje číslici, označující počet znaků, které mají být vyloučeny z řazení, a to včetně mezer)
+* **Druhý indikátor:** vyloučení znaků z řazení (obsahuje číslici, označující počet znaků, které mají být vyloučeny
+	z řazení, a to včetně mezer)
 
 &nbsp;&nbsp;&nbsp;&nbsp; 0-9 počet vyloučených znaků
 
 
 
-**Podpole $a Název (NO)**
+#### Podpole $a Název (NO)
 
 Podpole $a obsahuje hlavní název a alternativní název. Je hlavním pojmenováním provedení a obvykle je typograficky zvýrazněn. Je-li na prameni popisu uveden název ve více jazycích a/nebo písmech, volí se za hlavní název vždy název v jazyce dokumentu (jediného či převažujícího). Ostatní se zapíší jako názvy souběžné.
 
@@ -59,13 +62,13 @@ např.:
 ```
 
 
-Příliš dlouhý název (či další názvová informace) může být zkrácen, a to nejdříve po prvních 5 slovech (členy se nepočítají), ale nesmí to mít vliv na ztrátu informací  či identifikaci díla. Pro vynechanou část názvu se použije znak pro výpustku – tři tečky s oboustrannou mezerou.
+Příliš dlouhý název (či další názvová informace) může být zkrácen, a to nejdříve po prvních 5 slovech (členy se nepočítají), ale zkrácení nesmí mít vliv na ztrátu informací  či identifikaci díla. Pro vynechanou část názvu se použije znak pro výpustku – tři tečky s oboustrannou mezerou.
 
 Je-li gramaticky nedílnou součástí názvu či další názvové informace i údaj o odpovědnosti, zapíše se tam a již se neopakuje v údajích o odpovědnosti (pokud ovšem není na zdroji znovu uveden).
 
 
 
-**Podpole $b Další údaje o názvu (NO)**
+#### Podpole $b Další údaje o názvu (NO)
 
 Podpole $b může obsahovat podnázev, souběžné názvy a další názvové informace. Údaje se
 přebírají pouze ze stejného pramene popisu jako hlavní název, jsou-li uvedeny jinde, nezapisují se, nebo jen velmi výjimečně a jen do poznámky, nikdy nedoplňujeme do [ ].
@@ -109,7 +112,7 @@ např.: v prameni popisu Česká advokátní komora, Tschechische Rechtsanwaltsk
 
 
 
-**Podpole $c Údaj o odpovědnosti (NO)**
+#### Podpole $c Údaj o odpovědnosti (NO)
 
 Podpole $c obsahuje údaje o odpovědnosti. Údaje se přebírají ze stejného pramene jako hlavní název, případně z dalších preferovaných pramenů. Uvádějí se osoby a/nebo korporace odpovědné za intelektuální nebo umělecký obsah popisovaného zdroje (autor, spoluautor, editor, překladatel, ilustrátor, atd.).
 
@@ -136,7 +139,7 @@ např.: autor nebyl uveden nikde v popisovaném provedení ; chyba v podnázvu)
  ```  
 
 
-**246 (Variantní názvy) (O)**
+### 246 (Variantní názvy) (O)
 
 Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole se používá pro zápis dalších názvových údajů, podnázvů, těch částí názvu, která se u alternativního názvu vyskytují za „aneb“ popřípadě pro zápis rozšířených názvů o číslovky, symboly apod.
 
@@ -302,7 +305,7 @@ např.:
 
 
 
-**247 (Předchozí název) (O)**
+### 247 (Předchozí název) (O)
 
 Do pole 247 zapisujeme názvovou informaci  v případě, že došlo ke změně **hlavního názvu** webové stránky. Pole 247 slouží k uchování původního **hlavního názvu** webové stránky, zatímco do pole 245 zapíšeme název nový. **První indikátor pole 247 musí být vždy 1.**
 
