@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kódy zpracovatelské instituce, práva k popisovanému zdroji
+title: Kódy zpracovatelské instituce
 ---
 ## Kódy zpracovatelské instituce, práva k popisovanému zdroji
 
@@ -21,7 +21,7 @@ Je možné zapsat přesné znění údaje o copyrightu, jak je uvedeno ve zdroji
 ### PSP (Pomocné údaje speciálních dokumentů) (O)
 Vyplňuje se pouze pro zdroje, které mají svým obsahem či formou zpracování textu povahu seriálu, tj. časopisu, novin, resp. zpravodajského serveru, bez ohledu na to, zda jde ve skutečnosti o seriál či integrační zdroj (tzn. LDR/07 může být jak s, tak i).  
 
-``` 
+```
 např.:
 integrační zdroj iDnes.cz - u těchto zdrojů se zapisuje v podpoli $a EJ, což definuje, že se záznam bude vyhledávat v rámci elektronických časopisů.
 ```
