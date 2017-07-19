@@ -3,9 +3,9 @@ layout: default
 title: Alternativní prezentace
 ---
 
-### Alternativní prezentace, elektronické umístění
+## Alternativní prezentace, elektronické umístění
 
-## 856 (Elektronické umístění a přístup) (O)
+### 856 (Elektronické umístění a přístup) (O)
 Pokud je tentýž zdroj dostupný z více URL, další URL se zapisuje/-í vždy do nového pole 856
 
 Pokud je/jsou starší URL již neplatné a zapisuje se nová (tj. platná) URL, zapíše se tato nová URL do 1. výskytu, před původní URL již neplatnou. Totéž platí, je-li původní URL přesměrována na nově zapisovanou URL (tj. nová URL = 1. výskyt, přesměrované URL = 2. a případně další výskyty).
@@ -14,7 +14,7 @@ Pokud je/jsou starší URL již neplatné a zapisuje se nová (tj. platná) URL,
 
 ```
 např.:
-856 40 $u [http://gvuhodonin.cz](http://gvuhodonin.cz)
+856 40 $u (http://gvuhodonin.cz)[http://gvuhodonin.cz]
        $q text/html
        $4 N
 856 40 $u [http://wayback.webarchiv.cz/wayback/gvuhodonin.cz](http://wayback.webarchiv.cz/wayback/gvuhodonin.cz)
