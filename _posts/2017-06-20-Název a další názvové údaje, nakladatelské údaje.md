@@ -30,8 +30,8 @@ Přesně podle provedení se zapisuje i interpunkce, symboly a značky. Vynechat
 
 * **První indikátor:** vedlejší názvové záhlaví
 
-&nbsp;&nbsp;&nbsp;&nbsp; 0 vedlejší záhlaví se nevytváří (hodnota prvního indikátoru je 0 vždy, když není   
-	&nbsp;&nbsp;&nbsp;&nbsp; v záznamu uvedeno hlavní záhlaví v poli 1XX)  
+&nbsp;&nbsp;&nbsp;&nbsp; 0 vedlejší záhlaví se nevytváří (hodnota prvního indikátoru je 0 vždy, když není v záznamu uvedeno  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hlavní záhlaví v poli 1XX)  
 
 &nbsp;&nbsp;&nbsp;&nbsp; 1 vedlejší záhlaví se vytváří
 
@@ -158,11 +158,11 @@ Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole s
 
 &nbsp;&nbsp;&nbsp;&nbsp; 0 generuje se poznámka, negeneruje se vedlejší záhlaví  
 &nbsp;&nbsp;&nbsp;&nbsp; 1 generuje se poznámka i vedlejší záhlaví (znamená to, že se ve standardním zobrazení záznamu v OPACu objeví  
-&nbsp;&nbsp;&nbsp;&nbsp; také variantní název, jinak je pole 246 vidět; pouze v režimu zobrazení MARC, pokud je název ve zdrojovém  
-&nbsp;&nbsp;&nbsp;&nbsp; kódu jiný, a smysluplný, je vhodné ho zobrazit)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; také variantní název, jinak je pole 246 vidět; pouze v režimu zobrazení MARC, pokud je název ve zdrojovém  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kódu jiný, a smysluplný, je vhodné ho zobrazit)  
 &nbsp;&nbsp;&nbsp;&nbsp; 2 negeneruje se poznámka, negeneruje se vedlejší záhlaví  
 &nbsp;&nbsp;&nbsp;&nbsp; 3 generuje se vedlejší záhlaví, negeneruje se poznámka (pokud v 246 píšeme varianty názvu bez www, pomlček  
-&nbsp;&nbsp;&nbsp;&nbsp; apod., není potřeba poznámku zobrazovat; to platí také pro souběžný název, podnázev)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; apod., není potřeba poznámku zobrazovat; to platí také pro souběžný název, podnázev)
 
 
 **Druhý indikátor:** typ názvu
