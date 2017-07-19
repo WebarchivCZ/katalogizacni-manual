@@ -6,7 +6,7 @@ title: Věcné selekční údaje
 ## Věcné selekční údaje
 
 ### 600 (Vedlejší věcné záhlaví – osobní jméno) (O)
-Údaje se zapisují ve stejné podobě jako v poli 100 (Hlavní záhlaví - osobní méno). Zdroj pojednává o konkrétní osobě.
+Údaje se zapisují ve stejné podobě jako v poli 100 (Hlavní záhlaví - osobní jméno). Zdroj pojednává o konkrétní osobě.
 
 
 ### 610 (Vedlejší věcné záhlaví – jméno korporace) (O)

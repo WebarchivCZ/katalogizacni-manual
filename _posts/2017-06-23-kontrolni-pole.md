@@ -77,15 +77,14 @@ Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
 
 
 **008/07-10 - datum 1**  
-&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné  
-&nbsp;&nbsp;&nbsp;&nbsp; datum vydání, anebo např. 199u, 200u, apod.
+&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné datum vydání, anebo  
+&nbsp;&nbsp;&nbsp;&nbsp; např. 199u, 200u, apod.
 
 
 **008/11-14 - datum 2**  
-&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným  
-&nbsp;&nbsp;&nbsp;&nbsp; vydáváním se zapíše dané datum ukončení. Informace o ukončeném vydávání se  
-&nbsp;&nbsp;&nbsp;&nbsp; zanese také do vydávání a změní se hodnota na pozici 008/06 status vydávání na  
-&nbsp;&nbsp;&nbsp;&nbsp; **d** s ukončeným vydáváním.
+&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše  
+&nbsp;&nbsp;&nbsp;&nbsp; dané datum ukončení. Informace o ukončeném vydávání se zanese také do vydávání a změní se hodnota  
+&nbsp;&nbsp;&nbsp;&nbsp; na pozici 008/06 status vydávání na **d** s ukončeným vydáváním.
 
 
 **008/15-17 - místo vydání, produkce**  
@@ -158,9 +157,9 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 &nbsp;&nbsp;&nbsp;&nbsp; 2 - integrační záznam
 
 **008/35-37 – jazyk dokumentu**  
-&nbsp;&nbsp;&nbsp;&nbsp; kód označuje jazyk popisné jednotky, odpovídá poli 041 – pokud je dokument v   &nbsp;&nbsp;&nbsp;&nbsp; češtině, uvede se tento údaj pouze v poli 008, a nikoli již v poli 041. Zdrojem  
-&nbsp;&nbsp;&nbsp;&nbsp; kódu je MARC Code List for Languages, který spravuje Library of Congress - viz  
-&nbsp;&nbsp;&nbsp;&nbsp; [http://www.loc.gov/marc/languages](http://www.loc.gov/marc/languages).
+&nbsp;&nbsp;&nbsp;&nbsp; kód označuje jazyk popisné jednotky, odpovídá poli 041 – pokud je dokument v češtině, uvede se tento údaj  
+&nbsp;&nbsp;&nbsp;&nbsp; pouze v poli 008, a nikoli již v poli 041. Zdrojem kódu je MARC Code List for Languages, který spravuje  
+&nbsp;&nbsp;&nbsp;&nbsp; Library of Congress - viz [http://www.loc.gov/marc/languages](http://www.loc.gov/marc/languages).
 
 **008/38 - kód modifikace záznamu**  
 &nbsp;&nbsp;&nbsp;&nbsp; pole zůstává prázdné, záznam nebyl modifikován

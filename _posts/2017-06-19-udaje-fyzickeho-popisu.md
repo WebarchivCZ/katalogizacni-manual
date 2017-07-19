@@ -22,7 +22,7 @@ např.:
 Zapisujeme:
   * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
   * **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
-  * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje zda jsou nepravidelné či pravidelné).
+  * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje zda jsou nepravidelné či pravidelné)
 
 ### 336 (Typ obsahu) (O)
 *povinné pro minimální záznam*

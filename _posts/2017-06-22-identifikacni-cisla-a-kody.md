@@ -14,6 +14,7 @@ Je-li pouze jeden jazyk dokumentu, je pole 041 nepovinné, ale musí se pečliv�
 V případě vícejazyčného zdroje postupuje následovně:  
 
 a) jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají cizojazyčné verze) – jedná se o nejčastější případ
+
   ```
   např.:
   041 0	$a cze
@@ -45,6 +46,7 @@ Pole se použije pouze v případech, když se zdroj obsahově týká určité g
 ### 045 (Časové období obsahu dokumentu) (NO)
 Pole se vyplní pouze v případě, že se zdroj obsahově týká určitého data/časového období.
 Údaj musí být současně zapsán v poli 080 (MDT) a 648 (Vedlejší věcné záhlaví - chronologický termín).
+
   ```
   např.:
   045	$a x1x9
@@ -70,19 +72,20 @@ Na základě použitých znaků MDT je třeba vybrat příslušný znak Konspekt
 *První indikátor*: nedefinován  
 *Druhý indikátor*: hodnota 7, zdroj specifikován v podpoli $2
 
-Pole 072 má ve výjimečných případech povolené dva výskyty. Zvláště u webových stránek vycházejících z tištěných novin a dalších periodik - se připouští dva znaky, například znaky Konspektu pro http://www.reflex.cz/  
+Pole 072 má ve výjimečných případech povolené dva výskyty. Zvláště u webových stránek vycházejících z tištěných novin a dalších periodik - se připouští dva znaky, například znaky Konspektu pro [http://www.reflex.cz/](http://www.reflex.cz/)  
+
 394 - Veřejný a společenský život. Každodenní život  
 050 - Seriálové publikace. Periodika  
 
 ```
 např.:
-072 7 $a821.162.3-1
-      $xČeská poezie
-      $2Konspekt$925
+072 7 $a 821.162.3-1
+      $x Česká poezie
+      $2 Konspekt$925
 
-072 7 $a821-93
-      $xLiteratura pro děti a mládež (beletrie)
-      $2Konspekt$926
+072 7 $a 821-93
+      $x Literatura pro děti a mládež (beletrie)
+      $2 Konspekt$926
 ```
 ### 080 (MDT) (O)
 Je třeba vytvořit odpovídající znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 **ve stejném pořadí**, v jakém jsou uvedena v těchto polích.
