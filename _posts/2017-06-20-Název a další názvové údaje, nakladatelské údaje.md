@@ -157,11 +157,12 @@ Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole s
 **První indikátor:** poznámka/vedlejší záhlaví
 
 &nbsp;&nbsp;&nbsp;&nbsp; 0 generuje se poznámka, negeneruje se vedlejší záhlaví  
-&nbsp;&nbsp;&nbsp;&nbsp; 1 generuje se poznámka i vedlejší záhlaví (znamená to, že se ve standardním zobrazení záznamu v OPACu objeví také variantní název,
-													 jinak je pole 246 vidět; pouze v režimu zobrazení MARC, pokud je název ve zdrojovém kódu jiný, a smysluplný, je vhodné ho zobrazit)  
+&nbsp;&nbsp;&nbsp;&nbsp; 1 generuje se poznámka i vedlejší záhlaví (znamená to, že se ve standardním zobrazení záznamu v OPACu objeví  
+&nbsp;&nbsp;&nbsp;&nbsp; také variantní název, jinak je pole 246 vidět; pouze v režimu zobrazení MARC, pokud je název ve zdrojovém  
+&nbsp;&nbsp;&nbsp;&nbsp; kódu jiný, a smysluplný, je vhodné ho zobrazit)  
 &nbsp;&nbsp;&nbsp;&nbsp; 2 negeneruje se poznámka, negeneruje se vedlejší záhlaví  
-&nbsp;&nbsp;&nbsp;&nbsp; 3 generuje se vedlejší záhlaví, negeneruje se poznámka (pokud v 246 píšeme varianty názvu bez www,
-													 pomlček apod., není potřeba poznámku zobrazovat; to platí také pro souběžný název, podnázev)
+&nbsp;&nbsp;&nbsp;&nbsp; 3 generuje se vedlejší záhlaví, negeneruje se poznámka (pokud v 246 píšeme varianty názvu bez www, pomlček  
+&nbsp;&nbsp;&nbsp;&nbsp; apod., není potřeba poznámku zobrazovat; to platí také pro souběžný název, podnázev)
 
 
 **Druhý indikátor:** typ názvu
