@@ -7,10 +7,10 @@ title: Název a další názvové údaje, nakladatelské údaje
 
 V oblasti údajů o názvu a odpovědnosti se obvykle vyskytují následující údaje:
 
-* název,  
-* souběžný název,  
-* další názvová informace,  
-* údaje o odpovědnosti.
+* název  
+* souběžný název  
+* další názvová informace  
+* údaje o odpovědnosti
 
 Hlavní název je vždy povinným údajem (byť doplněný) a je-li uveden či zjištěn, pak také první údaj o odpovědnosti.
 
@@ -83,7 +83,8 @@ Pokud pramen popisu obsahuje **podnázev**, zapíše se do $b. Podpole $a je uko
 např.:
 245 10 $a Proudy :
        $b středoevropský časopis pro vědu a literaturu
- ```
+ ```  
+
 
 **Souběžný název**
 
@@ -96,14 +97,15 @@ např.: v prameni popisu Česká softballová organizace a Czech softball associ
        $b Czech Softball Association
 246 31 $a Czech Softball Association
 
-např. v prameni popisu Česká advokátní komora, Tschechische Rechtsanwaltskammer, La Barreau tcheque a Czech Bar Association
+např.: v prameni popisu Česká advokátní komora, Tschechische Rechtsanwaltskammer, La Barreau tcheque a Czech Bar Association
 
 245 10 $a Česká advokátní komora =
        $b Tsechische Rechtsanwaltskammer = La Barreau tcheque = Czech Bar Association
 246 31 $a Tsechische Rechtsanwaltskammer
 246 31 $a La Barreau tcheque
 246 31 $a Czech Bar Association
-```
+```  
+
 
 
 
@@ -131,7 +133,8 @@ např.: autor nebyl uveden nikde v popisovaném provedení ; chyba v podnázvu)
        $b Luftspiel in fünf Aufzügen /
        $c [Molière]
 500    $a Správný podnázev je: Lustspie l in fünf Aufzügen
- ```
+ ```  
+
 
 **246 (Variantní názvy) (O)**
 
@@ -176,7 +179,8 @@ $a České akční hry
 
 $i Název na titulní obrazovce:
 $a MagPortal.cz
-```
+```  
+
 
 
 
@@ -189,7 +193,8 @@ např.:
 246 3# $a Činnostní učení
 246 1# $i Název ve zdrojovém kódu:  
        $a Vzdělávání-učitelů.cz
- ```
+ ```  
+
 
 
 
@@ -251,7 +256,8 @@ na zdroji byl uveden název Jeden svět 2010
 
 na zdroji byl uveden název 45. Mezinárodní filmový festival Karlovy Vary
 245 00 $a … Mezinárodní filmový festival Karlovy Vary
-```
+```  
+
 
 
 
@@ -264,7 +270,8 @@ např.:
 245 10 $a Asociace neprofesionálních komorních a symfonických těles :
        $b ANKST
 246 30 $a ANKST
-```
+```  
+
 
 
 **Zkratka a souběžný název**
@@ -277,7 +284,8 @@ např.: v prameni popisu je uvedeno Národní technická knihovna, National tech
        $b NTK = National technical library
 246 31 $a National technical library
 246 30 $a NTK
-```
+```  
+
 
 
 **Zkratka a podnázev**
@@ -288,7 +296,8 @@ např.:
 245 10 $a Společnost pro zahradní a krajinářskou tvorbu :
        $b SZKT : občanské sdružení
 246 30 $a SZKT
-```
+```  
+
 
 
 
