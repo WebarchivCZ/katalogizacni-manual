@@ -31,7 +31,7 @@ Přesně podle provedení se zapisuje i interpunkce, symboly a značky. Vynechat
 * **První indikátor:** vedlejší názvové záhlaví
 
 &nbsp;&nbsp;&nbsp;&nbsp; 0 vedlejší záhlaví se nevytváří (hodnota prvního indikátoru je 0 vždy, když není v záznamu uvedeno  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hlavní záhlaví v poli 1XX)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hlavní záhlaví v poli 1XX)  
 
 &nbsp;&nbsp;&nbsp;&nbsp; 1 vedlejší záhlaví se vytváří
 
@@ -168,7 +168,7 @@ Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole s
 **Druhý indikátor:** typ názvu
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;\# Typ názvu není specifikován (název převzat ze zdrojového kódu)  
+&nbsp;&nbsp;&nbsp;&nbsp; \# Typ názvu není specifikován (název převzat ze zdrojového kódu)  
 &nbsp;&nbsp;&nbsp;&nbsp; 0 Část názvu/název části (podnázev, zkratka)  
 &nbsp;&nbsp;&nbsp;&nbsp; 1 Souběžný název  
 &nbsp;&nbsp;&nbsp;&nbsp; 2 Rozlišovací název  
