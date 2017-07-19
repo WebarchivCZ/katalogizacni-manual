@@ -70,6 +70,6 @@ z - nelze použít
 ```
 # - jiná než ISBD
 a - AACR2
-**i - ISBD**
+i - ISBD
 u - není známa
 ```
