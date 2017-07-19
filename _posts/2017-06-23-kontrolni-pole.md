@@ -28,31 +28,31 @@ LDR/07 s (seriál)
 
 
 **007/01 specifické označení dokumentu**  
-&nbsp;&nbsp;&nbsp;&nbsp; r   Dálkově přístupný zdroj  
-&nbsp;&nbsp;&nbsp;&nbsp; u   Nespecifikován  
-&nbsp;&nbsp;&nbsp;&nbsp; z   Jiný  
-&nbsp;&nbsp;&nbsp;&nbsp; \|   Kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; r - Dálkově přístupný zdroj  
+&nbsp;&nbsp;&nbsp;&nbsp; u - Nespecifikován  
+&nbsp;&nbsp;&nbsp;&nbsp; z - Jiný  
+&nbsp;&nbsp;&nbsp;&nbsp; \|  - Kód se neuvádí
 
 
 **007/02 nedefinován**
 
 
 **007/03 - barva**  
-&nbsp;&nbsp;&nbsp;&nbsp; a  Jednobarevný  
-&nbsp;&nbsp;&nbsp;&nbsp; b  Černobílý  
-&nbsp;&nbsp;&nbsp;&nbsp; c  Vícebarevný
+&nbsp;&nbsp;&nbsp;&nbsp; a - Jednobarevný  
+&nbsp;&nbsp;&nbsp;&nbsp; b - Černobílý  
+&nbsp;&nbsp;&nbsp;&nbsp; c - Vícebarevný
 
 
 **007/04 - rozměry**  
-&nbsp;&nbsp;&nbsp;&nbsp; u   Není znám  
-&nbsp;&nbsp;&nbsp;&nbsp; z   Jiný  
-&nbsp;&nbsp;&nbsp;&nbsp; \|   Kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; u - Není znám  
+&nbsp;&nbsp;&nbsp;&nbsp; z - Jiný  
+&nbsp;&nbsp;&nbsp;&nbsp; \|  - Kód se neuvádí
 
 
 **007/05 - zvuk**  
-&nbsp;&nbsp;&nbsp;&nbsp; \#	 Bez zvuku  
-&nbsp;&nbsp;&nbsp;&nbsp; u  Není znám  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  Kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; \#	- Bez zvuku  
+&nbsp;&nbsp;&nbsp;&nbsp; u - Není znám  
+&nbsp;&nbsp;&nbsp;&nbsp; \|  - Kód se neuvádí
 
 
 
@@ -77,12 +77,15 @@ Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
 
 
 **008/07-10 - datum 1**  
-&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné   &nbsp;&nbsp;&nbsp;&nbsp; datum vydání, anebo např. 199u, 200u, apod.
+&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné  
+&nbsp;&nbsp;&nbsp;&nbsp; datum vydání, anebo např. 199u, 200u, apod.
 
 
 **008/11-14 - datum 2**  
-&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným   &nbsp;&nbsp;&nbsp;&nbsp; vydáváním se zapíše dané datum ukončení. Informace o ukončeném vydávání se  
-&nbsp;&nbsp;&nbsp;&nbsp; zanese také do vydávání a změní se hodnota na pozici 008/06 status vydávání na   &nbsp;&nbsp;&nbsp;&nbsp; **d** s ukončeným vydáváním.
+&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným  
+&nbsp;&nbsp;&nbsp;&nbsp; vydáváním se zapíše dané datum ukončení. Informace o ukončeném vydávání se  
+&nbsp;&nbsp;&nbsp;&nbsp; zanese také do vydávání a změní se hodnota na pozici 008/06 status vydávání na  
+&nbsp;&nbsp;&nbsp;&nbsp; **d** s ukončeným vydáváním.
 
 
 **008/15-17 - místo vydání, produkce**  
@@ -110,7 +113,7 @@ for Countries, který spravuje Library of Congress - viz [http://www.loc.gov/mar
 **008/19 - pravidelnost**  
 &nbsp;&nbsp;&nbsp;&nbsp; r - pravidelný  
 &nbsp;&nbsp;&nbsp;&nbsp; x - nepravidelný  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  - kód se neuvádí  
+&nbsp;&nbsp;&nbsp;&nbsp; \|   - kód se neuvádí  
 
 
 U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
@@ -118,7 +121,7 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 
 **008/21 – typ pokračujícího zdroje**  
 &nbsp;&nbsp;&nbsp;&nbsp; w - aktualizovaná website  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  - kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; \|   - kód se neuvádí
 
 
 **008/22 - forma popisné jednotky**  
@@ -144,7 +147,7 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 **008/29 – dokument z konference**  
 &nbsp;&nbsp;&nbsp;&nbsp; 0 – nejedná se o materiál z konference  
 &nbsp;&nbsp;&nbsp;&nbsp; 1 – materiál z konference  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  - kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; \|   - kód se neuvádí
 
 **008/30-32 - nedefinováno**
 
@@ -155,7 +158,9 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 &nbsp;&nbsp;&nbsp;&nbsp; 2 - integrační záznam
 
 **008/35-37 – jazyk dokumentu**  
-&nbsp;&nbsp;&nbsp;&nbsp; kód označuje jazyk popisné jednotky, odpovídá poli 041 – pokud je dokument v   &nbsp;&nbsp;&nbsp;&nbsp; češtině, uvede se tento údaj pouze v poli 008, a nikoli již v poli 041. Zdrojem   &nbsp;&nbsp;&nbsp;&nbsp; kódu je MARC Code List for Languages, který spravuje Library of Congress - viz   &nbsp;&nbsp;&nbsp;&nbsp; http://www.loc.gov/marc/languages.
+&nbsp;&nbsp;&nbsp;&nbsp; kód označuje jazyk popisné jednotky, odpovídá poli 041 – pokud je dokument v   &nbsp;&nbsp;&nbsp;&nbsp; češtině, uvede se tento údaj pouze v poli 008, a nikoli již v poli 041. Zdrojem  
+&nbsp;&nbsp;&nbsp;&nbsp; kódu je MARC Code List for Languages, který spravuje Library of Congress - viz  
+&nbsp;&nbsp;&nbsp;&nbsp; [http://www.loc.gov/marc/languages](http://www.loc.gov/marc/languages).
 
 **008/38 - kód modifikace záznamu**  
 &nbsp;&nbsp;&nbsp;&nbsp; pole zůstává prázdné, záznam nebyl modifikován
@@ -165,6 +170,6 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 &nbsp;&nbsp;&nbsp;&nbsp; c - program kooperativní katalogizace  
 &nbsp;&nbsp;&nbsp;&nbsp; d - jiný  
 &nbsp;&nbsp;&nbsp;&nbsp; u - není znám  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  - kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; \|   - kód se neuvádí
 
 Zpracovává-li bibliografický záznam NK ČR, zůstává pole prázdné.
