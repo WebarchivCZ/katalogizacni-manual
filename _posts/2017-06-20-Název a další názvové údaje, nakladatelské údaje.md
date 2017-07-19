@@ -91,16 +91,18 @@ např.:
 
 **Souběžný název**
 
-Pokud dokument obsahuje souběžný název tj. název ve dvou nebo více jazycích, zapíše se do podpole $a první/hlavní název, do podpole $b pak souběžný název. Za podpolem $a následuje #= (mezera rovnítko). Souběžný název se zapíše také do podpole 246. Souběžné názvy se přebírají z celého provedení, nejen ze stejného pramene jako hlavní název, a nezapisují se do [].
+Pokud dokument obsahuje souběžný název, tj. název ve dvou nebo více jazycích, zapíše se do podpole $a první/hlavní název, do podpole $b pak souběžný název. Za podpolem $a následuje #= (mezera rovnítko). Souběžný název se zapíše také do podpole 246. Souběžné názvy se přebírají z celého provedení, nejen ze stejného pramene jako hlavní název, a nezapisují se do [].
 
 ```
-např.: v prameni popisu Česká softballová organizace a Czech softball association
+např.:
+v prameni popisu Česká softballová organizace a Czech softball association
 
 245 10 $a Česká softballová asociace =
        $b Czech Softball Association
 246 31 $a Czech Softball Association
 
-např.: v prameni popisu Česká advokátní komora, Tschechische Rechtsanwaltskammer, La Barreau tcheque a Czech Bar Association
+např.:
+v prameni popisu Česká advokátní komora, Tschechische Rechtsanwaltskammer, La Barreau tcheque a Czech Bar Association
 
 245 10 $a Česká advokátní komora =
        $b Tsechische Rechtsanwaltskammer = La Barreau tcheque = Czech Bar Association
@@ -118,11 +120,11 @@ Podpole $c obsahuje údaje o odpovědnosti. Údaje se přebírají ze stejného 
 
 Zapisují se všichni autoři uvedení na preferovaném prameni popisu (včetně případné fráze/úvodního výrazu). Mají-li různou funkci, zapisují se v pořadí uvedeném na prameni popisu.
 
-V údajích o odpovědnosti se vynechávají tituly, oslovení, afiliace, kvalifikace a podobné výrazy; zapisují se jen jména či jména s uvedenou frází. Označení junior, syn a další rodové vztahy se nevynechávají, zůstávají součástí zápisu.
+V údajích o odpovědnosti se vynechávají tituly, oslovení, afiliace, kvalifikace a podobné výrazy, zapisují se jen jména či jména s uvedenou frází. Označení junior, syn a další rodové vztahy se nevynechávají, zůstávají součástí zápisu.
 
 Jako údaj o odpovědnosti se zapíše i údaj bez konkrétního jména (např.: napsal kolektiv autorů), je-li takto uveden na preferovaném prameni popisu.
 
-Původci uvedení pouze v copyrightu (např. významný překladatel podle národní interpretace) se zapisují do poznámky, nikoli v oblasti údajů o názvu a odpovědnosti
+Původci uvedení pouze v copyrightu (např. významný překladatel podle národní interpretace) se zapisují do poznámky, nikoli v oblasti údajů o názvu a odpovědnosti.
 
 
 ```
@@ -131,7 +133,8 @@ např.:
        $b vzpomínky Petra Látala na léta válečná
 
 
-např.: autor nebyl uveden nikde v popisovaném provedení ; chyba v podnázvu)
+např.:
+autor nebyl uveden nikde v popisovaném provedení; chyba v podnázvu
 245 14 $a Die Schule der Frauen :
        $b Luftspiel in fünf Aufzügen /
        $c [Molière]
@@ -141,7 +144,7 @@ např.: autor nebyl uveden nikde v popisovaném provedení ; chyba v podnázvu)
 
 ### 246 (Variantní názvy) (O)
 
-Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole se používá pro zápis dalších názvových údajů, podnázvů, těch částí názvu, která se u alternativního názvu vyskytují za „aneb“ popřípadě pro zápis rozšířených názvů o číslovky, symboly apod.
+Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole se používá pro zápis dalších názvových údajů, podnázvů, těch částí názvu, které se u alternativního názvu vyskytují za „aneb“, popřípadě pro zápis rozšířených názvů o číslovky, symboly apod.
 
 
 
@@ -153,17 +156,18 @@ Pole obsahuje variantní formy hlavního názvu popisovaného provedení. Pole s
 
 **První indikátor:** poznámka/vedlejší záhlaví
 
-&nbsp;&nbsp;&nbsp;&nbsp; 0 Generuje se poznámka, negeneruje se vedlejší záhlaví  
-&nbsp;&nbsp;&nbsp;&nbsp; 1 Generuje se poznámka i vedlejší záhlaví (znamená to, že se ve standardním
-&nbsp;&nbsp;&nbsp;&nbsp; zobrazení záznamu v OPACu objeví také variantní název, jinak je pole 246 vidět &nbsp;&nbsp;&nbsp;&nbsp; pouze v režimu zobrazení MARC, pokud je název ve zdrojovém kódu jiný (a &nbsp;&nbsp;&nbsp;&nbsp; smysluplný), je vhodné ho zobrazit)  
-&nbsp;&nbsp;&nbsp;&nbsp; 2 Negeneruje se poznámka, negeneruje se vedlejší záhlaví  
-&nbsp;&nbsp;&nbsp;&nbsp; 3 Generuje se vedlejší záhlaví, negeneruje se poznámka (pokud v 246 píšeme &nbsp;&nbsp;&nbsp;&nbsp; varianty názvu bez www, pomlček apod., není potřeba poznámku zobrazovat; to platí &nbsp;&nbsp;&nbsp;&nbsp; také pro souběžný název, podnázev)
+&nbsp;&nbsp;&nbsp;&nbsp; 0 generuje se poznámka, negeneruje se vedlejší záhlaví  
+&nbsp;&nbsp;&nbsp;&nbsp; 1 generuje se poznámka i vedlejší záhlaví (znamená to, že se ve standardním zobrazení záznamu v OPACu objeví také variantní název,
+													 jinak je pole 246 vidět; pouze v režimu zobrazení MARC, pokud je název ve zdrojovém kódu jiný, a smysluplný, je vhodné ho zobrazit)  
+&nbsp;&nbsp;&nbsp;&nbsp; 2 negeneruje se poznámka, negeneruje se vedlejší záhlaví  
+&nbsp;&nbsp;&nbsp;&nbsp; 3 generuje se vedlejší záhlaví, negeneruje se poznámka (pokud v 246 píšeme varianty názvu bez www,
+													 pomlček apod., není potřeba poznámku zobrazovat; to platí také pro souběžný název, podnázev)
 
 
 **Druhý indikátor:** typ názvu
 
 
-&nbsp;&nbsp;&nbsp;&nbsp; \# Typ názvu není specifikován (název převzat ze zdrojového kódu)  
+&nbsp;&nbsp;&nbsp;&nbsp;\# Typ názvu není specifikován (název převzat ze zdrojového kódu)  
 &nbsp;&nbsp;&nbsp;&nbsp; 0 Část názvu/název části (podnázev, zkratka)  
 &nbsp;&nbsp;&nbsp;&nbsp; 1 Souběžný název  
 &nbsp;&nbsp;&nbsp;&nbsp; 2 Rozlišovací název  
@@ -201,16 +205,17 @@ např.:
 
 
 
-**WWW a úvodní slova v názvu**
+**WWW a úvodní slova v názvu**  
 Slova, která uvádějí název a nejsou přitom jako součást názvu míněna, se nezapisují, např. „Vítejte na stránkách“. Hlavní název se zapisuje bez těchto úvodních frází a ve variantním názvu se zapisuje název celý.
 
 
-Z důvodů vyhledatelnosti vždy zapisujeme název včetně úvodních slov, která byla vypuštěna v poli 245 (např. www nebo Vítejte...). Hodnotu prvního indikátoru volíme v závislosti na tom, zda chceme zobrazovat také jako poznámku či nikoliv – pokud vynechaná slova zásadně nemění název (viz příklad u pole 245), není třeba poznámku zobrazovat. V ostatních případech je vhodné poznámku zobrazit.
+Z důvodů vyhledatelnosti vždy zapisujeme název včetně úvodních slov, která byla vypuštěna v poli 245 (např. www nebo Vítejte...). Hodnotu prvního indikátoru volíme v závislosti na tom, zda chceme zobrazovat také jako poznámku, či nikoliv – pokud vynechaná slova zásadně nemění název (viz příklad u pole 245), není třeba poznámku zobrazovat. V ostatních případech je vhodné poznámku zobrazit.
 
 
 
 ```
-např.: na stránkách je uvedeno „Vítejte na webových stránkách Tomáše Halíka“
+např.:
+na stránkách je uvedeno „Vítejte na webových stránkách Tomáše Halíka“
 245 10 $a Tomáš Halík
 246 1# $i Úvodní název webových stránek:
        $a Vítejte na webových stránkách Tomáše Halíka
@@ -222,7 +227,8 @@ Hlavní název se zapisuje přesně, pokud jde o stylistické znění, pořadí 
 
 
 ```
-např.: na stránkách je uvedeno „Vítejte v jazykovém centru Filozofické fakulty!“
+např.:
+na stránkách je uvedeno „Vítejte v jazykovém centru Filozofické fakulty!“
 245 10 $a Jazykové centrum Filozofické fakulty
 246 1# $i Úvodní název webových stránek:
        $a Vítejte v jazykovém centru Filozofické fakulty!
@@ -234,13 +240,14 @@ např.: na stránkách je uvedeno „Vítejte v jazykovém centru Filozofické f
 Pokud je název koncipován jako URL adresa, zapisujeme www jako součást názvu.
 
 ```
-např.: na stránkách je uvedeno www.tuning.cz
+např.:
+na stránkách je uvedeno www.tuning.cz
 245 00 $a Www.tuning.cz
 246 30 $a Tuning
 ```
 
 
-**Datum součástí názvu**
+**Datum součástí názvu**  
 Pokud je součástí hlavního názvu datum, jméno, číslování apod., které se s dalšími vydáními/aktualizacemi mění (např. rok konference nebo festivalu), zapisuje se název bez tohoto údaje. Pokud je tento údaj nedílnou součástí názvu, zapisuje se místo něj znak pro výpustku (…).
 
 
@@ -265,11 +272,11 @@ na zdroji byl uveden název 45. Mezinárodní filmový festival Karlovy Vary
 
 
 
-**Zkratka v názvu**
+**Zkratka v názvu**  
 Pokud je hlavní název uveden v prameni popisu jednak v úplné a jednak ve zkrácené podobě (akronym nebo zkratka), hlavním názvem je plná forma názvu. Zkratka, akronym se zapíše jako podnázev a zároveň se uvede do pole 246 30 část názvu/název části.
 
 ```
-např.:
+např.:  
 245 10 $a Asociace neprofesionálních komorních a symfonických těles :
        $b ANKST
 246 30 $a ANKST
@@ -277,12 +284,13 @@ např.:
 
 
 
-**Zkratka a souběžný název**
+**Zkratka a souběžný název**  
 Pokud název obsahuje zároveň souběžný název a další názvovou informaci, uvede se další názvová informace za tou částí hlavního či souběžného názvu, k níž náleží.
 
 
 ```
-např.: v prameni popisu je uvedeno Národní technická knihovna, National technical library, NTK
+např.:   
+v prameni popisu je uvedeno Národní technická knihovna, National technical library, NTK
 245 10 $a Národní technická knihovna :
        $b NTK = National technical library
 246 31 $a National technical library
@@ -291,8 +299,8 @@ např.: v prameni popisu je uvedeno Národní technická knihovna, National tech
 
 
 
-**Zkratka a podnázev**
-Pokud je v prameni popisu uvedeno více podnázvů zapíšeme je za dvojtečku.
+**Zkratka a podnázev**  
+Pokud je v prameni popisu uvedeno více podnázvů, zapíšeme je za dvojtečku.
 
 ```
 např.:
@@ -319,5 +327,5 @@ např.:
 Pokud dojde pouze ke změně vedlejšího názvu a tento je považován za důležitý pro vyhledávání, může se původní vedlejší název zapsat do pole 246 (variantní názvy).
 
 
-**Změna názvové informace**
+**Změna názvové informace**  
 Při změně další názvové informace, která je považována za významnou, by se změna měla promítnout v bibliografickém záznamu v poli 245$b. Další názvovou informaci ve tvaru, v jakém se vyskytovala v předchozích interacích, lze zapsat do pole 246. Na rozdíl od změny hlavního názvu, kdy se dříve platný hlavní název zapisuje do pole 247.
