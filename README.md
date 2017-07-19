@@ -3,7 +3,7 @@ Katalogizační manuál pro popis elektronických online zdrojů ve formátu MAR
 
 Manuál najdete na adrese https://webarchivcz.github.io/katalogizacni-manual/
 
-Pokud jste objevili chybu, máte nějaký komentář nebo vám něco v manuálu chybá, založte prosím "issue" -> https://github.com/WebarchivCZ/katalogizacni-manual/issues
+Pokud jste objevili chybu, máte nějaký komentář nebo vám něco v manuálu chybí, založte prosím "issue" -> https://github.com/WebarchivCZ/katalogizacni-manual/issues
 
 Katalogizační manuál vytvořilo Oddělení archivace webu Národní knihovny České republiky. 
 
