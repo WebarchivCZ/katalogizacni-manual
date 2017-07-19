@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Alternativní prezentace, elektronické umístění
+title: Alternativní prezentace
 ---
 
 ### Alternativní prezentace, elektronické umístění
