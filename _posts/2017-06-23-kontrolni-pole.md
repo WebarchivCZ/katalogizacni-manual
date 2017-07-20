@@ -27,32 +27,32 @@ LDR/07 s (seriál)
 &nbsp;&nbsp;&nbsp;&nbsp; c - Elektronický zdroj
 
 
-**007/01 specifické označení dokumentu**  
-&nbsp;&nbsp;&nbsp;&nbsp; r - Dálkově přístupný zdroj  
-&nbsp;&nbsp;&nbsp;&nbsp; u - Nespecifikován  
-&nbsp;&nbsp;&nbsp;&nbsp; z - Jiný  
+**007/01 - specifické označení dokumentu**  
+&nbsp;&nbsp;&nbsp;&nbsp; r - dálkově přístupný zdroj  
+&nbsp;&nbsp;&nbsp;&nbsp; u - nespecifikován  
+&nbsp;&nbsp;&nbsp;&nbsp; z - jiný  
 &nbsp;&nbsp;&nbsp;&nbsp; \|  - Kód se neuvádí
 
 
-**007/02 nedefinován**
+**007/02 - nedefinován**
 
 
 **007/03 - barva**  
-&nbsp;&nbsp;&nbsp;&nbsp; a - Jednobarevný  
-&nbsp;&nbsp;&nbsp;&nbsp; b - Černobílý  
-&nbsp;&nbsp;&nbsp;&nbsp; c - Vícebarevný
+&nbsp;&nbsp;&nbsp;&nbsp; a - jednobarevný  
+&nbsp;&nbsp;&nbsp;&nbsp; b - černobílý  
+&nbsp;&nbsp;&nbsp;&nbsp; c - vícebarevný
 
 
 **007/04 - rozměry**  
-&nbsp;&nbsp;&nbsp;&nbsp; u - Není znám  
-&nbsp;&nbsp;&nbsp;&nbsp; z - Jiný  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  - Kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; u - není znám  
+&nbsp;&nbsp;&nbsp;&nbsp; z - jiný  
+&nbsp;&nbsp;&nbsp;&nbsp; \|  - kód se neuvádí
 
 
 **007/05 - zvuk**  
-&nbsp;&nbsp;&nbsp;&nbsp; \#	- Bez zvuku  
-&nbsp;&nbsp;&nbsp;&nbsp; u - Není znám  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  - Kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; \#	- bez zvuku  
+&nbsp;&nbsp;&nbsp;&nbsp; u - není znám  
+&nbsp;&nbsp;&nbsp;&nbsp; \|  - kód se neuvádí
 
 
 
@@ -94,13 +94,13 @@ Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
 
 
 Hodnota kódu označuje místo vydání, produkce nebo realizace, obvykle se odvozuje z informací uvedených v poli 264. Zdrojem kódu je MARC Code List
-for Countries, který spravuje Library of Congress - viz [http://www.loc.gov/marc/countries](http://www.loc.gov/marc/countries)
+for Countries, který spravuje Library of Congress - viz [http://www.loc.gov/marc/countries](http://www.loc.gov/marc/countries).
 
 
 **008/18 - periodicita**  
 &nbsp;&nbsp;&nbsp;&nbsp; \#  – neurčeno  
 &nbsp;&nbsp;&nbsp;&nbsp; a – ročně  
-&nbsp;&nbsp;&nbsp;&nbsp; b –  jednou za dva měsíce  
+&nbsp;&nbsp;&nbsp;&nbsp; b – jednou za dva měsíce  
 &nbsp;&nbsp;&nbsp;&nbsp; d – denně  
 &nbsp;&nbsp;&nbsp;&nbsp; f – pololetně  
 &nbsp;&nbsp;&nbsp;&nbsp; m – měsíčně  
