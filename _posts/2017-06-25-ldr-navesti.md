@@ -25,10 +25,10 @@ Pro běžný online elektronický zdroj s převažující textovou podobou se uv
 ### LDR/07 - bibliografická úroveň
 
 ```
-    a - analytická část (monografie)
-    i - integrační zdroj
-    m - monografie
-    s - seriál
+        a - analytická část (monografie)
+        i - integrační zdroj
+        m - monografie
+        s - seriál
 ```    
 
 **Za seriály považujeme pouze zdroje „vydávané po částech, které jsou číselně nebo chronologicky označeny“** (MARC 21 : Bibliografický formát, Praha 2003). Tedy ne všechny zdroje, jimž bylo přiděleno ISSN. Vzhledem k možnostem, které prostředí internetu nabízí, je však v některých případech obtížné rozhodnout, zda se ještě jedná o seriál nebo už o integrační zdroj. Řada seriálů v internetovém prostředí nabízí kromě vlastních článků také další služby.
@@ -36,12 +36,12 @@ Pro běžný online elektronický zdroj s převažující textovou podobou se uv
 ### LDR/08 - typ kontroly
 
 ```
-     # - není specifikován
-     a - archivní dokument
+        # - není specifikován
+        a - archivní dokument
 ```
 
 ### LDR/09 - použitá znaková řada
-    a - UCS/Unicode
+        a - UCS/Unicode
 
 ### LDR/10 - délka indikátorů
 
@@ -52,24 +52,24 @@ Pro běžný online elektronický zdroj s převažující textovou podobou se uv
 ### LDR/17 - úroveň úplnosti záznamu
 
 ```
-# - Úplná úroveň
-1 - úplná úroveň, bez dokumentu
-2 - méně než úplná úroveň, bez dokumentu
-3 - zkrácený záznam
-4 - základní úroveň
-5 - částečně zpracovaný/dočasný záznam
-7 - minimální úroveň
-8 - před vydáním dokumentu
-u - není znám
-z - nelze použít
+        # - Úplná úroveň
+        1 - úplná úroveň, bez dokumentu
+        2 - méně než úplná úroveň, bez dokumentu
+        3 - zkrácený záznam
+        4 - základní úroveň
+        5 - částečně zpracovaný/dočasný záznam
+        7 - minimální úroveň
+        8 - před vydáním dokumentu
+        u - není znám
+        z - nelze použít
 ```
 
 
 ### LDR/18 - forma katalogizačního popisu
 
 ```
-# - jiná než ISBD
-a - AACR2
-i - ISBD
-u - není známa
+        # - jiná než ISBD
+        a - AACR2
+        i - ISBD
+        u - není známa
 ```
