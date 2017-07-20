@@ -75,5 +75,5 @@ Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher), příp
 
 
 ### 111 (Hlavní záhlaví – jméno akce) (NO)
-Jméno akce, konference nebo festivalu použité jako hlavní záhlaví, např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 ([001824203](http://aleph.nkp.cz/F/?func=direct&doc_number=001824203&local_base=nkc))  
+Jméno akce, konference nebo festivalu použité jako hlavní záhlaví, např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 ([001824203](http://aleph.nkp.cz/F/?func=direct&doc_number=001824203&local_base=nkc)).  
 Z hlediska katalogizačních pravidel je 111 druhem korporace (110). Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher).
