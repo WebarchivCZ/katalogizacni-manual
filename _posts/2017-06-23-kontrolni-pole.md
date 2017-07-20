@@ -24,14 +24,14 @@ LDR/07 s (seriál)
 
 ### 007 (Pole pevné délky pro pro fyzický popis) (O)
 **007/00 - kategorie dokumentu**  
-&nbsp;&nbsp;&nbsp;&nbsp; c - Elektronický zdroj
+&nbsp;&nbsp;&nbsp;&nbsp; c - elektronický zdroj
 
 
 **007/01 - specifické označení dokumentu**  
 &nbsp;&nbsp;&nbsp;&nbsp; r - dálkově přístupný zdroj  
 &nbsp;&nbsp;&nbsp;&nbsp; u - nespecifikován  
 &nbsp;&nbsp;&nbsp;&nbsp; z - jiný  
-&nbsp;&nbsp;&nbsp;&nbsp; \|  - Kód se neuvádí
+&nbsp;&nbsp;&nbsp;&nbsp; \|  - kód se neuvádí
 
 
 **007/02 - nedefinován**
@@ -140,7 +140,7 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 
 
 **008/28 – vládní publikace**  
-&nbsp;&nbsp;&nbsp;&nbsp; \#    nejedná se o vládní publikaci
+&nbsp;&nbsp;&nbsp;&nbsp; \#   - nejedná se o vládní publikaci
 
 
 **008/29 – dokument z konference**  
