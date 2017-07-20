@@ -103,7 +103,7 @@ např.: Ložiska nerostů (CD-ROM)
 
 c) považuje-li katalogizátor za důležité zapsat do záznamu vedle vlastní URL popisovaného dokumentu ještě URL **příbuzného dokumentu** (např. blog, na který je odkaz z popisovaného dokumentu, předchozí verze stránek)  
 
-&nbsp;&nbsp;&nbsp;&nbsp; v tomto případě je třeba zapsat do $3 vhodné návěští a v poznámce (anotaci) by měla být informace o tomto odkazovaném dokumentu.
+&nbsp;&nbsp;&nbsp;&nbsp; V tomto případě je třeba zapsat do $3 vhodné návěští a v poznámce (anotaci) by měla být informace o tomto odkazovaném dokumentu.
 
 
 ```
@@ -114,9 +114,9 @@ např.:
 856 42 $3 Blog
        $u http://bovepul.blog.cz
        $4 N
+
+520 $a V rámci webových stránek je provozován také blog pro náboženství, filosofii a umění.
 ```
 
-  
-&nbsp;&nbsp;&nbsp;&nbsp; 520 $a V rámci webových stránek je provozován také blog pro náboženství, filosofii a umění
 
 **Vždy** (tj. i v každém opakovaném výskytu pole 856) uveďte podpole 4 hodnota N (znamená negenerovat obrazovku „copyright“).
