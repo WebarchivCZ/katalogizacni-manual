@@ -9,7 +9,8 @@ Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou 
 
 
 ```
-např.: elektronický časopis (seriál)  
+např.:
+elektronický časopis (seriál)  
 
 FMT SE
 LDR/06 a (textový dokument)
