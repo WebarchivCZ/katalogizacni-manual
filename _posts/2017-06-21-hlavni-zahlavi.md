@@ -6,7 +6,7 @@ title: Hlavní záhlaví
 
 1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR [http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut](http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut).
 
-V případě, že záznam v databázi není, a katalogizátor usoudí, že se jedná o významnou autoritu, vyhotoví její návrh. Pole lze doplnit také autoritou, která se v databázi nenachází, ani jí není vyhotoven návrh.
+Pokud se záznam v databázi nachází, je nutné uvádět autoritní tvar. V případě, že v databázi není, a katalogizátor usoudí, že se jedná o významnou autoritu, může vyhotovit její návrh. Pole lze také doplnit autoritou, která se v databázi nenachází, ani není vyhotoven její návrh.
 
 
 ### 100 (Hlavní záhlaví – osobní jméno) (NO)
@@ -37,7 +37,8 @@ přednostně Databáze národních autorit.
 Jedná-li se o anonymní dílo, tj. dílo, u kterého se neuvádí žádný tvůrce, nezapisuje se do pole 700, ale do pole 730.
 
 ### 110 (Hlavní záhlaví – jméno korporace) (NO)
-Jako hlavní/vedlejší záhlaví se zapisují korporace, které mají autorský podíl na vzniku díla/vyjádření/provedení. Je-li korporace zapsána jako selekční údaj v poli 110 nebo 710, měla by o ní být zmínka také v popisných údajích – obvykle buďto v poli 245 nebo v poznámkách (pole oblasti 5XX).  
+Jako hlavní/vedlejší záhlaví se zapisují korporace, které mají autorský podíl na vzniku díla/vyjádření/provedení. Je-li korporace zapsána jako selekční údaj v poli 110 nebo 710, měla by o ní být zmínka také v popisných údajích – obvykle buď v poli 245 nebo v poznámkách (pole oblasti 5XX).  
+
 Do pole 110 se zapisuje korporace s hlavní autorskou odpovědností za vznik díla. V záznamu smí být pouze jedno pole 110 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 111 nebo 130.
 
 
