@@ -16,6 +16,7 @@ Propojovací pole obsahují informace, které identifikují další souvisejíc�
 787	Nespecifikované propojení
 ```
 
+
 Propojovací pole 776 se používá v případě existence vydání dokumentu na jiném nosiči, kdy je uplatňován přístup tvorby dvou individuálních záznamů. Toto propojovací pole je zapisováno obvykle v kombinaci s poznámkou v poli 530.
 
 ```
@@ -35,7 +36,7 @@ záznam pro tištěnou verzi dokumentu:
 ```
 
 
-Pole 780 a 785 jsou užívána pro zápis předcházejících a následujících názvů.
+  Pole 780 a 785 jsou užívána pro zápis předcházejících a následujících názvů.
 
 *Pro popis online zdrojů* se pole 7XX používají zcela výjimečně, přicházejí v úvahu pouze *pole 780 Předcházející záhlaví a 785 Následující záhlaví* (pro popis seriálů, příp. integračních zdrojů - hodnota 1. indikátoru je 0, hodnota 2. indikátoru určuje typ propojení). Při popisu metodou jednoho záznamu se může vyskytnout potřeba použít pole *776 Vydání na jiném nosiči* (viz „Specifické problémy“).
 
@@ -52,10 +53,12 @@ Měsíční deník a Měsíční deník II.
         $t Měsíční deník
 ```
 
+
 Pokud je předcházející/následující záznam zkatalogizován pod hlavním záhlavím, uvede se v podpoli $a. Pokud je záznam zkatalogizován pod názvem, použije se pouze podpole $t (bez interpunkce na konci podpole).
 
 Pokud katalogizátor považuje za účelné v záznamu **uvést informaci o vztahu k jinému popsanému dokumentu** (např. o seriálu vydávaném v rámci webové stránky), použije se pole 787.
 
+  
 ```
 např.:
 245 10 	$a Česká společnost pro systémovou integraci
