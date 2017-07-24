@@ -93,7 +93,7 @@ Je třeba vytvořit odpovídající znaky MDT pro všechna předmětová hesla z
 ```
 např.:
 080 $a lékařství
-080 $a elektronické časopisy
-080 $a www.dokumenty
 080 $a Česko
+080 $a www.dokumenty
+080 $a elektronické časopisy
 ```
