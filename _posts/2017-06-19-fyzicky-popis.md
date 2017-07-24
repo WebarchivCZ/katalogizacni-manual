@@ -17,9 +17,8 @@ např.:
 ```
 
 ### 310 (Současná periodicita) (NO)
-**Integrační zdroje**
 
-Zapisujeme:
+zapisujeme:
   * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
   * **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
   * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje, zda jsou nepravidelné či pravidelné)
@@ -62,4 +61,29 @@ např.:
 338 ## $a online zdroj  
        $b cr  
        $2 rdacarrier
+```
+### 362 (Údaje o číslování) (O)
+*povinné pro minimální záznam*
+
+* pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u itegračních zdrojů se údaje v této oblasti onvykle nezapisují
+* číslování může být číselné (Band 1), abecední (Band A), chronologické
+(Leden 1973) nebo jejich kombinace (Volume 1 (1969))
+
+**Indikátory**
+
+* **První indikátor:** označuje formu údajů uvedených v poli 362
+
+&nbsp;&nbsp;&nbsp;&nbsp; 0 označuje, že údaje jsou ve formátované podobě - zapisuje se číslování tak, jak je uvedeno na preferovaném prameni prvního a posledního sešitu/části.   
+
+&nbsp;&nbsp;&nbsp;&nbsp; 1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici první a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme.
+
+
+* **Druhý indikátor:** není definován
+
+
+```
+např.:
+
+362 0# $a Volume 1, number 1-
+362 0# $a No. 1, no. 24(2012-)
 ```
