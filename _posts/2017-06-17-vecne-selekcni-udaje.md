@@ -80,11 +80,11 @@ V případě zdrojů, které mají z hlediska knihovnického charakter integrač
 
 
 V případě českých předmětových hesel je hodnota indikátorů:  
-**1. indikátor** - \ # nespecifikován  
+**1. indikátor** - \# nespecifikován  
 **2. indikátor** - 7 zdroj specifikovaný v podpoli $2
 
 V případě anglických předmětových hesel je hodnota indikátorů:  
-**1. indikátor** - \ # nespecifikován
+**1. indikátor** - \# nespecifikován    
 **2. indikátor** - 9 zdroj specifikovaný v podpoli $2
 
 
