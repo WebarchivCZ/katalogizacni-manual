@@ -7,7 +7,7 @@ title: Údaje fyzického popisu
 ### 300 (elektronické zdroje - rozsah) (O)
 * počet a typ jednotek a/nebo podjednotek tvořících zdroj
 * používá se obvyklá terminologie
-* pro elektronicky publikované textové monografie se v rozsahu používá výraz **1 online zdroj**. Pokud zdroj obsahuje jeden nebo více souborů, jejichž formát je paralelou    tištěného protějšku (např. PDF), specifikuje se v kulaté závorce rozsah (tj. počet podjednotek) podle pravidel pro textové zdroje.
+* pro elektronicky publikované textové monografie se v rozsahu používá výraz **1 online zdroj**. Pokud zdroj obsahuje jeden nebo více souborů, jejichž formát je paralelou tištěného protějšku (například .PDF), specifikuje se v kulaté závorce rozsah (tj. počet podjednotek) podle pravidel pro textové zdroje.
 
 ```
 např.:
@@ -22,7 +22,7 @@ např.:
 Zapisujeme:
   * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
   * **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
-  * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje zda jsou nepravidelné či pravidelné)
+  * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje, zda jsou nepravidelné či pravidelné)
 
 ### 336 (Typ obsahu) (O)
 *povinné pro minimální záznam*
