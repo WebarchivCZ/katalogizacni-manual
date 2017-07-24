@@ -33,7 +33,7 @@ např.:
 
 ### 650 (Vedlejší věcné záhlaví – věcné téma) (O)
 Do pole se zapisují česká předmětová hesla. Termíny se přebírají ze souboru autorit. Hodnota indikátorů je pak následující:  
-**1. indikátor** - 0 nespecifikován
+**1. indikátor** - 0 nespecifikován  
 **2. indikátor** - 7 zdroj specifikovaný v podpoli $2
 
 V případě anglických předmětových hesel je hodnota indikátorů:  
