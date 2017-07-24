@@ -89,3 +89,11 @@ např.:
 ```
 ### 080 (MDT) (O)
 Je třeba vytvořit odpovídající znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 **ve stejném pořadí**, v jakém jsou uvedena v těchto polích.
+
+```
+např.:
+080 $a lékařství
+080 $a elektronické časopisy
+080 $a www.dokumenty
+080 $a Česko
+```
