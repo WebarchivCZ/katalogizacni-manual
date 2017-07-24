@@ -7,19 +7,35 @@ title: Propojovací pole
 
 ### 76X – 78X (Propojovací pole)
 
-V NKC/Alephu se propojovací pole používají pro vzájemné propojení záznamů popisujících příbuzné dokumenty (např. předchozí a následný název časopisu). V těchto případech se záznamy propojují přes název dokumentu.
+Propojovací pole obsahují informace, které identifikují další související bibliografické jednotky. Každé z propojovacích polí specifikuje jiný typ bibliografického propojení mezi základní jednotkou popsanou v bibliografickém záznamu a související popisnou jednotkou. Při popisu elektronických online zdrojů jsou nejčastěji využívána tato propojovací pole:
 
 ```
-Pole 76X - 78X, z nichž je název směrován do názvového rejstříku NKC, jsou následující:
-
-765	Originál
-770	Suplement/zvláštní výtisk
-772	Hlavní publikace suplementu
 776	Vydání na jiném nosiči
 780	Předcházející záhlaví
 785	Následující záhlaví
 787	Nespecifikované propojení
 ```
+
+Propojovací pole 776 se používá v případě existence vydání dokumentu na jiném nosiči, kdy je uplatňován přístup tvorby dvou individuálních záznamů. Toto propojovací pole je zapisováno obvykle v kombinaci s poznámkou v poli 530.
+
+```
+např.: propojení integračního zdroje
+
+záznam pro online verzi dokumentu:
+245 14 $a The Opera quarterly
+530 ## $a Dostupné též v tištěné podobě.
+776 1# $t Opera quarterly
+       $x 0736-0053
+
+záznam pro tištěnou verzi dokumentu:
+245 04 $a The Opera quarterly
+530 ## $a Dostupné též online.
+776 1# $a Opera quarterly (Online)
+       $x1486-2870
+```
+
+
+Pole 780 a 785 jsou užívána pro zápis předcházejících a následujících názvů.
 
 *Pro popis online zdrojů* se pole 7XX používají zcela výjimečně, přicházejí v úvahu pouze *pole 780 Předcházející záhlaví a 785 Následující záhlaví* (pro popis seriálů, příp. integračních zdrojů - hodnota 1. indikátoru je 0, hodnota 2. indikátoru určuje typ propojení). Při popisu metodou jednoho záznamu se může vyskytnout potřeba použít pole *776 Vydání na jiném nosiči* (viz „Specifické problémy“).
 
@@ -60,7 +76,7 @@ varianta a/
 520 $a Webová stránka obsahuje 3 významné umělecké dokumenty různého typu: New York City Map (emoční mapa), Senses of life (video) a Mesto.html (internetová kniha)
 
 varianta b/
-505 20 $t New York City Map 
+505 20 $t New York City Map
        $g (emoční mapa)
        $t Senses of life $g (video)
        $t Mesto.html $g (internetová kniha)
