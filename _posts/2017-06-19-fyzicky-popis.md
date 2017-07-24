@@ -69,21 +69,20 @@ např.:
 * číslování může být číselné (Band 1), abecední (Band A), chronologické
 (Leden 1973) nebo jejich kombinace (Volume 1 (1969))
 
+
 **Indikátory**
 
-* **První indikátor:** označuje formu údajů uvedených v poli 362
+**První indikátor:** označuje formu údajů uvedených v poli 362
 
-&nbsp;&nbsp;&nbsp;&nbsp; 0 označuje, že údaje jsou ve formátované podobě - zapisuje se číslování tak, jak je uvedeno na preferovaném prameni prvního a posledního sešitu/části.   
+0 označuje, že údaje jsou ve formátované podobě - zapisuje se číslování tak, jak je uvedeno na preferovaném prameni prvního a posledního sešitu/části   
 
-&nbsp;&nbsp;&nbsp;&nbsp; 1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici první a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme.
+1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici první a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme
 
-
-* **Druhý indikátor:** není definován
+**Druhý indikátor:** není definován
 
 
 ```
 např.:
-
 362 0# $a Volume 1, number 1-
 362 0# $a No. 1, no. 24(2012-)
 ```
