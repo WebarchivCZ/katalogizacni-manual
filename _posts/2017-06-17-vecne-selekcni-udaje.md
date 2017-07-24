@@ -33,12 +33,12 @@ např.:
 
 ### 650 (Vedlejší věcné záhlaví – věcné téma) (O)
 Do pole se zapisují česká předmětová hesla. Termíny se přebírají ze souboru autorit. Hodnota indikátorů je pak následující:  
-**1. indikátor - 0 nespecifikován**  
-**2. indikátor - 7 zdroj specifikovaný v podpoli $2**
+**1. indikátor** - 0 nespecifikován
+**2. indikátor** - 7 zdroj specifikovaný v podpoli $2
 
 V případě anglických předmětových hesel je hodnota indikátorů:  
-**1. indikátor - 0 nespecifikován**  
-**2. indikátor - 9 zdroj specifikovaný v podpoli $2**
+**1. indikátor** - 0 nespecifikován  
+**2. indikátor** - 9 zdroj specifikovaný v podpoli $2
 
 
 ```
@@ -56,12 +56,12 @@ např.: dokument pojednává o lidských právech
 Pole se vyplňuje pokud je použito pole 043. Termíny se přebírají ze souboru autorit.
 
 V případě českých předmětových hesel je hodnota indikátorů:  
-**1. indikátor - \ #  nedefinovaný**  
-**2. indikátor - 7 zdroj specifikovaný v podpoli $2**
+**1. indikátor** - \ #  nedefinovaný  
+**2. indikátor** - 7 zdroj specifikovaný v podpoli $2
 
 V případě anglických předmětových hesel je hodnota indikátorů:  
-**1. indikátor - \ # nedefinovaný**  
-**2. indikátor - 9 zdroj specifikovaný v podpoli $2**
+**1. indikátor** - \ # nedefinovaný  
+**2. indikátor** - 9 zdroj specifikovaný v podpoli $2
 
 
 ```
@@ -80,19 +80,37 @@ V případě zdrojů, které mají z hlediska knihovnického charakter integrač
 
 
 V případě českých předmětových hesel je hodnota indikátorů:  
-**1. indikátor - \ # nespecifikován**  
-**2. indikátor - 7 zdroj specifikovaný v podpoli $2**
+**1. indikátor** - \ # nespecifikován  
+**2. indikátor** - 7 zdroj specifikovaný v podpoli $2
 
 V případě anglických předmětových hesel je hodnota indikátorů:  
-**1. indikátor - \ # nespecifikován**  
-**2. indikátor - 9 zdroj specifikovaný v podpoli $2**
+**1. indikátor** - \ # nespecifikován
+**2. indikátor** - 9 zdroj specifikovaný v podpoli $2
 
 
 ```
+např.: elektronický seriál
+
+651 #7 $a www dokumenty
+       $7 fd186892
+       $2 czenas
+651 #7 $a elektronické časopisy       
+       $7 fd186922
+       $2 czenas
+651 #9 $u www dokumenty
+       $a www documents
+       $2 eczenas
+651 #9 $u elektronické časopisy       
+       $a electronic journals
+       $2 eczenas		
+
+
+např.: www stránky
+
 651 #7 $a www dokumenty
        $7 fd186892
        $2 czenas
 651 #9 $u www dokumenty
        $a www documents
-       $2 eczenas		
+       $2 eczenas
 ```
