@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FMT (Formát záznamu)
+title: FMT
 ---
 
 
