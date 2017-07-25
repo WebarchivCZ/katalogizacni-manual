@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LDR (Návěští)
+title: LDR
 ---
 
 ## LDR (Návěští) (NO)
