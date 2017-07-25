@@ -71,11 +71,15 @@ např.:
 
 
 **Indikátory**
-**První indikátor:** označuje formu údajů uvedených v poli 362
-* 0 označuje, že údaje jsou ve formátované podobě - zapisuje se číslování tak, jak je uvedeno na preferovaném prameni prvního a posledního sešitu/části   
-* 1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici první a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme
 
-**Druhý indikátor:** není definován
+* **První indikátor:** označuje formu údajů uvedených v poli 362
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 označuje, že údaje jsou ve formátované podobě - zapisuje se číslování tak, jak je uvedeno na preferovaném  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prameni prvního a posledního sešitu/části   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici první  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme
+
+* **Druhý indikátor:** není definován
 
 
 ```
