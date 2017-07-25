@@ -11,9 +11,9 @@ title: Údaje fyzického popisu
 
 ```
 např.:
-300 ## $a1 online zdroj
-300 ## $a1 online zdroj (158 stran) - pro e-knihy, kartografické zdroje, grafiku
-300 ## $a1 online zdroj (2 video soubory)
+300 ## $a 1 online zdroj
+300 ## $a 1 online zdroj (158 stran) - pro e-knihy, kartografické zdroje, grafiku
+300 ## $a 1 online zdroj (2 video soubory)
 ```
 
 ### 310 (Současná periodicita) (NO)
