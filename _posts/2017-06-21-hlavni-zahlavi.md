@@ -4,7 +4,7 @@ title: Hlavní záhlaví
 ---
 ## Hlavní záhlaví
 
-1XX záznamy se přebírají  z AUT - Databáze národních autorit NK ČR [http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut](http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut).
+1XX záznamy se přebírají  z AUT - [Databáze národních autorit NK ČR](http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut).
 
 Pokud se záznam v databázi nachází, je nutné uvádět autoritní tvar. V případě, že v databázi není, a katalogizátor usoudí, že se jedná o významnou autoritu, může vyhotovit její návrh. Pole lze také doplnit autoritou, která se v databázi nenachází, ani není vyhotoven její návrh.
 
@@ -27,9 +27,9 @@ Dílo má pět tvůrců se stejnou mírou autorské odpovědnosti.
 700 1   $a Zelená, Jana
 700 1   $a Horák, Květoslav
 ```
-Nově se vytváří záznam v bázi autorit - viz dokument návod: [http://sps/aleph/SitePages/Home.aspx](http://sps/aleph/SitePages/Home.aspx).
+Nově se vytváří záznam v bázi autorit - návod viz [dokument](http://sps/aleph/SitePages/Home.aspx)
 
-Metodika: [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda](www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/korporativni-autority-rda) a  [www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda](www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/autority-podle-rda).
+Metodika: [Korporativní autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda) a [Autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda)
 
 Pro volbu správné podoby jména (pravopis, iniciály, rozepsané iniciály apod.) se používá
 přednostně Databáze národních autorit.
