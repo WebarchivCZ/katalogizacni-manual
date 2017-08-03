@@ -10,7 +10,7 @@ Pokud je tentýž zdroj dostupný z více URL, další URL se zapisuje/-í vždy
 
 Pokud je/jsou starší URL již neplatné a zapisuje se nová (tj. platná) URL, zapíše se tato nová URL do 1. výskytu, před původní URL již neplatnou. Totéž platí, je-li původní URL přesměrována na nově zapisovanou URL (tj. nová URL = 1. výskyt, přesměrované URL = 2. a případně další výskyty).
 
-**Pro odkaz do Webarchivu** se používá další výskyt pole 856, stejný zápis jako u běžné adresy v poli 856, ale komentář v podpoli $z hodnota „archivní verze stránek“ (text, který se zobrazuje za URL adresou). Návod pro URL:
+**Pro odkaz do Webarchivu** se používá další výskyt pole 856, stejný zápis jako u běžné adresy v poli 856, ale komentář v podpoli $z hodnota „archivní verze stránek“ (text, který se zobrazuje za URL adresou).
 
 ```
 např.:
@@ -23,7 +23,7 @@ např.:
        $4 N
 ```
 
-**a) Ukončeno vydávání**
+**a) Ukončeno vydávání**  
 Pokud URL není funkční a stránky již neexistují (vůbec nebo jsou na jiné URL, příp. nevíme, zda opravdu skončily), zapíše se o této skutečnosti poznámka v 856 $z „adresa nedostupná k [datum, kdy byla nefunkčnost URL zjištěna]“. Je nutné změnit hodnotu 2. indikátoru „0“ na „#“ (tj. prázdný).
 
 ```
@@ -48,7 +48,6 @@ např.:
        $q text/html
        $z adresa platná k [datum, kdy zapisujeme URL do záznamu]
        $4 N
-
 856 4# $u http://www.geogr.muni.cz/ucebnice/kartografie
        $q text/html
        $z adresa nedostupná k [datum, kdy byla nefunkčnost URL zjištěna]
@@ -58,7 +57,7 @@ např.:
 
 U neplatné URL se v 856 mění hodnota 2. indikátoru z „0“ na „#“ (tj. prázdný).
 
-**c) Přesměrování**
+**c) Přesměrování**  
 Pokud původní URL přesměrovává na nové URL, kde je nově umístěn původní, popisovaný zdroj, zapíšeme novou URL a starou neměníme.
 
 
@@ -67,19 +66,18 @@ např.:
 856 40	$u http://www.linuxbiz.cz
         $q text/html
         $4 N
-
 856 40	$u http://www.linuxbizcz.cz
         $q text/html
         $4 N
 ```
 
 
-**d) Souběžné vydávání na více URL**
+**d) Souběžné vydávání na více URL**  
 Zapíší se všechny URL adresy
 
 **2. indikátor vždy 0** (jedná se o původní elektronický zdroj)
 
-*výjimky:*
+** *výjimky:* **
 
 **a) nefunkční URL**
 
@@ -94,29 +92,26 @@ např.:
 b) zápis URL do záznamu pro **tištěný dokument** (eventuálně elektronický zdroj na fyzickém nosiči)
 
 ```
-např.: Ložiska nerostů (CD-ROM)
+např.:
+Ložiska nerostů (CD-ROM)
 856 41 $3 Online verze
        $u http://geologie.vsb.cz/loziska/loziska/index.html
        $4 N
 ```
 
 
-c) považuje-li katalogizátor za důležité zapsat do záznamu vedle vlastní URL popisovaného dokumentu ještě URL **příbuzného dokumentu** (např. blog, na který je odkaz z popisovaného dokumentu, předchozí verze stránek)  
-
-&nbsp;&nbsp;&nbsp;&nbsp; V tomto případě je třeba zapsat do $3 vhodné návěští a v poznámce (anotaci) by měla být informace o tomto odkazovaném dokumentu.
+c) považuje-li katalogizátor za důležité zapsat do záznamu vedle vlastní URL popisovaného dokumentu ještě URL **příbuzného dokumentu** (např. blog, na který je odkaz z popisovaného dokumentu, předchozí verze stránek), pak je třeba zapsat do $3 vhodné návěští a v poznámce (anotaci) by měla být informace o tomto odkazovaném dokumentu.
 
 
 ```
 např.:
 856 40 $u http://home.tiscali.cz/bovepul
        $4 N
-
 856 42 $3 Blog
        $u http://bovepul.blog.cz
        $4 N
-
 520 $a V rámci webových stránek je provozován také blog pro náboženství, filosofii a umění.
 ```
 
 
-**Vždy** (tj. i v každém opakovaném výskytu pole 856) uveďte podpole 4 hodnota N (znamená negenerovat obrazovku „copyright“).
+**Vždy** (tj. i v každém opakovaném výskytu pole 856) se uvádí podpole 4 hodnota N (znamená negenerovat obrazovku „copyright“).
