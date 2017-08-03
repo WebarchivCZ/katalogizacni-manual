@@ -77,7 +77,7 @@ Zapíší se všechny URL adresy
 
 **2. indikátor vždy 0** (jedná se o původní elektronický zdroj)
 
-** *výjimky:* **
+***výjimky:***
 
 **a) nefunkční URL**
 
