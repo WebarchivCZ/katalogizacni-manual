@@ -18,7 +18,7 @@ title: Věcné selekční údaje
 
 
 ### 648 (Vedlejší věcné záhlaví – chronologický termín) (O)
-Pole se vyplňuje pokud je použito pole 045. Do pole zapisujeme chronologické vymezení tématu zdroje např. „1945-1948“. Jedná se o autoritní termín (chronologický údaj). V poli 648 se zapisují konkrétní data, jsou-li v popisovaném dokumentu snadno k nalezení.
+Pole se vyplňuje, pokud je použito pole 045. Do pole zapisujeme chronologické vymezení tématu zdroje, např. „1945-1948“. Jedná se o autoritní termín (chronologický údaj). V poli 648 se zapisují konkrétní data, jsou-li v popisovaném dokumentu snadno k nalezení.
 
 
 ```
@@ -42,7 +42,8 @@ V případě anglických předmětových hesel je hodnota indikátorů:
 
 
 ```
-např.: dokument pojednává o lidských právech
+např.:
+dokument pojednává o lidských právech
 650 07 $a lidská práva
        $7 ph122331
        $2 czenas
@@ -53,14 +54,14 @@ např.: dokument pojednává o lidských právech
 
 
 ### 651 (Vedlejší věcné záhlaví – geografické jméno) (O)
-Pole se vyplňuje pokud je použito pole 043. Termíny se přebírají ze souboru autorit.
+Pole se vyplňuje, pokud je použito pole 043. Termíny se přebírají ze souboru autorit.
 
 V případě českých předmětových hesel je hodnota indikátorů:  
-**1. indikátor** - \ #  nedefinovaný  
+**1. indikátor** - \#  nedefinovaný  
 **2. indikátor** - 7 zdroj specifikovaný v podpoli $2
 
 V případě anglických předmětových hesel je hodnota indikátorů:  
-**1. indikátor** - \ # nedefinovaný  
+**1. indikátor** - \# nedefinovaný  
 **2. indikátor** - 9 zdroj specifikovaný v podpoli $2
 
 
@@ -89,8 +90,8 @@ V případě anglických předmětových hesel je hodnota indikátorů:
 
 
 ```
-např.: elektronický seriál
-
+např.:
+elektronický seriál
 651 #7 $a www dokumenty
        $7 fd186892
        $2 czenas
@@ -105,8 +106,8 @@ např.: elektronický seriál
        $2 eczenas		
 
 
-např.: www stránky
-
+např.:
+www stránky
 651 #7 $a www dokumenty
        $7 fd186892
        $2 czenas
