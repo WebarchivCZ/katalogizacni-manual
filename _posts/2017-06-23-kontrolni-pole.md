@@ -82,7 +82,7 @@ Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
 
 
 **008/11-14 - datum 2**  
-&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází, ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se &nbsp;&nbsp;&nbsp;&nbsp; zapíše dané datum ukončení. Informace o ukončeném vydávání se zanese také do vydávání a změní &nbsp;&nbsp;&nbsp;&nbsp; se hodnota  na pozici 008/06 status vydávání na **„d“** s ukončeným vydáváním.
+&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází, ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se   &nbsp;&nbsp;&nbsp;&nbsp; zapíše dané datum ukončení. Informace o ukončeném vydávání se zanese také do vydávání a změní  &nbsp;&nbsp;&nbsp;&nbsp; se hodnota  na pozici 008/06 status vydávání na **„d“** s ukončeným vydáváním.
 
 
 **008/15-17 - místo vydání, produkce**  
