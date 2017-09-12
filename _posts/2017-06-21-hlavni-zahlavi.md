@@ -26,7 +26,7 @@ Dílo má pět tvůrců se stejnou mírou autorské odpovědnosti.
 700 1   $a Zelená, Jana
 700 1   $a Horák, Květoslav
 ```
-Nově se vytváří záznam v bázi autorit - návod viz [dokument](http://sps/aleph/SitePages/Home.aspx)
+Nově se vytváří záznam v bázi autorit - více na [Metodika tvorby personálních autorit podle RDA](http://autority.nkp.cz/jmenne-autority/metodicke-materialy/metodika-jmena-cvicne-2/)
 
 Metodika: [Korporativní autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda) a [Autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda)
 
