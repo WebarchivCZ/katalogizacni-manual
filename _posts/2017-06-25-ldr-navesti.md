@@ -5,7 +5,8 @@ title: LDR
 
 ## LDR (Návěští) (NO)
 
-### LDR/00-04 délka záznamu
+Vyplňujeme pouze níže uvedené části:
+
 ### LDR/05 - status záznamu
 
 ```
@@ -42,12 +43,6 @@ Pro běžný online elektronický zdroj s převažující textovou podobou se uv
 
 ### LDR/09 - použitá znaková řada
         a - UCS/Unicode
-
-### LDR/10 - délka indikátorů
-
-### LDR/11 - délka označení podpole
-
-### LDR/12-16 - bázová adresa údajů
 
 ### LDR/17 - úroveň úplnosti záznamu
 
