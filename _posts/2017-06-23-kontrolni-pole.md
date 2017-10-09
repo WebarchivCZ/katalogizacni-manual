@@ -86,7 +86,8 @@ Zápis údajů na pozici 18-34 odpovídá hodnotě kódu LDR/06.
 
 **008/11-14 - datum 2**  
 &nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané datum ukončení.
-&nbsp;&nbsp;&nbsp;&nbsp; Informace o ukončeném vydávání se zanese také do pole 264 a změní se hodnota na pozici 008/06 status vydávání na **d** s ukončeným vydáváním.
+&nbsp;&nbsp;&nbsp;&nbsp; Informace o ukončeném vydávání se zanese také do pole 264 a změní se hodnota
+&nbsp;&nbsp;&nbsp;&nbsp; na pozici 008/06 status vydávání na **d** s ukončeným vydáváním.
 
 
 
