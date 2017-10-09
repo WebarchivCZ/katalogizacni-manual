@@ -64,7 +64,7 @@ např.:
 
 
 ### 008 (Údaje pevné délky - pokračující zdroje) (NO)
-Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
+Zápis údajů na pozici 18-34 odpovídá hodnotě kódu LDR/06.
 
 **008/00-05 - datum uložení**  
 &nbsp;&nbsp;&nbsp;&nbsp; Datum uložení se automaticky vygeneruje při ukládání záznamu.
@@ -75,16 +75,18 @@ Zápis údajů v tomto poli odpovídá hodnotě kódu v LDR/06
 &nbsp;&nbsp;&nbsp;&nbsp; c - průběžně vydávaný  
 &nbsp;&nbsp;&nbsp;&nbsp; d - s ukončeným vydáváním  
 &nbsp;&nbsp;&nbsp;&nbsp; u - status není znám
+&nbsp;&nbsp;&nbsp;&nbsp; s - jedno známé/pravděpodobné datum
+&nbsp;&nbsp;&nbsp;&nbsp; q - neznámé datum (rok vydání neznámý, ale lze určit přibližně rozmezí let vydání)
 
 
 **008/07-10 - datum 1**  
-&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné datum vydání, anebo  
+&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné datum vydání. U neznámého data lze použít  
 &nbsp;&nbsp;&nbsp;&nbsp; např. 199u, 200u, apod.
 
 
 **008/11-14 - datum 2**  
 &nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; datum ukončení. Informace o ukončeném vydávání se zanese také do vydávání a změní se hodnota na pozici  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;datum ukončení. Informace o ukončeném vydávání se zanese také do pole 264 a změní se hodnota na pozici  
 &nbsp;&nbsp;&nbsp;&nbsp; 008/06 status vydávání na **d** s ukončeným vydáváním.
 
 
@@ -125,7 +127,7 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 
 
 **008/22 - forma popisné jednotky**  
-&nbsp;&nbsp;&nbsp;&nbsp; pole zůstává nevyplněno
+&nbsp;&nbsp;&nbsp;&nbsp; pozice zůstává nevyplněno
 
 
 **008/23 - forma popisné jednotky**  
@@ -133,11 +135,11 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 
 
 **008/24 - povaha celého díla**  
-&nbsp;&nbsp;&nbsp;&nbsp; pole zůstává nevyplněno
+&nbsp;&nbsp;&nbsp;&nbsp; pozice zůstává nevyplněno
 
 
 **008/25-27 - povaha obsahu**  
-&nbsp;&nbsp;&nbsp;&nbsp; pole zůstává nevyplněno
+&nbsp;&nbsp;&nbsp;&nbsp; pozice zůstává nevyplněno
 
 
 **008/28 – vládní publikace**  
@@ -158,18 +160,20 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 &nbsp;&nbsp;&nbsp;&nbsp; 2 - integrační záznam
 
 **008/35-37 – jazyk dokumentu**  
-&nbsp;&nbsp;&nbsp;&nbsp; kód označuje jazyk popisné jednotky, odpovídá poli 041 – pokud je dokument v češtině, uvede se tento údaj  
-&nbsp;&nbsp;&nbsp;&nbsp; pouze v poli 008, a nikoli již v poli 041. Zdrojem kódu je MARC Code List for Languages, který spravuje  
+&nbsp;&nbsp;&nbsp;&nbsp; je-li popisná jednotka originálem v jediném jazyce, uvádí se kód tohoto jazyka pouze zde a pole 041 se již nezapisuje.
+&nbsp;&nbsp;&nbsp;&nbsp; V případě dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy jazyků
+&nbsp;&nbsp;&nbsp;&nbsp; zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód dominantního jazyka popisné jednotky.  
+&nbsp;&nbsp;&nbsp;&nbsp; Zdrojem kódu je MARC Code List for Languages, který spravuje  
 &nbsp;&nbsp;&nbsp;&nbsp; Library of Congress - viz [http://www.loc.gov/marc/languages](http://www.loc.gov/marc/languages).
 
 **008/38 - kód modifikace záznamu**  
-&nbsp;&nbsp;&nbsp;&nbsp; pole zůstává prázdné, záznam nebyl modifikován
+&nbsp;&nbsp;&nbsp;&nbsp; pozice zůstává prázdná, záznam nebyl modifikován
 
-**008/38 - zdroj katalogizace**  
+**008/39 - zdroj katalogizace**  
 &nbsp;&nbsp;&nbsp;&nbsp; \# - Národní bibliografická agentura  
 &nbsp;&nbsp;&nbsp;&nbsp; c - program kooperativní katalogizace  
 &nbsp;&nbsp;&nbsp;&nbsp; d - jiný  
 &nbsp;&nbsp;&nbsp;&nbsp; u - není znám  
 &nbsp;&nbsp;&nbsp;&nbsp; \|   - kód se neuvádí
 
-Zpracovává-li bibliografický záznam NK ČR, zůstává pole prázdné.
+Zpracovává-li bibliografický záznam NK ČR, zůstává pozice prázdné.
