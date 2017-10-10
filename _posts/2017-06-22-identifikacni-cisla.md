@@ -5,11 +5,12 @@ title: Identifikační čísla a kódy
 ## Identifikační čísla a kódy
 
 ### 022 (ISSN) (O)
-Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole 022, bez ohledu na to, zda se jedná o integrační zdroj nebo elektronický časopis). Pro integrační zdroje je povinný též údaj v poli 222 Klíčový název (je vázán na ISSN).
+Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole 022, bez ohledu na to, zda se jedná o integrační zdroj nebo elektronický časopis). Pro pokračující zdroje je povinný též údaj v poli 222 Klíčový název (je vázán na ISSN).
 
 
 ### 041 (Kód jazyka) (O)
-Je-li pouze jeden jazyk dokumentu, je pole 041 nepovinné, ale musí se pečlivě vyplnit pole 008. Je-li zdroj (popřípadě jeho část) publikován ve dvou a více jazycích, do pole 008 se zapíše první, případně dominantní z nich a v poli 041 bude tolik výskytů podpole „a“, kolik je nezbytné.
+Je-li popisná jednotka originálem v jediném jazyce, uvádí se kód tohoto jazyka pouze v poli 008/35-37 a pole 041 se již nezapisuje. V případě dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy jazyků zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód dominantního jazyka popisné jednotky. Používá se
+kódovník MARC.
 
 V případě vícejazyčného zdroje postupuje následovně:  
 
@@ -50,19 +51,19 @@ Pole se vyplní pouze v případě, že se zdroj obsahově týká určitého dat
   ```
   např.:
   045	$a x1x9
-  648 7	$a 20. stol.
+  648 7	$a 20. století
 
-  045	$a x3-x4
+  045	$a x3x4
   648 7	$a 1939-1945
 
-  045	$a x4-x4
+  045	$a x4x4
   648 7	$a 1948
 
   045	$a f-g-
-  648 7	$a 2.-3. stol.
+  648 7	$a 2.-3. století
 
   045	$a d9d9
-  648 7	$a 1. stol. př. Kr.
+  648 7	$a 1. století př. Kr.
   ```
 
 ### 072 (Konspekt) (O)
@@ -72,10 +73,20 @@ Na základě použitých znaků MDT je třeba vybrat příslušný znak Konspekt
 *První indikátor*: nedefinován  
 *Druhý indikátor*: hodnota 7, zdroj specifikován v podpoli $2
 
-Pole 072 má ve výjimečných případech povolené dva výskyty. Zvláště u webových stránek vycházejících z tištěných novin a dalších periodik - se připouští dva znaky, například znaky Konspektu pro [http://www.reflex.cz/](http://www.reflex.cz/)  
+Ve výjimečných případech jsou povoleny dvě skupiny Konspektu.
+**1.** spadá-li obsah dokumentu do dvou odlišných tematických oblastí a nelze určit převládající
+tematickou oblast - jen ve výjimečných případech
 
-394 - Veřejný a společenský život. Každodenní život  
-050 - Seriálové publikace. Periodika  
+**2.** k vyjádření určitých formálních charakteristik (v pořadí druhý znak skupiny Konspektu,
+jako první v pořadí se uvádí hlavní téma dokumentu, tedy obor - za obor se považuje i
+národní literatura) při popisu
+* · literatury pro děti a mládež
+* · učebnic
+* · jazykových slovníků
+* · bibliografií
+* · biografií
+* · rukopisů, starých tisků a vzácných dokumentů
+* · map, atlasů, glóbů a starých map
 
 ```
 např.:
@@ -88,12 +99,25 @@ např.:
       $2 Konspekt$926
 ```
 ### 080 (MDT) (O)
-Je třeba vytvořit odpovídající znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 **ve stejném pořadí**, v jakém jsou uvedena v těchto polích.
+Pole obsahuje znak Mezinárodního desetinného třídění (MDT). Pole 080 se opakuje, je-li
+potřeba přidělit popisné jednotce více znaků MDT.
+Při katalogizaci Je se uvádějí znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 **ve stejném pořadí**, v jakém jsou uvedena v těchto polích.
 
 ```
 např.:
-080 $a lékařství
-080 $a Česko
-080 $a www.dokumenty
-080 $a elektronické časopisy
+080 $u lékařství
+    $a 61
+    $2 MRF
+
+080 $u Česko
+    $a (437.3)
+    $2 MRF
+
+080 $u www.dokumenty
+    $a (0.034.2)004.738.12
+    $2 MRF
+
+080 $u elektronické časopisy
+    $a (0.034.2:051)
+    $2 MRF
 ```
