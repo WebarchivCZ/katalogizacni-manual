@@ -73,20 +73,21 @@ Na základě použitých znaků MDT je třeba vybrat příslušný znak Konspekt
 *První indikátor*: nedefinován  
 *Druhý indikátor*: hodnota 7, zdroj specifikován v podpoli $2
 
-Ve výjimečných případech jsou povoleny dvě skupiny Konspektu.
+Ve výjimečných případech jsou povoleny dvě skupiny Konspektu:
+
 **1.** spadá-li obsah dokumentu do dvou odlišných tematických oblastí a nelze určit převládající
 tematickou oblast - jen ve výjimečných případech
 
 **2.** k vyjádření určitých formálních charakteristik (v pořadí druhý znak skupiny Konspektu,
 jako první v pořadí se uvádí hlavní téma dokumentu, tedy obor - za obor se považuje i
 národní literatura) při popisu
-* · literatury pro děti a mládež
-* · učebnic
-* · jazykových slovníků
-* · bibliografií
-* · biografií
-* · rukopisů, starých tisků a vzácných dokumentů
-* · map, atlasů, glóbů a starých map
+*  literatury pro děti a mládež
+*  učebnic
+*  jazykových slovníků
+*  bibliografií
+*  biografií
+*  rukopisů, starých tisků a vzácných dokumentů
+*  map, atlasů, glóbů a starých map
 
 ```
 např.:
