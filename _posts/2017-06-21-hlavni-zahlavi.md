@@ -6,7 +6,7 @@ title: Hlavní záhlaví
 
 1XX záznamy se přebírají  z AUT - [Databáze národních autorit NK ČR](http://aleph22.nkp.cz/F/?func=file&file_name=find-b&local_base=aut).
 
-Pokud se záznam v databázi nachází, je nutné uvádět autoritní tvar. V případě, že v databázi není, a katalogizátor usoudí, že se jedná o významnou autoritu, může vyhotovit její návrh. Pole lze také doplnit autoritou, která se v databázi nenachází, ani není vyhotoven její návrh.
+Pokud se záznam v databázi nachází, je nutné stáhnout autoritní tvar. V případě, že v databázi není, a katalogizátor usoudí, že se jedná o významnou autoritu, může vyhotovit její návrh. Pole lze také doplnit jménem, které se v databázi nenachází, ani není vyhotoven návrh autority.
 
 
 ### 100 (Hlavní záhlaví – osobní jméno) (NO)
