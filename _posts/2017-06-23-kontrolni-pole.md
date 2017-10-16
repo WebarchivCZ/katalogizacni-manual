@@ -16,10 +16,11 @@ FMT SE
 LDR/06 a (textový dokument)
 LDR/07 s (seriál)
 006/00 m (druh dokumentu - počít. soubor/el.zdroj)
+006/06 o (forma popisné jednotky - online)
 006/09 d (typ počít. souboru - dokument)
-008/23 s (specifikace pro pokračující zdroj; "s" = elektronický zdroj)
+008/23 o (konfigurace pro pokračující zdroj; forma popisné jednotky - online)
 
-006  m--------d--------
+006  m-----o--d--------
 ```
 
 
