@@ -162,9 +162,7 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 &nbsp;&nbsp;&nbsp;&nbsp; 2 - integrační záznam
 
 **008/35-37 – jazyk dokumentu**  
-&nbsp;&nbsp;&nbsp;&nbsp; je-li popisná jednotka originálem v jediném jazyce, uvádí se kód tohoto jazyka pouze zde a pole 041 se již nezapisuje.
-&nbsp;&nbsp;&nbsp;&nbsp; V případě dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy jazyků
-&nbsp;&nbsp;&nbsp;&nbsp; zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód dominantního jazyka popisné jednotky.  
+&nbsp;&nbsp;&nbsp;&nbsp; je-li popisná jednotka originálem v jediném jazyce, uvádí se kód tohoto jazyka pouze zde a pole 041 se již nezapisuje. V případě   &nbsp;&nbsp;&nbsp;&nbsp; dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy jazyků zapisují do příslušných podpolí v poli 041 a &nbsp;&nbsp;&nbsp;&nbsp; na pozicích 008/35-37 se zapisuje pouze kód dominantního jazyka popisné jednotky.  
 &nbsp;&nbsp;&nbsp;&nbsp; Zdrojem kódu je MARC Code List for Languages, který spravuje  
 &nbsp;&nbsp;&nbsp;&nbsp; Library of Congress - viz [http://www.loc.gov/marc/languages](http://www.loc.gov/marc/languages).
 
