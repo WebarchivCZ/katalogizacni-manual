@@ -26,7 +26,7 @@ Dílo má pět tvůrců se stejnou mírou autorské odpovědnosti.
 700 1   $a Zelená, Jana
 700 1   $a Horák, Květoslav
 ```
-Nově se vytváří záznam v bázi autorit - více na [Metodika tvorby personálních autorit podle RDA](http://autority.nkp.cz/jmenne-autority/metodicke-materialy/metodika-jmena-cvicne-2/)
+Pokud neexistuje autoritní tvar významné osoby vytvoří se návrh autority podle příručky [Metodika tvorby personálních autorit podle RDA](http://autority.nkp.cz/jmenne-autority/metodicke-materialy/metodika-jmena-cvicne-2/) zveřejněné na stránkách Národních autorit ČR.
 
 Metodika: [Korporativní autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda) a [Autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda)
 
@@ -54,9 +54,8 @@ $aPardubice (Česko). $bMagistrát
 $aBavorsko (Německo). $bStaatsministerium der Finanzen
 ```
 
-**Změna jména korporace:** Změní-li se jméno korporace, z hlediska katalogizace se potom jedná o jinou korporaci. V poli **110/710** tedy bude zapsané jméno odpovídající době, kdy byl zdroj publikován. Současně se do pole **510 – odkaz viz  též jméno korporace** – uvede jméno související korporace (nejčastěji jde o dřívější nebo novější podobu jména při změně názvu korporace). Pole směruje na záhlaví souvisejícího autoritního záznamu. Forma jména korporace v poli 510 je vždy totožná s autoritní podobou jména korporace v záhlaví souvisejícího autoritního záznamu (pro nový název se vždy vytvoří nové autoritní záhlaví a to se uvede do pole 510).
+**Změna jména korporace:** Změní-li se jméno korporace, z hlediska katalogizace se potom jedná o jinou korporaci. V poli **110/710** tedy bude zapsané jméno odpovídající době, kdy byl zdroj publikován.
 
-Pro vysvětlení vzájemných vztahů mezi autoritním záhlavím a odkazy viz též, zejména u „českých“ korporací, se doporučuje použít poznámku v poli **655**.
 
 ```
 např.:
