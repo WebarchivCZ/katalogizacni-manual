@@ -3,6 +3,7 @@ layout: default
 title: Vedlejší záhlaví
 ---
 ## Vedlejší záhlaví
+Selekční údaj charakterizující zpracovávaný dokument. Do záhlaví zapisujeme tvůrce nebo spoluptvůrce zdroje.
 
 ### 700 (Vedlejší záhlaví - osobní jméno) (O)
 Zapisují se další autoři (viz pole 100, hlavní záhlaví), jiní původci díla.  
