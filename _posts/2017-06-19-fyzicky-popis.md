@@ -3,11 +3,18 @@ layout: default
 title: Údaje fyzického popisu
 ---
 ## Údaje fyzického popisu
+Tato oblast obsahuje informace o fyzických vlastnostech popisovaného zdroje, tj. údaje o
+jeho rozsahu, rozměru, vybavení ilustracemi, přílohami a/nebo doprovodným materiálem.
 
 ### 300 (elektronické zdroje - rozsah) (O)
-* počet a typ jednotek a/nebo podjednotek tvořících zdroj
-* používá se obvyklá terminologie
-* pro elektronicky publikované textové monografie se v rozsahu používá výraz **1 online zdroj**. Pokud zdroj obsahuje jeden nebo více souborů, jejichž formát je paralelou tištěného protějšku (například .PDF), specifikuje se v kulaté závorce rozsah (tj. počet podjednotek) podle pravidel pro textové zdroje.
+*povinné pro minimální záznam*
+Rozsah udává počet a typ jednotek a/nebo podjednotek tvořících zdroj. Jednotka rozsahu
+je fyzická nebo logická složka zdroje, například svazek, digitální soubor (= online zdroj), atd.
+Podjednotka rozsahu je fyzické nebo logické členění jednotky, například stránka svazku,
+záznam v digitálním souboru, atd.
+
+Pro elektronicky publikované textové monografie se v rozsahu používá výraz **1 online zdroj**. Pokud zdroj obsahuje jeden nebo více souborů, jejichž formát je paralelou tištěného protějšku (například .PDF), specifikuje se v kulaté závorce rozsah (tj. počet podjednotek) podle pravidel pro textové zdroje.
+
 
 ```
 např.:
@@ -26,19 +33,37 @@ zapisujeme:
 ### 336 (Typ obsahu) (O)
 *povinné pro minimální záznam*
 
-* pole obsahuje kategorizaci pro základní formu komunikace, v níž je obsah vyjádřen, a lidský smysl, jehož prostřednictvím má být vnímán
-* používá se ve spojení s návěštím, znakovou pozicí 06 (LDR/06, typ záznamu) označující typ obsahu zdroje
+Typ obsahu je kategorizace pro základní formu komunikace, v níž je obsah vyjádřen, a
+lidský smysl, jehož prostřednictvím má být vnímán. Používá se ve spojení s návěštím,
+znakovou pozicí 06  (LDR/06, typ záznamu) označující typ obsahu zdroje. Pole 336 částečně
+nahrazuje pole 245$h obecné označení druhu dokumentu.
 
- $a text (typ obsahu - termín)  
- $b txt (typ obsahu - kód)  
- $2 rdacontent (zdroj - vždy stejná hodnota)  
+zapisujeme:
+  * **$a text** (typ obsahu - termín)  
+  * **$b txt** (typ obsahu - kód)  
+  * **$2 rdacontent** (zdroj - vždy stejná hodnota)
+
+```
+např.:
+336 ## $a text
+       $b text
+       $2 rdacontent
+```
+
+
 
 ### 337 (Typ média) (O)
 *nepovinné pro minimální záznam*
 
-$a počítač (typ média - termín)  
-$b c (typ média - kód)  
-$2 rdamedia (zdroj - vždy stejná hodnota)
+Typ média je kategorizace odrážející obecný typ zařízení, které je potřebné pro
+zprostředkování (zobrazení, přehrání, spuštění atd.) obsahu zdroje.
+Při zápisu typu média se vychází z údajů uvedených v samotném zdroji (či v doprovodném
+materiálu nebo pouzdru). Další údaje lze převzít z jakéhokoli pramene popisu.
+
+zapisujeme:
+  * **$a počítač** (typ média - termín)  
+  * **$b c** (typ média - kód)  
+  * **$2** rdamedia (zdroj - vždy stejná hodnota)
 
 ```
 např.:
@@ -50,11 +75,16 @@ např.:
 ### 338 (Typ nosiče) (O)
 *povinné pro minimální záznam*
 
-pole obsahuje kategorizaci odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
+Typ nosiče je kategorizace odrážející formát paměťového média a jeho nosiče v kombinaci
+s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
+obsahu zdroje.
+Při zápisu typu nosiče se vychází z údajů uvedených v samotném zdroji (či v doprovodném
+materiálu nebo pouzdru). Další údaje lze převzít z jakéhokoli pramene popisu.
 
-$a online zdroj (typ nosiče - termín)    
-$b cr (typ nosiče - kód)  
-$2 rdacarrier (zdroj - vždy stejná hodnota)  
+zapisujeme:
+  * **$a online zdroj** (typ nosiče - termín)    
+  * **$b cr** (typ nosiče - kód)  
+  * **$2 rdacarrier** (zdroj - vždy stejná hodnota)  
 
 ```
 např.:
@@ -62,12 +92,11 @@ např.:
        $b cr  
        $2 rdacarrier
 ```
+
 ### 362 (Údaje o číslování) (O)
 *povinné pro minimální záznam*
 
-* pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u itegračních zdrojů se údaje v této oblasti onvykle nezapisují
-* číslování může být číselné (Band 1), abecední (Band A), chronologické
-(Leden 1973) nebo jejich kombinace (Volume 1 (1969))
+Pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u itegračních zdrojů se údaje v této oblasti onvykle nezapisují. Číslování může být číselné (Band 1), abecední (Band A), chronologické (Leden 1973) nebo jejich kombinace (Volume 1 (1969))
 
 
 **Indikátory**
