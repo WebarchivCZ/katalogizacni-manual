@@ -4,6 +4,7 @@ title: Věcné selekční údaje
 ---
 
 ## Věcné selekční údaje
+Věcné selekční údaje informují o obsahové stránce dokumentu. V institucích s univerzálním fondem se forma a zápis údajů řídí instrukcemi souboru věcných tematických autorit NK ČR.
 
 ### 600 (Vedlejší věcné záhlaví – osobní jméno) (O)
 Údaje se zapisují ve stejné podobě jako v poli 100 (Hlavní záhlaví - osobní jméno). Zdroj pojednává o konkrétní osobě.
@@ -32,6 +33,9 @@ např.:
 
 
 ### 650 (Vedlejší věcné záhlaví – věcné téma) (O)
+Pole obsahuje věcné téma, které je předmětem obsahu dokumentu a používá se jako
+vedlejší věcné záhlaví.
+
 Do pole se zapisují česká předmětová hesla. Termíny se přebírají ze souboru autorit. Hodnota indikátorů je pak následující:  
 **1. indikátor** - 0 nespecifikován  
 **2. indikátor** - 7 zdroj specifikovaný v podpoli $2
@@ -76,8 +80,8 @@ V případě anglických předmětových hesel je hodnota indikátorů:
 
 
 ### 655 (Vedlejší věcné záhlaví - žánr/forma) (O)
-Při katalogizaci elektronických zdrojů se používají převážně následující hesla: www dokumenty, elektronické časopisy, fotogalerie, blogy, (elektronické mapy, zvukové záznamy).
-V případě zdrojů, které mají z hlediska knihovnického charakter integračního zdroje, ale v podstatě jsou nečíslovanými seriály, se zapisují obě formy dokumentu (elektronické seriály + www dokumenty).
+Pole obsahuje termíny označující žánry, formu a/nebo fyzické vlastnosti informačního zdroje.
+Všeobecně se forma a zápis údajů řídí instrukcemi souboru formálních autorit NK ČR. Při katalogizaci elektronických zdrojů se používají převážně následující hesla: www dokumenty, elektronické časopisy, fotogalerie, blogy, (elektronické mapy, zvukové záznamy). V případě zdrojů, které mají z hlediska knihovnického charakter integračního zdroje, ale v podstatě jsou nečíslovanými seriály, se zapisují obě formy dokumentu (elektronické seriály a www dokumenty).
 
 
 V případě českých předmětových hesel je hodnota indikátorů:  
