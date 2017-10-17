@@ -102,7 +102,7 @@ např.:
 ### 080 (MDT) (O)
 Pole obsahuje znak Mezinárodního desetinného třídění (MDT). Pole 080 se opakuje, je-li
 potřeba přidělit popisné jednotce více znaků MDT.
-Při katalogizaci Je se uvádějí znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 **ve stejném pořadí**, v jakém jsou uvedena v těchto polích.
+Při katalogizaci Je se uvádějí znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 ve stejném pořadí, v jakém jsou uvedena v těchto polích.
 
 ```
 např.:
