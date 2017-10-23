@@ -93,6 +93,13 @@ Zápis údajů na pozici 18-34 odpovídá hodnotě kódu LDR/06.
 
 
 **008/15-17 - místo vydání, produkce**  
+&nbsp;&nbsp;&nbsp;&nbsp; geografických oblastí. Při přebírání záznamů s kódy nižší úrovně se doporučuje opravit
+&nbsp;&nbsp;&nbsp;&nbsp; na kód země. Je-li pouze jedno místo vydání (nebo více, ale stejná země), zapisuje se
+&nbsp;&nbsp;&nbsp;&nbsp; kód pouze zde, tj. nezapisuje se již pole 044. Je-li potřeba zapsat více kódů (více
+&nbsp;&nbsp;&nbsp;&nbsp; zemí), zapisuje se zde pouze první kód a v poli 044 se pak uvádějí v opakovaných
+&nbsp;&nbsp;&nbsp;&nbsp; výskytech podpole $a všechny příslušné kódy zemí. Pro neznámé místo vydání se
+&nbsp;&nbsp;&nbsp;&nbsp; používá dvouznakový kód „xx“
+
 &nbsp;&nbsp;&nbsp;&nbsp; xr	Česká republika  
 &nbsp;&nbsp;&nbsp;&nbsp; xo	Slovensko  
 &nbsp;&nbsp;&nbsp;&nbsp; xx  neznámé nebo neurčené místo
