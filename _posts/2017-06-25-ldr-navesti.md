@@ -5,7 +5,8 @@ title: LDR
 
 ## LDR (Návěští) (NO)
 
-Vyplňujeme pouze níže uvedené části:
+Návěští nemá žádné indikátory a podpole, údaje jsou definovány pozicí. Většinu pozic lze
+generovat systémem či předdefinovat do šablony. Vyplňujeme pouze níže uvedené části:
 
 ### LDR/05 - status záznamu
 
