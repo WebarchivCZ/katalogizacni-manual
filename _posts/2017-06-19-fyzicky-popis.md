@@ -99,6 +99,11 @@ např.:
 
 Pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u itegračních zdrojů se údaje v této oblasti onvykle nezapisují. Číslování může být číselné (Band 1), abecední (Band A), chronologické (Leden 1973) nebo jejich kombinace (Volume 1 (1969))
 
+Je-li číslování uvedeno ve více jazycích/písmech, zapisuje se pouze označení v jazyce hlavního názvu/písma. Nelze-li toto hledisko použít,
+zapíše se označení uvedené jako první.
+
+Jednotlivé údaje v oblasti jsou mezi sebou odděleny předepsanou interpunkcí ISBD. Mezi označením prvního a posledního sešitu se zapisuje spojovník
+natěsno.
 
 **Indikátory**
 
