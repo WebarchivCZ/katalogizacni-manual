@@ -44,6 +44,8 @@ Jako hlavní/vedlejší záhlaví se zapisují korporace, které mají autorský
 
 Do pole 110 se zapisuje korporace s hlavní autorskou odpovědností za vznik díla. V záznamu smí být pouze jedno pole 110 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 111 nebo 130.
 
+Do podpole \$4 se mohou zapisovat kódy autorských rolí, přestože autorské role již nejsou povinnou součástí ani mininálního, ani doporučeného záznamu. 
+
 Vyskytuje-li se jméno korporace v několika jazycích, zapíše se v jazyce korporace. Pokud je oficiálních jazyků několik a jedním z nich je čeština, v poli 100/700 bude jméno zapsáno česky.
 
 **Popis pod jurisdikcí:** Státní instituce, jako je vláda, parlament, magistrát atd., se zapisují pod státním/správním celkem, jehož jsou orgánem. V podpoli $a potom používáme jako vstupní prvek konvenční jméno příslušného správního celku; to by mělo být zapsáno v české formě, pokud existuje.
