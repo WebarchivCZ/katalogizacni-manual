@@ -44,7 +44,7 @@ Jako hlavní/vedlejší záhlaví se zapisují korporace, které mají autorský
 
 Do pole 110 se zapisuje korporace s hlavní autorskou odpovědností za vznik díla. V záznamu smí být pouze jedno pole 110 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 111 nebo 130.
 
-Do podpole \$4 se mohou zapisovat kódy autorských rolí, přestože autorské role již nejsou povinnou součástí ani mininálního, ani doporučeného záznamu. 
+Do podpole \$4 se mohou zapisovat kódy autorských rolí, přestože autorské role již nejsou povinnou součástí ani mininálního, ani doporučeného záznamu.
 
 Vyskytuje-li se jméno korporace v několika jazycích, zapíše se v jazyce korporace. Pokud je oficiálních jazyků několik a jedním z nich je čeština, v poli 100/700 bude jméno zapsáno česky.
 
@@ -79,5 +79,11 @@ Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher), příp
 
 
 ### 111 (Hlavní záhlaví – jméno akce) (NO)
-Jméno akce, konference nebo festivalu použité jako hlavní záhlaví, např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 ([001824203](http://aleph.nkp.cz/F/?func=direct&doc_number=001824203&local_base=nkc)).  
-Z hlediska katalogizačních pravidel je 111 druhem korporace (110). Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher).
+Jméno akce, konference nebo festivalu je z hlediska katalogizačnch pravidel druhem korporace. Proto se
+na ní vztahují stejná pravidla. Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher).
+Např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 ([001824203](http://aleph.nkp.cz/F/?func=direct&doc_number=001824203&local_base=nkc)).  
+
+V záznamu smí být pouze jedno pole 111 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 110 nebo 130.
+Případné další akce se zapisují do pole 711. V každém výskytu pole 711 smí být zapsána pouze jedna akce.
+Pro volbu správné podoby jména používáme přednostně Soubor národních autorit, dostupný na stránkách:
+http://aleph.nkp.cz/.
