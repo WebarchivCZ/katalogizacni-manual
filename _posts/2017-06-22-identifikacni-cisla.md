@@ -23,7 +23,7 @@ a) Jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají 
   041 0	$a cze
         $a eng
   ```
-b) Zdroj je/obsahuje **překlad** – první indikátor 1, do podpole \$h kód jazyka originálu se zapisují kódy jazyka předlohy.
+b) Zdroj je/obsahuje **překlad** – první indikátor 1, do podpole $h kód jazyka originálu se zapisují kódy jazyka předlohy.
 
   ```
   např.:
@@ -31,7 +31,7 @@ b) Zdroj je/obsahuje **překlad** – první indikátor 1, do podpole \$h kód j
         $h cze
   ```
 
-c) Zdroj má cizojazyčný jen **abstrakt**. Do podpole \$b Kód jazyka resumé se zapisují kód(y) resumé/abstraktu, bez ohledu na to,
+c) Zdroj má cizojazyčný jen **abstrakt**. Do podpole $b Kód jazyka resumé se zapisují kód(y) resumé/abstraktu, bez ohledu na to,
    liší-li se od jazyka textu. Kódy se zapisují v pořadí podle anglické abecedy.
   ```
   např.:
