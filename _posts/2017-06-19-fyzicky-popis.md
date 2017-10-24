@@ -24,6 +24,7 @@ např.:
 ```
 
 ### 310 (Současná periodicita) (NO)
+Pole  označující současnou periodicitu
 
 zapisujeme:
   * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
@@ -33,10 +34,9 @@ zapisujeme:
 ### 336 (Typ obsahu) (O)
 *povinné pro minimální záznam*
 
-Typ obsahu je kategorizace pro základní formu komunikace, v níž je obsah vyjádřen, a
-lidský smysl, jehož prostřednictvím má být vnímán. Používá se ve spojení s návěštím,
-znakovou pozicí 06  (LDR/06, typ záznamu) označující typ obsahu zdroje. Pole 336 částečně
-nahrazuje pole 245$h obecné označení druhu dokumentu.
+Typ obsahu je kategorizace pro základní formu komunikace, v níž je obsah vyjádřen, a lidský smysl,
+jehož prostřednictvím má být vnímán. Používá se ve spojení s návěštím, znakovou pozicí 06  (LDR/06, typ záznamu)
+označující typ obsahu zdroje. Pole 336 částečně nahrazuje pole 245$h obecné označení druhu dokumentu.
 
 zapisujeme:
   * **$a text** (typ obsahu - termín)  
@@ -57,6 +57,7 @@ např.:
 
 Typ média je kategorizace odrážející obecný typ zařízení, které je potřebné pro
 zprostředkování (zobrazení, přehrání, spuštění atd.) obsahu zdroje.
+
 Při zápisu typu média se vychází z údajů uvedených v samotném zdroji (či v doprovodném
 materiálu nebo pouzdru). Další údaje lze převzít z jakéhokoli pramene popisu.
 
@@ -75,11 +76,11 @@ např.:
 ### 338 (Typ nosiče) (O)
 *povinné pro minimální záznam*
 
-Typ nosiče je kategorizace odrážející formát paměťového média a jeho nosiče v kombinaci
-s typem zařízení, které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.)
-obsahu zdroje.
-Při zápisu typu nosiče se vychází z údajů uvedených v samotném zdroji (či v doprovodném
-materiálu nebo pouzdru). Další údaje lze převzít z jakéhokoli pramene popisu.
+Typ nosiče je kategorizace odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení,
+které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.) obsahu zdroje.
+
+Při zápisu typu nosiče se vychází z údajů uvedených v samotném zdroji (či v doprovodném materiálu nebo pouzdru).
+Další údaje lze převzít z jakéhokoli pramene popisu.
 
 zapisujeme:
   * **$a online zdroj** (typ nosiče - termín)    
