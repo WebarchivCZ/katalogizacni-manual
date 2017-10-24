@@ -14,21 +14,25 @@ kódovník MARC.
 
 V případě vícejazyčného zdroje postupuje následovně:  
 
-a) jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají cizojazyčné verze) – jedná se o nejčastější případ
+a) Jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají cizojazyčné verze), jedná se o nejčastější případ. Použije se podpole
+   \$a kód jazyka textu -  opakovatelné pole pro zápis všech jazyků textu v dokumentu. Kódy se zapisují v pořadí podle významnosti zastoupení jazyka v textu, jinak podle abecedy.
+
 
   ```
   např.:
   041 0	$a cze
         $a eng
   ```
-b) zdroj je/obsahuje **překlad** – první indikátor 1, v podpoli h musí být zapsáno, z kterého jazyka přeloženo
+b) Zdroj je/obsahuje **překlad** – první indikátor 1, do podpole \$h kód jazyka originálu se zapisují kódy jazyka předlohy.
+
   ```
   např.:
   041 1	$a eng
         $h cze
   ```
 
-c) zdroj má cizojazyčný jen **abstrakt**
+c) Zdroj má cizojazyčný jen **abstrakt**. Do podpole \$b Kód jazyka resumé se zapisují kód(y) resumé/abstraktu, bez ohledu na to,
+   liší-li se od jazyka textu. Kódy se zapisují v pořadí podle anglické abecedy.
   ```
   např.:
   041 0	$a cze
@@ -67,13 +71,13 @@ Pole se vyplní pouze v případě, že se zdroj obsahově týká určitého dat
   ```
 
 ### 072 (Konspekt) (O)
-Na základě použitých znaků MDT je třeba vybrat příslušný znak Konspektu. Vybírá se **vždy jedna** podkategorie Konspektu, který nejlépe vystihuje obsah dokumentu. S tímto znakem musí též  korespondovat vybrané předmětové heslo uvedené v poli 080/650 (tj. uvedené předmětové heslo musí obsahově náležet do této konkrétní skupiny Konspektu).
+Pole obsahuje údaj skupiny Konspektu, do které je obsah dokumentu zařazen. Příslušný znak Konspektu je vybrán na základě použitých znaků MDT. Vybírá se **vždy jedna** podkategorie Konspektu, ktera nejlépe vystihuje obsah dokumentu. S tímto znakem musí též  korespondovat vybrané předmětové heslo uvedené v poli 080/650 (tj. uvedené předmětové heslo musí obsahově náležet do této konkrétní skupiny Konspektu).
 
 **Indikátory**  
 *První indikátor*: nedefinován  
 *Druhý indikátor*: hodnota 7, zdroj specifikován v podpoli $2
 
-Ve výjimečných případech jsou povoleny dvě skupiny Konspektu:
+Ve výjimečných případech jsou přiděleny dvě skupiny Konspektu:
 
 **1.** spadá-li obsah dokumentu do dvou odlišných tematických oblastí a nelze určit převládající
 tematickou oblast - jen ve výjimečných případech
@@ -99,10 +103,10 @@ např.:
       $x Literatura pro děti a mládež (beletrie)
       $2 Konspekt$926
 ```
-### 080 (MDT) (O)
+### 080 (Mezinárodní desetinné třídění - MDT) (O)
 Pole obsahuje znak Mezinárodního desetinného třídění (MDT). Pole 080 se opakuje, je-li
 potřeba přidělit popisné jednotce více znaků MDT.
-Při katalogizaci Je se uvádějí znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 ve stejném pořadí, v jakém jsou uvedena v těchto polích.
+Při katalogizaci se uvádějí znaky MDT pro všechna předmětová hesla z polí 648, 650, 651, 655 ve stejném pořadí, v jakém jsou uvedena v těchto polích.
 
 ```
 např.:
