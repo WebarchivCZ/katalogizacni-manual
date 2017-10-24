@@ -81,32 +81,31 @@ Zápis údajů na pozici 18-34 odpovídá hodnotě kódu LDR/06.
 
 
 **008/07-10 - datum 1**  
-&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné datum vydání. U neznámého data lze použít  
-&nbsp;&nbsp;&nbsp;&nbsp; např. 199u, 200u, apod.
+&nbsp;&nbsp;&nbsp;&nbsp; Kód označuje datum vydání zdroje. V případě nejasností se uvede pravděpodobné datum vydání. U neznámého
+&nbsp;&nbsp;&nbsp;&nbsp;  data lze použít např. 199u, 200u, apod.
 
 
 **008/11-14 - datum 2**  
-&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané datum ukončení.
-&nbsp;&nbsp;&nbsp;&nbsp; Informace o ukončeném vydávání se zanese také do pole 264 a změní se hodnota
-&nbsp;&nbsp;&nbsp;&nbsp; na pozici 008/06 status vydávání na **d** s ukončeným vydáváním.
+&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané
+&nbsp;&nbsp;&nbsp;&nbsp; datum ukončení. Informace o ukončeném vydávání se zanese také do pole 264 a změní se hodnota na pozici
+&nbsp;&nbsp;&nbsp;&nbsp; 008/06 status vydávání na **d** s ukončeným vydáváním.
 
 
 
 **008/15-17 - místo vydání, produkce**  
-&nbsp;&nbsp;&nbsp;&nbsp; geografických oblastí. Při přebírání záznamů s kódy nižší úrovně se doporučuje opravit
-&nbsp;&nbsp;&nbsp;&nbsp; na kód země. Je-li pouze jedno místo vydání (nebo více, ale stejná země), zapisuje se
-&nbsp;&nbsp;&nbsp;&nbsp; kód pouze zde, tj. nezapisuje se již pole 044. Je-li potřeba zapsat více kódů (více
-&nbsp;&nbsp;&nbsp;&nbsp; zemí), zapisuje se zde pouze první kód a v poli 044 se pak uvádějí v opakovaných
-&nbsp;&nbsp;&nbsp;&nbsp; výskytech podpole $a všechny příslušné kódy zemí. Pro neznámé místo vydání se
-&nbsp;&nbsp;&nbsp;&nbsp; používá dvouznakový kód „xx“
+&nbsp;&nbsp;&nbsp;&nbsp; geografických oblastí. Při přebírání záznamů s kódy nižší úrovně se doporučuje opravit na kód země.
+&nbsp;&nbsp;&nbsp;&nbsp; Je-li pouze jedno místo vydání (nebo více, ale stejná země), zapisuje se kód pouze zde, tj. nezapisuje
+&nbsp;&nbsp;&nbsp;&nbsp; se již pole 044. Je-li potřeba zapsat více kódů (více zemí), zapisuje se zde pouze první kód  a v poli 044
+&nbsp;&nbsp;&nbsp;&nbsp; se pak uvádějí v opakovaných výskytech podpole $a všechny příslušné kódy zemí. Pro neznámé místo
+&nbsp;&nbsp;&nbsp;&nbsp; vydání se používá dvouznakový kód „xx“
 
 &nbsp;&nbsp;&nbsp;&nbsp; xr	Česká republika  
 &nbsp;&nbsp;&nbsp;&nbsp; xo	Slovensko  
 &nbsp;&nbsp;&nbsp;&nbsp; xx  neznámé nebo neurčené místo
 
 
-Hodnota kódu označuje místo vydání, produkce nebo realizace, obvykle se odvozuje z informací uvedených v poli 264. Zdrojem kódu je MARC Code List
-for Countries, který spravuje Library of Congress - viz [http://www.loc.gov/marc/countries](http://www.loc.gov/marc/countries).
+Hodnota kódu označuje místo vydání, produkce nebo realizace, obvykle se odvozuje z informací uvedených
+v poli 264. Zdrojem kódu je MARC Code List for Countries, který spravuje Library of Congress - viz. [http://www.loc.gov/marc/countries](http://www.loc.gov/marc/countries).
 
 
 **008/18 - periodicita**  
@@ -170,9 +169,8 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 
 **008/35-37 – jazyk dokumentu**  
 &nbsp;&nbsp;&nbsp;&nbsp; je-li popisná jednotka originálem v jediném jazyce, uvádí se kód tohoto jazyka pouze zde a pole 041 se již
-&nbsp;&nbsp;&nbsp;&nbsp; nezapisuje. V případě dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy jazyků zapisují do &nbsp;&nbsp;&nbsp;&nbsp; jazyků zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód dominantního
-&nbsp;&nbsp;&nbsp;&nbsp; jazyka popisné jednotky.  
-&nbsp;&nbsp;&nbsp;&nbsp; Zdrojem kódu je MARC Code List for Languages, který spravuje  
+&nbsp;&nbsp;&nbsp;&nbsp; nezapisuje. V případě dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy &nbsp;&nbsp;&nbsp;&nbsp; jazyků zapisují do jazyků zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód
+&nbsp;&nbsp;&nbsp;&nbsp; dominantního jazyka popisné jednotky. Zdrojem kódu je MARC Code List for Languages, který spravuje   
 &nbsp;&nbsp;&nbsp;&nbsp; Library of Congress - viz [http://www.loc.gov/marc/languages](http://www.loc.gov/marc/languages).
 
 **008/38 - kód modifikace záznamu**  
