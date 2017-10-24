@@ -4,7 +4,9 @@ title: Věcné selekční údaje
 ---
 
 ## Věcné selekční údaje
-Věcné selekční údaje informují o obsahové stránce dokumentu. V institucích s univerzálním fondem se forma a zápis údajů řídí instrukcemi souboru věcných tematických autorit NK ČR.
+Pole obsahuje věcné téma, které je předmětem obsahu dokumentu a používá se jako vedlejší věcné záhlaví. Forma a zápis údajů
+se řídí instrukcemi autoritního systému používaného danou institucí. Všeobecně známý používaný systém je vyjádřen hodnotou 2.
+indikátoru a je specifikován údajem o zdroji v podpoli $2.
 
 ### 600 (Vedlejší věcné záhlaví – osobní jméno) (O)
 Údaje se zapisují ve stejné podobě jako v poli 100 (Hlavní záhlaví - osobní jméno). Zdroj pojednává o konkrétní osobě.
