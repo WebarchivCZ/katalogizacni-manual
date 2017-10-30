@@ -8,6 +8,7 @@ jeho rozsahu, rozměru, vybavení ilustracemi, přílohami a/nebo doprovodným m
 
 ### 300 (elektronické zdroje - rozsah) (O)
 *povinné pro minimální záznam*
+
 Rozsah udává počet a typ jednotek a/nebo podjednotek tvořících zdroj. Jednotka rozsahu
 je fyzická nebo logická složka zdroje, například svazek, digitální soubor (= online zdroj), atd.
 Podjednotka rozsahu je fyzické nebo logické členění jednotky, například stránka svazku,
@@ -24,7 +25,7 @@ např.:
 ```
 
 ### 310 (Současná periodicita) (NO)
-Pole  označující současnou periodicitu
+Pole označující současnou periodicitu.
 
 zapisujeme:
   * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
@@ -111,8 +112,8 @@ natěsno.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 označuje, že údaje jsou ve formátované podobě - zapisuje se číslování tak, jak je uvedeno na preferovaném  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prameni prvního a posledního sešitu/části   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici první  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  první a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme
 
 * **Druhý indikátor:** není definován
 
