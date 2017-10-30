@@ -37,7 +37,7 @@ zapisujeme:
 
 Typ obsahu je kategorizace pro základní formu komunikace, v níž je obsah vyjádřen, a lidský smysl,
 jehož prostřednictvím má být vnímán. Používá se ve spojení s návěštím, znakovou pozicí 06  (LDR/06, typ záznamu)
-označující typ obsahu zdroje. Pole 336 částečně nahrazuje pole 245$h obecné označení druhu dokumentu.
+označující typ obsahu zdroje. Pole 336 částečně nahrazuje pole 245 $h obecné označení druhu dokumentu.
 
 zapisujeme:
   * **$a text** (typ obsahu - termín)  
@@ -65,7 +65,7 @@ materiálu nebo pouzdru). Další údaje lze převzít z jakéhokoli pramene pop
 zapisujeme:
   * **$a počítač** (typ média - termín)  
   * **$b c** (typ média - kód)  
-  * **$2** rdamedia (zdroj - vždy stejná hodnota)
+  * **$2 rdamedia** (zdroj - vždy stejná hodnota)
 
 ```
 např.:
@@ -98,7 +98,7 @@ např.:
 ### 362 (Údaje o číslování) (O)
 *povinné pro minimální záznam*
 
-Pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u itegračních zdrojů se údaje v této oblasti onvykle nezapisují. Číslování může být číselné (Band 1), abecední (Band A), chronologické (Leden 1973) nebo jejich kombinace (Volume 1 (1969))
+Pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u itegračních zdrojů se údaje v této oblasti obvykle nezapisují. Číslování může být číselné (Band 1), abecední (Band A), chronologické (Leden 1973) nebo jejich kombinace (Volume 1 (1969)).
 
 Je-li číslování uvedeno ve více jazycích/písmech, zapisuje se pouze označení v jazyce hlavního názvu/písma. Nelze-li toto hledisko použít,
 zapíše se označení uvedené jako první.

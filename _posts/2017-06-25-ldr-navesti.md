@@ -22,7 +22,7 @@ Při katalogizaci se používá hodnota **„n“**, dojde-li k významné změn
 
 ### LDR/06 - typ záznamu
 
-Pro běžný online elektronický zdroj s převažující textovou podobou se uvádí hodnota **„a“** - textový dokument. Hodnota **„m“** - elektronický zdroj - se požívá pouze pro určité typy zdrojů, jako je např. počítačový software, číselná data, počítačově orientovaná multimédia, systémy online nebo síťové služby aj.
+Pro běžný online elektronický zdroj s převažující textovou podobou se uvádí hodnota **„a“** - textový dokument. Hodnota **„m“** - elektronický zdroj - se používá pouze pro určité typy zdrojů, jako je např. počítačový software, číselná data, počítačově orientovaná multimédia, systémy online nebo síťové služby aj.
 
 ### LDR/07 - bibliografická úroveň
 
@@ -48,7 +48,7 @@ Pro běžný online elektronický zdroj s převažující textovou podobou se uv
 ### LDR/17 - úroveň úplnosti záznamu
 
 ```
-        # - Úplná úroveň
+        # - úplná úroveň
         1 - úplná úroveň, bez dokumentu
         2 - méně než úplná úroveň, bez dokumentu
         3 - zkrácený záznam

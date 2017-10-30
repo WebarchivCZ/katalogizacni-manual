@@ -35,7 +35,7 @@ Pokud neexistuje autoritní tvar významné osoby vytvoří se návrh autority p
 
 Metodika: [Korporativní autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda) a [Autority podle RDA](http://www.nkp.cz/o-knihovne/odborne-cinnosti/zpracovani-fondu/katalogizacni-politika/rda)
 
-Pro volbu správné podoby jména (pravopis, iniciály, rozepsané iniciály apod.) se používá přednostně přednostně [Soubor národních autorit])http://aleph.nkp.cz/) dostupný na stránkách Národní knihovny ČR.
+Pro volbu správné podoby jména (pravopis, iniciály, rozepsané iniciály apod.) se používá přednostně přednostně [Soubor národních autorit](http://aleph.nkp.cz/) dostupný na stránkách Národní knihovny ČR.
 
 Jedná-li se o anonymní dílo, tj. dílo, u kterého se neuvádí žádný tvůrce, nezapisuje se do pole 700, ale do pole 730.
 
@@ -44,7 +44,7 @@ Jako hlavní/vedlejší záhlaví se zapisují korporace, které mají autorský
 
 Do pole 110 se zapisuje korporace s hlavní autorskou odpovědností za vznik díla. V záznamu smí být pouze jedno pole 110 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 111 nebo 130.
 
-Do podpole \$4 se mohou zapisovat kódy autorských rolí, přestože autorské role již nejsou povinnou součástí ani mininálního, ani doporučeného záznamu.
+Do podpole \$4 se mohou zapisovat kódy autorských rolí, přestože autorské role již nejsou povinnou součástí ani minimálního, ani doporučeného záznamu.
 
 Vyskytuje-li se jméno korporace v několika jazycích, zapíše se v jazyce korporace. Pokud je oficiálních jazyků několik a jedním z nich je čeština, v poli 100/700 bude jméno zapsáno česky.
 
@@ -80,10 +80,9 @@ Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher), příp
 
 ### 111 (Hlavní záhlaví – jméno akce) (NO)
 Jméno akce, konference nebo festivalu je z hlediska katalogizačnch pravidel druhem korporace. Proto se
-na ní vztahují stejná pravidla. Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher).
+na ni vztahují stejná pravidla. Kódy rolí v podpoli 4 jsou doporučené, hodnota „pbl“ (publisher).
 Např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 ([001824203](http://aleph.nkp.cz/F/?func=direct&doc_number=001824203&local_base=nkc)).  
 
 V záznamu smí být pouze jedno pole 111 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 110 nebo 130.
 Případné další akce se zapisují do pole 711. V každém výskytu pole 711 smí být zapsána pouze jedna akce.
-Pro volbu správné podoby jména používáme přednostně Soubor národních autorit, dostupný na stránkách:
-http://aleph.nkp.cz/.
+Pro volbu správné podoby jména používáme přednostně [Soubor národních autorit](http://aleph.nkp.cz/).

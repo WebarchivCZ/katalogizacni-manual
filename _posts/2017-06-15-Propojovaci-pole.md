@@ -32,7 +32,7 @@ záznam pro tištěnou verzi dokumentu:
 245 04 $a The Opera quarterly
 530 ## $a Dostupné též online.
 776 1# $a Opera quarterly (Online)
-       $x1486-2870
+       $x 1486-2870
 ```
 
 
@@ -79,6 +79,8 @@ varianta a/
 varianta b/
 505 20 $t New York City Map
        $g (emoční mapa)
-       $t Senses of life $g (video)
-       $t Mesto.html $g (internetová kniha)
+       $t Senses of life
+       $g (video)
+       $t Mesto.html
+       $g (internetová kniha)
 ```

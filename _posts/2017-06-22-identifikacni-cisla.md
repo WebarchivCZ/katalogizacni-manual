@@ -5,7 +5,7 @@ title: Identifikační čísla a kódy
 ## Identifikační čísla a kódy
 
 ### 022 (ISSN) (O)
-Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole 022, bez ohledu na to, zda se jedná o integrační zdroj nebo elektronický časopis). Pro pokračující zdroje je povinný též údaj v poli 222 Klíčový název (je vázán na ISSN).
+Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole 022 (bez ohledu na to, zda se jedná o integrační zdroj nebo elektronický časopis). Pro pokračující zdroje je povinný též údaj v poli 222 Klíčový název (ten je vázán na ISSN).
 
 
 ### 041 (Kód jazyka) (O)
@@ -31,8 +31,8 @@ b) Zdroj je/obsahuje **překlad** – první indikátor 1, do podpole $h kód ja
         $h cze
   ```
 
-c) Zdroj má cizojazyčný jen **abstrakt**. Do podpole $b Kód jazyka resumé se zapisují kód(y) resumé/abstraktu, bez ohledu na to,
-   liší-li se od jazyka textu. Kódy se zapisují v pořadí podle anglické abecedy.
+c) Zdroj má cizojazyčný jen **abstrakt**. Do podpole $b Kód jazyka resumé se zapisuje(í) kód(y) resumé/abstraktu,  
+bez ohledu na to, liší-li se od jazyka textu. Kódy se zapisují v pořadí podle anglické abecedy.
   ```
   např.:
   041 0	$a cze

@@ -5,7 +5,7 @@ title: Kontrolní pole
 ## Kontrolní pole
 
 ### 006 (Údaje pevné délky - další charakteristiky dokumentu) (O)
-Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou zapsány v poli 008. Při katalogizaci elektronických zdrojů se v poli 006 na první pozici uvádí hodnota „m“ a na pozici 09 pak hodnota **d**.
+Umožňuje zapsat další charakteristiky elektronického zdroje, které nejsou zapsány v poli 008. Při katalogizaci elektronických zdrojů se v poli 006 na první pozici uvádí hodnota **„m“** a na pozici 09 pak hodnota **„d“**.
 
 
 ```
@@ -75,8 +75,8 @@ Zápis údajů na pozici 18-34 odpovídá hodnotě kódu LDR/06.
 &nbsp;&nbsp;&nbsp;&nbsp; Kódy pro status pokračujícího zdroje mohou být následující:  
 &nbsp;&nbsp;&nbsp;&nbsp; c - průběžně vydávaný  
 &nbsp;&nbsp;&nbsp;&nbsp; d - s ukončeným vydáváním  
-&nbsp;&nbsp;&nbsp;&nbsp; u - status není znám
-&nbsp;&nbsp;&nbsp;&nbsp; s - jedno známé/pravděpodobné datum
+&nbsp;&nbsp;&nbsp;&nbsp; u - status není znám  
+&nbsp;&nbsp;&nbsp;&nbsp; s - jedno známé/pravděpodobné datum  
 &nbsp;&nbsp;&nbsp;&nbsp; q - neznámé datum (rok vydání neznámý, ale lze určit přibližně rozmezí let vydání)
 
 
@@ -85,7 +85,7 @@ Zápis údajů na pozici 18-34 odpovídá hodnotě kódu LDR/06.
 
 
 **008/11-14 - datum 2**  
-&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané datum ukončení. Informace o ukončeném vydávání se zanese také do pole 264 a změní se hodnota na pozici 008/06 status vydávání na **d** s ukončeným vydáváním.
+&nbsp;&nbsp;&nbsp;&nbsp; V případě, že zdroj stále vychází ponechá se hodnota 9999. U zdroje s ukončeným vydáváním se zapíše dané datum ukončení. Informace o ukončeném vydávání se zanese také do pole 264 a změní se hodnota na pozici 008/06 status vydávání na **„d“** s ukončeným vydáváním.
 
 
 
@@ -121,16 +121,16 @@ v poli 264. Zdrojem kódu je MARC Code List for Countries, který spravuje Libra
 &nbsp;&nbsp;&nbsp;&nbsp; \|   - kód se neuvádí  
 
 
-U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
+U integračních zdrojů se většinou uvádí hodnota **„x“** nepravidelný.
 
 
 **008/21 – typ pokračujícího zdroje**  
-&nbsp;&nbsp;&nbsp;&nbsp; w - aktualizovaná website  
+&nbsp;&nbsp;&nbsp;&nbsp; w - aktualizovaná webová stránka  
 &nbsp;&nbsp;&nbsp;&nbsp; \|   - kód se neuvádí
 
 
 **008/22 - forma popisné jednotky**  
-&nbsp;&nbsp;&nbsp;&nbsp; pozice zůstává nevyplněna.
+&nbsp;&nbsp;&nbsp;&nbsp; Pozice zůstává nevyplněna.
 
 
 **008/23 - forma popisné jednotky**  
@@ -167,7 +167,7 @@ U integračních zdrojů se většinou uvádí hodnota **x** nepravidelný.
 nezapisuje. V případě dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy jazyků zapisují do jazyků zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód dominantního jazyka popisné jednotky. Zdrojem kódu je MARC Code List for Languages, který spravuje Library of Congress - viz [http://www.loc.gov/marc/languages](http://www.loc.gov/marc/languages).
 
 **008/38 - kód modifikace záznamu**  
-&nbsp;&nbsp;&nbsp;&nbsp; Pozice zůstává prázdná, záznam nebyl modifikován
+&nbsp;&nbsp;&nbsp;&nbsp; Pozice zůstává prázdná, záznam nebyl modifikován.
 
 **008/39 - zdroj katalogizace**  
 &nbsp;&nbsp;&nbsp;&nbsp; \# - Národní bibliografická agentura  
