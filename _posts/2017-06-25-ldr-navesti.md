@@ -22,7 +22,7 @@ Při katalogizaci se používá hodnota **„n“**, dojde-li k významné změn
 
 ### LDR/06 - typ záznamu
 
-Pro běžný online elektronický zdroj s převažující textovou podobou se uvádí hodnota **„a“** - textový dokument. Hodnota **„m“** - elektronický zdroj - se používá pouze pro určité typy zdrojů, jako je např. počítačový software, číselná data, počítačově orientovaná multimédia, systémy online nebo síťové služby aj.
+Pro běžný online elektronický zdroj s převažující textovou podobou se uvádí hodnota **„a“** - textový dokument. Hodnota **„m“** - elektronický zdroj se používá pouze pro určité typy zdrojů, jako je např. počítačový software, číselná data, počítačově orientovaná multimédia, systémy online nebo síťové služby aj.
 
 ### LDR/07 - bibliografická úroveň
 
@@ -33,7 +33,7 @@ Pro běžný online elektronický zdroj s převažující textovou podobou se uv
         s - seriál
 ```    
 
-**Za seriály považujeme pouze zdroje „vydávané po částech, které jsou číselně nebo chronologicky označeny“** (MARC 21 : Bibliografický formát, Praha 2003). Tedy ne všechny zdroje, jimž bylo přiděleno ISSN. Vzhledem k možnostem, které prostředí internetu nabízí, je však v některých případech obtížné rozhodnout, zda se ještě jedná o seriál nebo už o integrační zdroj. Řada seriálů v internetovém prostředí nabízí kromě vlastních článků také další služby.
+**Za seriály považujeme pouze zdroje „vydávané po částech, které jsou číselně nebo chronologicky označeny“** (MARC 21 : Bibliografický formát, Praha 2003). Tedy ne všechny zdroje, jimž bylo přiděleno ISSN. Vzhledem k možnostem, které prostředí internetu nabízí, je však v některých případech obtížné rozhodnout, zda se ještě jedná o seriál, nebo už o integrační zdroj. Řada seriálů v internetovém prostředí nabízí kromě vlastních článků také další služby.
 
 ### LDR/08 - typ kontroly
 
