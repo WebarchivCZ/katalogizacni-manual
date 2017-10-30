@@ -9,10 +9,10 @@ Pokud má zdroj přidělené ISSN, uvede se toto identifikační číslo do pole
 
 
 ### 041 (Kód jazyka) (O)
-Je-li popisná jednotka originálem v jediném jazyce, uvádí se kód tohoto jazyka pouze v poli 008/35-37 a pole 041 se již nezapisuje. V případě dokumentu ve více jazycích, překladu, s cizojazyčnými resumé, apod. se všechny kódy jazyků zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód dominantního jazyka popisné jednotky. Používá se
+Je-li popisná jednotka originálem v jediném jazyce, uvádí se kód tohoto jazyka pouze v poli 008/35-37 a pole 041 se již nezapisuje. V případě dokumentu ve více jazycích, překladu, dokumentu s cizojazyčnými resumé, apod. se všechny kódy jazyků zapisují do příslušných podpolí v poli 041 a na pozicích 008/35-37 se zapisuje pouze kód dominantního jazyka popisné jednotky. Používá se
 kódovník MARC.
 
-V případě vícejazyčného zdroje postupuje následovně:  
+V případě vícejazyčného zdroje se postupuje následovně:  
 
 a) Jde o **paralelní verzi** v jiném jazyce (většina stránek, které mají cizojazyčné verze), jedná se o nejčastější případ. Použije se podpole
    \$a kód jazyka textu -  opakovatelné pole pro zápis všech jazyků textu v dokumentu. Kódy se zapisují v pořadí podle významnosti zastoupení jazyka v textu, jinak podle abecedy.
@@ -40,12 +40,12 @@ bez ohledu na to, liší-li se od jazyka textu. Kódy se zapisují v pořadí po
   ```
 
 ### 043 (Kód geografické oblasti) (NO)
-Pole se použije pouze v případech, když se zdroj obsahově týká určité geografické oblasti. Vyplní-li se pole musí být údaj zapsán také v poli 080 (MDT) a  651 (Vedlejší věcné záhlaví - geografické jméno).
+Pole se použije pouze v případech, když se zdroj obsahově týká určité geografické oblasti. Vyplní-li se pole, musí být údaj zapsán také v poli 080 (MDT) a  651 (Vedlejší věcné záhlaví - geografické jméno).
   ```
   např.:
   043	$a e-xr---
 	$b e-xr-zl (specifikovaná oblast v ČR)
-	$2 czenas (zapisuje se, jen pokud je zapsán údaj v $b)
+	$2 czenas (zapisuje se jen pokud je zapsán údaj v $b)
   ```
 
 ### 045 (Časové období obsahu dokumentu) (NO)
@@ -84,7 +84,7 @@ tematickou oblast - jen ve výjimečných případech
 
 **2.** k vyjádření určitých formálních charakteristik (v pořadí druhý znak skupiny Konspektu,
 jako první v pořadí se uvádí hlavní téma dokumentu, tedy obor - za obor se považuje i
-národní literatura) při popisu
+národní literatura) při popisu:
 *  literatury pro děti a mládež
 *  učebnic
 *  jazykových slovníků
