@@ -23,10 +23,11 @@ Vyplňuje se pouze pro zdroje, které mají svým obsahem či formou zpracován�
 
 ```
 např.:
-integrační zdroj iDnes.cz - u těchto zdrojů se zapisuje v podpoli $a EJ, což definuje, že se záznam bude vyhledávat v rámci elektronických časopisů.
+integrační zdroj iDnes.cz - u těchto zdrojů se zapisuje v podpoli $a EJ, což definuje, že se záznam bude vyhledávat v rámci  
+elektronických časopisů.
 ```
 
 V ostatních případech se toto pole neuvádí.
 
 ### IST (Údaje o zpracování) (O)
-Při významných změnách/opravách v záznamu vytvoří upravující katalogizátor nové (opakující se) pole IST s vlastními údaji. Staré pole IST se ponechává. Toto se týká jak změn v původních záznamech, tak v již upravovaných nebo převzatých záznamech.
+Při významných změnách/opravách v záznamu vytvoří upravující katalogizátor nové (opakující se) pole IST s vlastními údaji. Staré pole IST se ponechává. Toto se týká jak změn v původních záznamech, tak v záznamech již upravovaných nebo převzatých.

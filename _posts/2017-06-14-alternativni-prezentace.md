@@ -6,11 +6,11 @@ title: Alternativní prezentace
 ## Alternativní prezentace, elektronické umístění
 
 ### 856 (Elektronické umístění a přístup) (O)
-Pokud je tentýž zdroj dostupný z více URL, další URL se zapisuje/-í vždy do nového pole 856.
+Pokud je tentýž zdroj dostupný z více URL adres, další URL se zapisuje/-í vždy do nového pole 856.
 
-Pokud je/jsou starší URL již neplatné a zapisuje se nová (tj. platná) URL, zapíše se tato nová URL do 1. výskytu, před původní URL již neplatnou. Totéž platí, je-li původní URL přesměrována na nově zapisovanou URL (tj. nová URL = 1. výskyt, přesměrované URL = 2. a případně další výskyty).
+Pokud je/jsou starší URL již neplatné a zapisuje se nová (tj. platná) URL, zapíše se tato nová URL do 1. výskytu, před původní a již neplatnou URL. Totéž platí, je-li původní URL přesměrována na nově zapisovanou URL (tj. nová URL = 1. výskyt, přesměrovaná URL = 2. a případně další výskyty).
 
-**Pro odkaz do Webarchivu** se používá další výskyt pole 856, stejný zápis jako u běžné adresy v poli 856, ale komentář v podpoli $z hodnota „archivní verze stránek“ (text, který se zobrazuje za URL adresou).
+**Pro odkaz do Webarchivu** se používá další výskyt pole 856, zápis je stejný jako u běžné adresy v poli 856, ale v podpoli $z je hodnota „archivní verze stránek“ (text, který se zobrazuje za URL adresou).
 
 ```
 např.:
@@ -23,8 +23,9 @@ např.:
        $4 N
 ```
 
-**a) Ukončeno vydávání**  
-Pokud URL není funkční a stránky již neexistují (vůbec nebo jsou na jiné URL, příp. nevíme, zda opravdu skončily), zapíše se o této skutečnosti poznámka v 856 $z „adresa nedostupná k [datum, kdy byla nefunkčnost URL zjištěna]“. Je nutné změnit hodnotu 2. indikátoru „0“ na „#“ (tj. prázdný).
+**a) Ukončeno vydávání**
+
+Pokud URL není funkční a stránky již neexistují (vůbec nebo jsou na jiné URL, příp. nevíme, zda opravdu ukončily činnost), zapíše se o této skutečnosti poznámka v 856 $z „adresa nedostupná k [datum, kdy byla nefunkčnost URL zjištěna]“. Je nutné změnit hodnotu 2. indikátoru „0“ na „#“ (tj. prázdný).
 
 ```
 např.:
@@ -38,7 +39,7 @@ Pokud se současně zapisuje v novém výskytu pole 856 URL, na které jsou nov�
 Pokud se na původní URL objevily zcela nové nesouvisející webové stránky, zapíše se o této skutečnosti poznámka v 856 $z „původní dokument na této adrese nedostupný k [datum, kdy byla nefunkčnost URL zjištěna]“. Je nutné změnit hodnotu 2. indikátoru „0“ na „#“ (tj. prázdný).
 
 
-Pokud je původní URL funkční, ale obsahuje zcela odlišný dokument od původního a jedná se o významný dokument, může se tento dokument popsat novým katalogizačním záznamem.
+Pokud je původní URL funkční, ale obsahuje zcela odlišný dokument od původního a jedná se o významný dokument, může se popsat novým katalogizačním záznamem.
 
 **b) Stránky přesunuty**
 
@@ -57,8 +58,9 @@ např.:
 
 U neplatné URL se v 856 mění hodnota 2. indikátoru z „0“ na „#“ (tj. prázdný).
 
-**c) Přesměrování**  
-Pokud původní URL přesměrovává na nové URL, kde je nově umístěn původní, popisovaný zdroj, zapíšeme novou URL a starou neměníme.
+**c) Přesměrování**
+
+Pokud původní URL přesměrovává na novou URL adresu, kde je nově umístěn původní, popisovaný zdroj, zapíšeme novou URL a starou neměníme.
 
 
 ```
@@ -72,14 +74,16 @@ např.:
 ```
 
 
-**d) Souběžné vydávání na více URL**  
-Zapíší se všechny URL adresy
+**d) Souběžné vydávání na více URL**
+
+Zapíší se všechny URL adresy.
 
 **2. indikátor vždy 0** (jedná se o původní elektronický zdroj)
 
+
 ***výjimky:***
 
-**a) nefunkční URL**
+a) **nefunkční URL**
 
 ```
 např.:
@@ -112,6 +116,7 @@ např.:
        $4 N
 520 $a V rámci webových stránek je provozován také blog pro náboženství, filosofii a umění.
 ```
+
 
 
 **Vždy** (tj. i v každém opakovaném výskytu pole 856) se uvádí podpole 4 hodnota N (znamená negenerovat obrazovku „copyright“).
