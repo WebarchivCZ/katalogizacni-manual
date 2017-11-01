@@ -13,7 +13,7 @@ sem editoři, sestavitelé, autoři doprovodných ilustrací, překladatelé apo
 V každém výskytu pole 700 smí být zapsána pouze jedna osoba (viz pole 100, hlavní záhlaví).  
 
 Do podpole $4 se mohou zapisovat kódy autorských rolí, přestože autorské role již nejsou povinnou součástí ani minimálního, ani doporučeného záznamu.  
-Vedlejší záhlaví pro vydavatele se zapisuje, jen pokud má i tvůrčí roli – v tomto případě se zapisuje (také) tato další role.  
+Vedlejší záhlaví pro vydavatele se zapisuje jen pokud má i tvůrčí roli – v tomto případě se zapisuje také tato další role.  
 Pro pole 700, 710, 711, 730 lze nově použít podpole **„i“**, které umožňuje vytvořit poznámku přímo v daném poli.  
 
 ### 710 (Vedlejší záhlaví – jméno korporace) (O)

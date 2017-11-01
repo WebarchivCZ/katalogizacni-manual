@@ -39,10 +39,12 @@ Pole obsahuje věcné téma, které je předmětem obsahu dokumentu a používá
 vedlejší věcné záhlaví.
 
 Do pole se zapisují česká předmětová hesla. Termíny se přebírají ze souboru autorit. Hodnota indikátorů je pak následující:  
+
 **1. indikátor** - 0 nespecifikován  
 **2. indikátor** - 7 zdroj specifikovaný v podpoli $2
 
 V případě anglických předmětových hesel je hodnota indikátorů:  
+
 **1. indikátor** - 0 nespecifikován  
 **2. indikátor** - 9 zdroj specifikovaný v podpoli $2
 
@@ -110,7 +112,6 @@ elektronický seriál
 651 #9 $u elektronické časopisy       
        $a electronic journals
        $2 eczenas		
-
 
 např.:
 www stránky

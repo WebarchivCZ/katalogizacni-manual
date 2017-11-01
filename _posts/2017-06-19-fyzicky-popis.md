@@ -28,9 +28,9 @@ např.:
 Pole označující současnou periodicitu.
 
 zapisujeme:
-  * **„Aktualizováno průběžně“** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
-  * **„Časté aktualizace“** (tzn. denně nebo několikrát týdně)
-  * **„Aktualizováno nepravidelně“** (tzn. v delších než týdenních intervalech – nerozhoduje, zda jsou nepravidelné či pravidelné)
+  * **Aktualizováno průběžně** (tzn. několikrát denně – tomu odpovídá kód „k“ v 008/18)
+  * **Časté aktualizace** (tzn. denně nebo několikrát týdně)
+  * **Aktualizováno nepravidelně** (tzn. v delších než týdenních intervalech – nerozhoduje, zda jsou nepravidelné či pravidelné)
 
 ### 336 (Typ obsahu) (O)
 *povinné pro minimální záznam*
@@ -47,7 +47,7 @@ zapisujeme:
 ```
 např.:
 336 ## $a text
-       $b text
+       $b txt
        $2 rdacontent
 ```
 
@@ -98,7 +98,7 @@ např.:
 ### 362 (Údaje o číslování) (O)
 *povinné pro minimální záznam*
 
-Pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u itegračních zdrojů se údaje v této oblasti obvykle nezapisují. Číslování může být číselné (Band 1), abecední (Band A), chronologické (Leden 1973) nebo jejich kombinace (Volume 1 (1969)).
+Pole obsahuje informace o sekvenčním označení jednotlivých částí pokračujícího zdroje, vyplňuje se v případě, že katalogizujeme seriály, u integračních zdrojů se údaje v této oblasti obvykle nezapisují. Číslování může být číselné (Band 1), abecední (Band A), chronologické (Leden 1973) nebo jejich kombinace (Volume 1 (1969)).
 
 Je-li číslování uvedeno ve více jazycích/písmech, zapisuje se pouze označení v jazyce hlavního názvu/písma. Nelze-li toto hledisko použít,
 zapíše se označení uvedené jako první.
