@@ -59,8 +59,7 @@ např.:
 Typ média je kategorizace odrážející obecný typ zařízení, které je potřebné pro
 zprostředkování (zobrazení, přehrání, spuštění atd.) obsahu zdroje.
 
-Při zápisu typu média se vychází z údajů uvedených v samotném zdroji (či v doprovodném
-materiálu nebo pouzdru). Další údaje lze převzít z jakéhokoli pramene popisu.
+Při zápisu typu média se vychází z údajů uvedených v samotném zdroji. Další údaje lze převzít z jakéhokoli pramene popisu.
 
 zapisujeme:
   * **$a počítač** (typ média - termín)  
@@ -80,7 +79,7 @@ např.:
 Typ nosiče je kategorizace odrážející formát paměťového média a jeho nosiče v kombinaci s typem zařízení,
 které je potřebné pro zprostředkování (zobrazení, přehrání, spuštění atd.) obsahu zdroje.
 
-Při zápisu typu nosiče se vychází z údajů uvedených v samotném zdroji (či v doprovodném materiálu nebo pouzdru).
+Při zápisu typu nosiče se vychází z údajů uvedených v samotném zdroji.
 Další údaje lze převzít z jakéhokoli pramene popisu.
 
 zapisujeme:
@@ -111,9 +110,9 @@ natěsno.
 * **První indikátor:** označuje formu údajů uvedených v poli 362
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 označuje, že údaje jsou ve formátované podobě - zapisuje se číslování tak, jak je uvedeno na preferovaném  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prameni prvního a posledního sešitu/části   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prameni první a poslední části   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 označuje, že údaje jsou v podobě neformátované poznámky – používáme tehdy, pokud nemáme k dispozici  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  první a/nebo poslední sešit a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  první a/nebo poslední část a údaje o nich dohledáme v jiných zdrojích nebo odvodíme/odhadneme
 
 * **Druhý indikátor:** není definován
 

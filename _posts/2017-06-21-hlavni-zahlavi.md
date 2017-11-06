@@ -82,7 +82,7 @@ Kódy rolí v podpoli 4 jsou doporučené, nejčastěji hodnota „pbl“ (publi
 ### 111 (Hlavní záhlaví – jméno akce) (NO)
 Jméno akce, konference nebo festivalu je z hlediska katalogizačnch pravidel druhem korporace. Proto se
 na ni vztahují stejná pravidla. Kódy rolí v podpoli 4 jsou doporučené, zpravidla hodnota „pbl“ (publisher).
-Např. FIS Mistrovství světa v klasickém lyžování Liberec 2009 ([001824203](http://aleph.nkp.cz/F/?func=direct&doc_number=001824203&local_base=nkc)).  
+
 
 V záznamu smí být pouze jedno pole 111 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 110 nebo 130.
 Případné další akce se zapisují do pole 711. V každém výskytu pole 711 smí být zapsána pouze jedna akce.
