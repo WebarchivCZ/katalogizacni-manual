@@ -30,4 +30,4 @@ elektronických časopisů.
 V ostatních případech se toto pole neuvádí.
 
 ### IST (Údaje o zpracování) (O)
-Při významných změnách/opravách v záznamu vytvoří upravující katalogizátor nové (opakující se) pole IST s vlastními údaji. Staré pole IST se ponechává. Toto se týká jak změn v původních záznamech, tak v záznamech již upravovaných nebo převzatých.
+Při významných změnách/opravách v záznamu může upravující katalogizátor vytvořit nové (opakující se) pole IST s vlastními údaji. Staré pole IST se ponechává. Toto se týká jak změn v původních záznamech, tak v záznamech již upravovaných nebo převzatých.

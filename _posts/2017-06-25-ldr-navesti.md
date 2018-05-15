@@ -18,7 +18,7 @@ generovat systémem či předdefinovat do šablony. Vyplňujeme pouze níže uve
         p - doplněný prozatímní záznam
 ```
 
-Při katalogizaci se používá hodnota **„n“**, dojde-li k významné změně v záznamu (např. změna názvu), je třeba změnit hodnotu **„n“** – nový záznam na **„c“** – opravený záznam, popř. **„a“** – doplněný záznam, nebo **„d“**- zrušený záznam. Toto se neprovádí pro každou drobnou změnu v záznamu, pouze pro opravdu podstatné změny. Zároveň je třeba vytvořit nové pole IST 1 (viz poznámka pro pole IST).
+Při katalogizaci se používá hodnota **„n“**, dojde-li k významné změně v záznamu (např. změna názvu), je třeba změnit hodnotu **„n“** – nový záznam na **„c“** – opravený záznam, popř. **„a“** – doplněný záznam, nebo **„d“**- zrušený záznam. Toto se neprovádí pro každou drobnou změnu v záznamu, pouze pro opravdu podstatné změny. 
 
 ### LDR/06 - typ záznamu
 
