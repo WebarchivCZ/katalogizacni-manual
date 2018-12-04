@@ -29,8 +29,9 @@ Pokud URL není funkční a stránky již neexistují (vůbec nebo jsou na jiné
 
 ```
 např.:
-856 4#	$u http://www.linuxbiz.cz
-        $z adresa nedostupná k 21.8.2007
+856 4#	$u http://www.detektivka.com
+        $q text/html
+        $z adresa nedostupná k 23.11.2018
         $4 N
 ```
 
