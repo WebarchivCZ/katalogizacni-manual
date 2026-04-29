@@ -44,7 +44,9 @@ Jako hlavní/vedlejší záhlaví se zapisují korporace, které mají autorský
 
 Do pole 110 se zapisuje korporace s hlavní autorskou odpovědností za vznik díla. V záznamu smí být pouze jedno pole 110 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 111 nebo 130.
 
-Do podpole \$4 u všech záhlaví v polích 1XX a 7XX se zapisují kódy autorských rolí.
+Do podpole $4 u všech záhlaví v polích 1XX a 7XX se povinně zapisují kódy autorských rolí.
+Pro vyjádření intelektuální odpovědnosti korporace se používá kód „isb“ (issuing body). U osobního jména je možné použít kód "aut".
+Kód „pbl“ je vyhrazen výhradně pro roli nakladatele.
 
 Vyskytuje-li se jméno korporace v několika jazycích, zapíše se v jazyce korporace. Pokud je oficiálních jazyků několik a jedním z nich je čeština, v poli 100/700 bude jméno zapsáno česky.
 
@@ -75,16 +77,9 @@ např.:
 ```
 
 
-
-Do podpole $4 se povinně zapisují kódy autorských rolí.
-Pro vyjádření intelektuální odpovědnosti korporace se používá kód „isb“. U osobního jména je možné použít kód "aut".
-Kód „pbl“ je vyhrazen výhradně pro roli nakladatele.
-
-
-
 ### 111 (Hlavní záhlaví – jméno akce) (NO)
 Jméno akce, konference nebo festivalu je z hlediska katalogizačnch pravidel druhem korporace. Proto se
-na ni vztahují stejná pravidla. Kódy rolí v podpoli 4 jsou doporučené, zpravidla hodnota „pbl“ (publisher).
+na ni vztahují stejná pravidla. Kódy rolí v podpoli 4 jsou povinné, zpravidla hodnota „isb“.
 
 
 V záznamu smí být pouze jedno pole 111 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 110 nebo 130.
