@@ -44,7 +44,7 @@ Jako hlavní/vedlejší záhlaví se zapisují korporace, které mají autorský
 
 Do pole 110 se zapisuje korporace s hlavní autorskou odpovědností za vznik díla. V záznamu smí být pouze jedno pole 110 a současně s ním se nesmí v jednom záznamu vyskytovat ani pole 100, 111 nebo 130.
 
-Do podpole \$4 se mohou zapisovat kódy autorských rolí, přestože autorské role již nejsou povinnou součástí ani minimálního, ani doporučeného záznamu.
+Do podpole \$4 u všech záhlaví v polích 1XX a 7XX se zapisují kódy autorských rolí.
 
 Vyskytuje-li se jméno korporace v několika jazycích, zapíše se v jazyce korporace. Pokud je oficiálních jazyků několik a jedním z nich je čeština, v poli 100/700 bude jméno zapsáno česky.
 
@@ -67,6 +67,7 @@ $aBavorsko (Německo). $bStaatsministerium der Finanzen
 např.:
 110 2   $a Muzeum české hudby (Praha, Česko)
         $7 kn20010709073
+        $4 isb
 510 2   $w b
         $a České muzeum hudby (Praha, Česko)
         $7 ko2004175709
@@ -75,7 +76,9 @@ např.:
 
 
 
-Kódy rolí v podpoli 4 jsou doporučené, nejčastěji hodnota „pbl“ (publisher), příp „aut“ (autor).
+Do podpole $4 se povinně zapisují kódy autorských rolí.
+Pro vyjádření intelektuální odpovědnosti korporace se používá kód „isb“. U osobního jména je možné použít kód "aut".
+Kód „pbl“ je vyhrazen výhradně pro roli nakladatele.
 
 
 
